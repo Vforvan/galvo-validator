@@ -9,7 +9,7 @@
     <button class="btn" type="button" data-preset="edge">边场＋大角度</button>
     <button class="btn" type="button" data-preset="zero">归零</button>
   </div>
-  <div class="viz-row gv-modes" role="group" aria-label="输入方式">
+  <div class="viz-row gv-modes" data-modes role="group" aria-label="输入方式">
     <button class="btn" type="button" data-mode="target" aria-pressed="true">目标五轴</button>
     <button class="btn" type="button" data-mode="motor" aria-pressed="false">电机直调</button>
     <span class="text-small">负正镜 · 无焦扩束</span>
@@ -4941,7 +4941,7 @@ void main() {
     const svg=root.querySelector('svg'),NS='http://www.w3.org/2000/svg',rad=Math.PI/180;
     const $=s=>root.querySelector(s);
     let mode='target',target=[0,0,0,0,0],motors=[0,0,0,0,0],appliedMotors=motors.slice(),current=null,currentExit=null,currentPrecision=null,view='scene',solveError='',scene3d=null;
-    let demoSettings=G.settings(),demoEnabled=false,demoProgress=.02,demoPlaying=false,demoFrame=0,demoLast=0,currentDemo=null;
+    let demoSettings=G.settings(),demoEnabled=false,demoProgress=.02,demoPlaying=false,demoFrame=0,demoLast=0,currentDemo=null,controlDisplay='target';
     let lastSentState='';
     const views=['scene','front','top','mirrors','module','focus','relay','output','entrance','electronics','machining','machiningTop'];
     let precisionSettings=H.settings();
@@ -4965,13 +4965,14 @@ void main() {
       mode=saved.mode==='motor'?'motor':'target';restoreMirrorOptions(saved);
       precisionSettings=H.settings(saved.precisionSettings);
       demoEnabled=saved.demoEnabled===true;demoSettings=G.settings(saved.demoSettings);
+      controlDisplay=saved.controlDisplay==='motor'?'motor':'target';
       demoProgress=Number.isFinite(saved.demoProgress)?Math.max(0,Math.min(1,saved.demoProgress)):.02;
       if(views.includes(saved.view))view=saved.view;
       if(saved.flags)Object.keys(flags).forEach(k=>{if(typeof saved.flags[k]==='boolean')flags[k]=saved.flags[k];});
     }
     const fmt=(n,d=3)=>Math.abs(n)<.5*Math.pow(10,-d)?(0).toFixed(d):n.toFixed(d);
     function persist(){
-      const privateContent={layoutVersion:E.version,demoVersion:1,demoEnabled,demoSettings,demoProgress,mode,target,motors,precisionSettings,mirrorOptions:mirrorOptions(),view,flags,relayMode,camera:scene3d?.snapshot()};
+      const privateContent={layoutVersion:E.version,demoVersion:1,demoEnabled,demoSettings,demoProgress,controlDisplay,mode,target,motors,precisionSettings,mirrorOptions:mirrorOptions(),view,flags,relayMode,camera:scene3d?.snapshot()};
       lastSentState=JSON.stringify(privateContent);
       window.openai?.setWidgetState({modelContent:{model:E.version,package:P.dimensions(),voiceCoil:E.constants.voiceCoil,relayMode,mode,output:current?.output,motors,appliedMotors,precision:currentPrecision,mirrorOptions:mirrorOptions(),clipped:current?.clipped,
         machining:demoEnabled?{...demoSettings,progress:demoProgress,layer:currentDemo?.pose.layer,laser:currentDemo?.pose.laser,wallAngleDeg:currentDemo?.wall?.actualWallAngleDeg,assumedCone:true}:null,
@@ -4980,16 +4981,18 @@ void main() {
     }
     function controls(){
       const host=$('[data-controls]');host.replaceChildren();
-      const values=mode==='target'?target:motors,specs=mode==='target'?targetSpecs:motorSpecs;
+      const motorDisplay=(demoEnabled?controlDisplay:mode)==='motor',readOnly=demoEnabled&&motorDisplay;
+      const values=motorDisplay?(demoEnabled?appliedMotors:motors):target,specs=motorDisplay?motorSpecs:targetSpecs;
       specs.forEach((spec,i)=>{
         const row=document.createElement('div');row.className='gv-control';
         const head=document.createElement('div');head.className='gv-control-head';
         const label=document.createElement('label');label.className='form-label';label.textContent=spec[0];label.htmlFor='gv-control-'+i;
         const number=document.createElement('input');number.type='number';number.className='form-control';number.id='gv-control-'+i;
-        number.min=spec[1];number.max=spec[2];number.step=spec[3];number.value=fmt(values[i],mode==='motor'?4:3);number.setAttribute('aria-label',spec[0]);
+        number.min=spec[1];number.max=spec[2];number.step=spec[3];number.value=fmt(values[i],motorDisplay?5:3);number.readOnly=readOnly;number.setAttribute('aria-label',spec[0]);
         const range=document.createElement('input');range.type='range';range.className='form-range';
-        range.min=spec[1];range.max=spec[2];range.step=spec[3];range.value=values[i];range.setAttribute('aria-label',spec[0]+' 滑块');
+        range.min=spec[1];range.max=spec[2];range.step=spec[3];range.value=values[i];range.disabled=readOnly;range.setAttribute('aria-label',spec[0]+' 滑块');
         function update(value){
+          if(demoEnabled&&motorDisplay)return;
           const n=Number(value);if(!Number.isFinite(n))return;
           stopDemo();
           const actualValues=mode==='target'?target:motors;
@@ -5001,8 +5004,12 @@ void main() {
         number.addEventListener('change',()=>update(number.value));
         head.append(label,number);row.append(head,range);host.append(row);
       });
-      $('[data-input-title]').textContent=mode==='target'?'调目标，自动求解五个电机指令':'调镜面角度与音圈位移（总行程5 mm）';
-      root.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));
+      $('[data-input-title]').textContent=readOnly?'加工轨迹 · G1～G4机械角与音圈位移（只读，含指令量化）':mode==='target'?'调目标，自动求解五个电机指令':'调镜面角度与音圈位移（总行程5 mm）';
+      root.querySelectorAll('[data-mode]').forEach(b=>{
+        b.setAttribute('aria-pressed',String(b.dataset.mode===(demoEnabled?controlDisplay:mode)));
+        if(b.dataset.mode==='motor')b.textContent=demoEnabled?'振镜角度':'电机直调';
+      });
+      $('[data-modes]').setAttribute('aria-label',demoEnabled?'加工参数显示':'输入方式');
     }
     function calculate(){
       solveError='';
@@ -5077,10 +5084,10 @@ void main() {
             const td=document.createElement('td');td.textContent=x;if(j===3&&margin<0)td.className='text-destructive';tr.append(td);
           });body.append(tr);
         });
-        if(demoEnabled){
-          const inputs=$('[data-controls]').querySelectorAll('input');
-          inputs.forEach((input,i)=>input.value=input.type==='range'?target[Math.floor(i/2)]:fmt(target[Math.floor(i/2)],3));
-        }
+        const motorDisplay=(demoEnabled?controlDisplay:mode)==='motor';
+        const values=motorDisplay?(demoEnabled?appliedMotors:motors):target;
+        const inputs=$('[data-controls]').querySelectorAll('input');
+        inputs.forEach((input,i)=>input.value=input.type==='range'?values[Math.floor(i/2)]:fmt(values[Math.floor(i/2)],motorDisplay?5:3));
         demoControls();draw();
       }catch(e){
         if(demoPlaying)pauseDemo();
@@ -5250,8 +5257,11 @@ void main() {
       label(w-38,20,'Z ↑','middle');
     }
     root.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>{
-      stopDemo();
+      if(demoEnabled){
+        controlDisplay=b.dataset.mode;controls();persist();return;
+      }
       mode=b.dataset.mode;
+      controlDisplay=mode;
       if(mode==='target'&&current)target=current.output.slice();
       controls();calculate();persist();
     }));
@@ -5299,6 +5309,7 @@ void main() {
       pauseDemo();demoEnabled=false;currentDemo=null;
       if(view==='machining'||view==='machiningTop'){view='scene';$('[data-view]').value=view;scene3d?.setMachining(null);scene3d?.setView(view);}
       demoControls();
+      controls();
     }
     function activateDemo(shape,reset=false){
       pauseDemo();demoSettings=G.settings({...demoSettings,shape});demoEnabled=true;
@@ -5375,6 +5386,7 @@ void main() {
       restoreMirrorOptions(s);mirrorControls();
       precisionSettings=H.settings(s.precisionSettings);precisionControls();
       pauseDemo();demoEnabled=s.demoEnabled===true;demoSettings=G.settings(s.demoSettings);
+      controlDisplay=s.controlDisplay==='motor'?'motor':'target';
       demoProgress=Number.isFinite(s.demoProgress)?Math.max(0,Math.min(1,s.demoProgress)):.02;
       if(views.includes(s.view))view=s.view;
       if(s.flags)Object.keys(flags).forEach(k=>{if(typeof s.flags[k]==='boolean')flags[k]=s.flags[k];});
@@ -5400,7 +5412,7 @@ void main() {
     $('[data-resolution-summary]').textContent='以工件侧2 µrad方向量化预算为例：'+summary.withinCurrentTravel+'个可执行样本的局部保守步长上限 '+summary.maximumMechanicalStepUradForSampledLinearWorstRounding.toFixed(3)+' µrad机械角；'+summary.minBitsForSampledLinearWorstRounding.map(s=>s.spanDeg+'°全量程至少'+s.bits+' bit').join('，')+'。为其他误差留余量，建议步长0.05～0.10 µrad；1 µrad方向RMS单项预算对应每镜约'+summary.equalMotorNoiseRmsUradFor1Urad3DDirectionAllocation.toFixed(3)+' µrad RMS等噪声上限。音圈保持连续，未计漂移和动态误差。';
     mirrorControls();precisionControls();demoControls();controls();calculate();
     // Read-only handle used by local verification; no network or machine control.
-    root.galvoSnapshot=()=>({layoutVersion:E.version,package:P.dimensions(),voiceCoil:E.constants.voiceCoil,mode,relayMode,target:target.slice(),motors:motors.slice(),appliedMotors:appliedMotors.slice(),precision:currentPrecision,output:current?.output.slice(),
+    root.galvoSnapshot=()=>({layoutVersion:E.version,package:P.dimensions(),voiceCoil:E.constants.voiceCoil,mode,controlDisplay,relayMode,target:target.slice(),motors:motors.slice(),appliedMotors:appliedMotors.slice(),precision:currentPrecision,output:current?.output.slice(),
       spot:current?.waistsize,mirrorOptions:mirrorOptions(),mirrorClearances:current?.mirrors.map(m=>m.clearance),
       exitAudit:currentExit,
       machining:demoEnabled?currentDemo:null,demoPlaying,

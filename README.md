@@ -3,12 +3,11 @@
 ## 网页版本
 
 - [V1.0 在线仿真](https://vforvan.github.io/galvo-validator/galvo-validator.html)：现有五轴仿真与同心圆示例。
-- [V2 在线浏览](https://vforvan.github.io/galvo-validator/v2/)：无 R1/R2、四镜联合布置、同尺度点列与POP对比。
+- [V2 三维在线仿真](https://vforvan.github.io/galvo-validator/v2/)：无 R1/R2、四镜联合布置、五轴调节、同心圆连续演示。
+- [V2 点列与 POP 对比](https://vforvan.github.io/galvo-validator/v2/review.html)：同尺度像质与原生验证记录。
 - [V2 网页分支](https://github.com/Vforvan/galvo-validator/tree/optics-v2-structure)。
 
 V2为研究候选；部分入瞳环和原始范围边界仍待优化，详见页面中的验证范围。
-
-[点击打开在线仿真网页](https://vforvan.github.io/galvo-validator/galvo-validator.html)
 
 ## 同心圆整组扫描
 

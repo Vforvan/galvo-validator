@@ -1,6 +1,6 @@
 {
   "engineeringRepository": "https://github.com/Vforvan/5AIX-GALVO/tree/optics-v2-structure/simulation/no_relay_v2",
-  "engineeringRevision": "f55129308925f5a9f88b1a9a3d85c19999b3f2fe",
+  "engineeringRevision": "1e113574746c7b4f0c354b39ba99995d393e3937",
   "webBranch": "optics-v2-structure",
   "publishedPath": "v2/",
   "validatedArtifacts": {
@@ -16,5 +16,5 @@
     "housingWithinOriginalEnvelope": true,
     "metadataAmendment": null
   },
-  "scope": "V2 research review; V1 validator is retained."
+  "scope": "V2 interactive 3D validator and independent review; V1 validator is retained."
 }

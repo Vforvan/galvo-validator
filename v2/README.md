@@ -107,4 +107,18 @@ python simulation/no_relay_v2/make_review.py
 
 C++加速器与NumPy独立模型有24个状态交叉检查，几何焦面采用512等功率高斯光线；原生DLL另逐条核验。`optimize.py`、`optimize_objective.py`、`layout_search.py`为研究优化入口，运行会生成新候选并使旧校验失效；请在重新校验后再生成报告。同心圆CSV只含闭合圆周点，换圈连接段和时间律另行规划。
 
-在线入口：[V1](https://vforvan.github.io/galvo-validator/galvo-validator.html) · [V2](https://vforvan.github.io/galvo-validator/v2/)。
+在线入口：[V1五轴仿真](https://vforvan.github.io/galvo-validator/galvo-validator.html) · [V2三维五轴仿真](https://vforvan.github.io/galvo-validator/v2/) · [V2点列与POP对比](https://vforvan.github.io/galvo-validator/v2/review.html)。网页发布仓库另有同名 `optics-v2-structure` 分支；GitHub Pages由main发布独立v2目录，V1入口保留。
+
+V2 主页面支持三维旋转缩放、四振镜及音圈直调、目标五轴逆解、圆形扫描、D0.1～D1 整组连续演示和五轴 CSV 导出。三维几何与计算使用本目录的已验证处方，未沿用 V1 镜位。网页的近轴束腰、几何点列 RMS、对比页 POP 各自标注，不能混作实测光斑。
+
+重新构建网页，在仓库根目录执行：
+
+```text
+node analysis/optics_demo/build_v2.cjs
+node analysis/optics_demo/test_v2_engine.cjs
+node analysis/optics_demo/test_v2_concentric.cjs
+python simulation/no_relay_v2/export_review_site.py tmp/galvo-validator-web-v2
+node simulation/no_relay_v2/test_review_site.cjs
+```
+
+独立网页输出 `output/galvo-validator-v2.html`；发布前测试默认使用本地 8733 端口，也可将站点根 URL 作为最后一条命令的参数。浏览器测试需要 Playwright 与 Edge。网页引擎的423组姿态和7组独立Python交叉核对结果见 `analysis/optics_demo/v2-engine-verification.json`；全39,710点网页复算见 `analysis/optics_demo/v2-concentric-verification.json`。

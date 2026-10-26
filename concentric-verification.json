@@ -1,0 +1,18 @@
+{
+  "model": "all-real-lenses-clearance-515-v5-geometric-relay",
+  "fixedZMm": 0,
+  "circles": 110,
+  "points": 39710,
+  "stepDeg": 1,
+  "passed": 39710,
+  "maxScaledError": 9.999324923626317e-10,
+  "maxMotorAbsDeg": [
+    1.7196148411477925,
+    1.0296908646623448,
+    1.9991429547326005,
+    1.423749194023011
+  ],
+  "maxVoiceAbsMm": 0.057208418101530566,
+  "minExitClearanceMm": 3.8200209360734725,
+  "elapsedSeconds": 445.633
+}

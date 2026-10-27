@@ -1,0 +1,37 @@
+{
+  "status": "web-full-path-positions-passed",
+  "designSha256": "3be0eaf7547f13128fe559bbe7fc81e2d1e99eda9ee5e61526985678921ef271",
+  "sourceHashes": {
+    "v2_engine.js": "7aaa59e2aad1b9845aecb8c65e9a221c2f373ed54a270278392d868d82ba6d97",
+    "square_study.js": "a52372a06366ce67527a7d415965c4bac469fbd61a7111ac734ed93a8e6c5c2e",
+    "square_model_data.js": "78468115a30b4a2ebc0484cb21d7bdb2f7ca4283be8292ec82c406df93ef6dac"
+  },
+  "cases": [
+    {
+      "aoiDeg": 0,
+      "points": 2925,
+      "maximumTargetError": 3.5953184873704913e-12,
+      "voiceRangeMm": [
+        -0.20024336937637133,
+        0.20397552784922357
+      ],
+      "minimumMirrorClearanceMm": 12.559281504112297,
+      "maximumGeometricRmsUm": 0.03606474261634098
+    },
+    {
+      "aoiDeg": 5,
+      "points": 2925,
+      "maximumTargetError": 9.908662779167798e-11,
+      "voiceRangeMm": [
+        -0.20306206709795177,
+        0.20409813363782464
+      ],
+      "minimumMirrorClearanceMm": 6.06479349779768,
+      "maximumGeometricRmsUm": 0.09114070758447289
+    }
+  ],
+  "elapsedSeconds": 173.505,
+  "nativeSimulationRun": false,
+  "scope": "Every point of the complete 13-layer default square fill/contour path at AOI 0 and 5 degrees; geometric inverse, mirror margins and travel only. Does not declare hole-channel transmission or material processing passed.",
+  "sourceHashEncoding": "utf8-lf"
+}

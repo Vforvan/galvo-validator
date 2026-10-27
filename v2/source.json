@@ -1,27 +1,14 @@
 {
-  "engineeringRepository": "https://github.com/Vforvan/5AIX-GALVO/tree/optics-v2-structure/simulation/no_relay_v2",
-  "engineeringRevision": "3bb4068d1b1444010a7ad691c0420db760759a2a",
-  "webBranch": "optics-v2-structure",
+  "engineeringRevision": "fd5f3146f098e2dc9ae56c9f0dbe53641b06a249",
   "publishedPath": "v2/",
-  "validatedArtifacts": {
-    "status": "candidate-primary-circle-domain-verified",
-    "individualPupilRingShapeAccepted": false,
-    "fullDomainEveryQualityMetricNoWorseThanV1": false,
-    "nativeFileSha256": "84df48a819e7b2dc1e6b3321faa4416245f2c7da510aa47dabd951942f3a439b",
-    "designSha256": "9e4b3ca211e966e87cce8e3582d89799b9eff105e81e42f0d991d1338b0e3d81",
-    "circleCsvSha256": "15965f1fe40fce72902723ead2e4334d987a1652696590d0c383c40c91844803",
-    "circleGeometricEllipseMax": 1.0499653583959456,
-    "fullDomainGeometricEllipseMax": 1.1828568324472537,
-    "v1SourceUnchanged": true,
-    "housingWithinOriginalEnvelope": true,
-    "metadataAmendment": null
+  "webBranch": "optics-v2-structure",
+  "currentCandidate": {
+    "designSha256": "3be0eaf7547f13128fe559bbe7fc81e2d1e99eda9ee5e61526985678921ef271",
+    "model": "deep-hole-v2-square30-web-research",
+    "nativeSimulationRun": false,
+    "statesChecked": 3080,
+    "voiceLimitMm": 3.5
   },
-  "deepHoleCandidate": {
-    "publishedPath": "v2/deep-hole/",
-    "designSha256": "f8ae1d32f4a3cc8ab2fba72db7611db223f39b8bb570e3dc55b476a4ef53e10b",
-    "nativeFileSha256": "53370bdc5bcfceedebf282c69785acbb336fa554c244dc41724c06126fa5c2f3",
-    "voiceLimitMm": 3.5,
-    "scope": "Independent optical candidate and ideal-channel study; material drilling unverified."
-  },
-  "scope": "V2 interactive 3D validator, original review and independent deep-hole candidate; V1 validator is retained."
+  "historicalNativeReports": "v2/deep-hole/pose-consistency/",
+  "scope": "Unified deep-hole 3D web study; current candidate has ray/Gaussian checks only. Historical Zemax files remain unchanged."
 }

@@ -1,8 +1,10 @@
 # V2 深孔候选：Ø0.1 mm × 深1 mm，音圈 ±3.5 mm
 
+> 此页为历史20 µm光斑候选及其原生验证记录。当前方向已改为[30 µm方孔网页仿真先行](web_square/README.md)，[统一在线入口](https://vforvan.github.io/galvo-validator/v2/)；新处方未运行Zemax，不能直接沿用本页POP结论。
+
 本候选保留原 V2 的四镜中心、58×40×2 mm 等口径镜面、四片物镜、出光轴和381.08×310×345 mm外包络，重新优化 L1/L2 的四个球面及 L2 轴向位置。音圈机械硬限位为−3.5～+3.5 mm，总行程7 mm；焦点位移由光路计算，不能直接视作7 mm。
 
-[三维模型与孔内通道](https://vforvan.github.io/galvo-validator/v2/deep-hole/) · [原 V2 对照](https://vforvan.github.io/galvo-validator/v2/) · [原生工程](5AXIS_deep_hole_v2.zos) · [处方](design.json)
+[历史三维模型与孔内通道](https://vforvan.github.io/galvo-validator/v2/archive/deep100.html) · [原 V2 对照](https://vforvan.github.io/galvo-validator/v2/archive/no-relay.html) · [原生工程](5AXIS_deep_hole_v2.zos) · [处方](design.json)
 
 ## 多姿态光斑一致性：当前主判据
 

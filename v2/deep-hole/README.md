@@ -4,6 +4,27 @@
 
 [三维模型与孔内通道](https://vforvan.github.io/galvo-validator/v2/deep-hole/) · [原 V2 对照](https://vforvan.github.io/galvo-validator/v2/) · [原生工程](5AXIS_deep_hole_v2.zos) · [处方](design.json)
 
+## 多姿态光斑一致性：当前主判据
+
+新增 [角度×Z一致性图表](https://vforvan.github.io/galvo-validator/v2/deep-hole/pose-consistency/) 与 [Zemax模型使用说明](pose_consistency/README.md)。主判据是上位机移动扫描时，不同AOI、方位、Z高度和填充位置上的焦点光斑是否一致；单次孔壁掠入射投影只作辅助。
+
+原生工程分为工件XY焦平面和真正垂直主光线的焦平面，每个工程有99组对应配置。每个姿态重新逆解五轴，并将观察面移到目标焦点；没有拿同一个固定像面上的离焦光斑混作扫描一致性。另有1859组真实球面密集追迹。图表可以切换相干POP能量光斑与统一放大尺度的几何点列；完整通孔NSC模型与源文件一起提供。
+
+同输入相干POP结果：同Z角度/填充位置变化相对零角参考的最大束径偏差约0.437%；跨Z±0.5 mm主域约3.348%，扩展Z±1 mm约6.331%。全部已测姿态的XY平面最大椭圆率约1.0091。主域光束法向面的最大椭圆率约1.0044。上述为采样结果，未将其自动标为材料工艺验收通过。
+
+重建一致性与通孔检查时，在仓库根目录依次运行：
+
+```text
+python simulation/deep_hole_v2/wall_model.py
+python simulation/deep_hole_v2/build_wall_native.py
+python simulation/deep_hole_v2/pose_consistency.py --dense
+python simulation/deep_hole_v2/pose_consistency.py
+python simulation/deep_hole_v2/verify_pose_files.py
+python simulation/deep_hole_v2/make_pose_review.py
+```
+
+`pose_consistency/`保存原生多配置工程、POP分析设置、报告、同尺度图和完整下载包；`wall_inspection/`保存真实通孔、黑壁首次命中与展开回放。ROI和ZRD为本地生成缓存；本目录原始深孔处方及其验证记录保持不变。
+
 ## 已完成的检查
 
 | 指标 | 深孔候选 |

@@ -1,0 +1,1035 @@
+{
+  "version": "deep-hole-v2-100um-1mm-research",
+  "status": "passed",
+  "voiceLimitMm": 3.5,
+  "designSha256": "f8ae1d32f4a3cc8ab2fba72db7611db223f39b8bb570e3dc55b476a4ef53e10b",
+  "states": [
+    {
+      "target": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "focus": [
+        336.08,
+        192.03,
+        -80.0
+      ],
+      "motors": [
+        4.84374746274088e-15,
+        6.16810239716465e-15,
+        -5.916916887749007e-15,
+        -1.117064201348699e-14,
+        0.014839506923182746
+      ],
+      "maxNormalizedResidual": 3.3644659916578006e-15,
+      "jacobianSingularValues": [
+        3.167978132403231,
+        2.1820115518095387,
+        0.3763604805380629,
+        0.2491665693650421,
+        0.18092884171944928
+      ],
+      "configuration": 1,
+      "sourceIndex": 0,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.08,
+        192.03000000000011
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.15427979288385166,
+      "geometricRmsRadiusAtBestFocusUm": 0.15427979288385166,
+      "geometricBestFocusShiftFromTargetUm": -1.4026716334802905e-10,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.43636915099141743,
+        0.4363691509944031
+      ],
+      "geometricPrincipalDiameterRatio": 1.000000000006842,
+      "geometricLongAxisAngleDeg": -166.29714321315626,
+      "geometricPrincipalBestFocusShiftUm": [
+        -2.0378737161203705e-10,
+        -7.674748142274021e-11
+      ],
+      "geometricPrincipalFocusSeparationUm": 1.2703989018929683e-10,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 4.0194366942304643e-13,
+      "chiefDirectionErrorUrad": 4.74040154660222e-10,
+      "chiefWorkPlaneHit": [
+        336.0800000000004,
+        192.03000000000006,
+        -80.00000000000009
+      ],
+      "chiefDirection": [
+        8.199429465411762e-18,
+        4.739692369624098e-16,
+        -1.0
+      ],
+      "nativeVsIndependentRayDifferenceMm": 4.687428401686771e-13,
+      "nativeVsIndependentDirectionDifference": 3.618766354825338e-15,
+      "fixedElementDriftMm": 2.444927891657081e-13
+    },
+    {
+      "target": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "focus": [
+        336.08,
+        192.03,
+        -81.0
+      ],
+      "motors": [
+        -7.497163690557665e-15,
+        1.4739543806279177e-14,
+        5.48679506317485e-15,
+        -1.1728564503743404e-14,
+        2.8371387706949474
+      ],
+      "maxNormalizedResidual": 2.6425528432127976e-12,
+      "jacobianSingularValues": [
+        3.167978132479043,
+        2.1820115516601053,
+        0.33357102360964674,
+        0.2491665693920316,
+        0.18092884177368077
+      ],
+      "configuration": 2,
+      "sourceIndex": 1,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.0800000000002,
+        192.03000000000003
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.14777599854992773,
+      "geometricRmsRadiusAtBestFocusUm": 0.14777599854992773,
+      "geometricBestFocusShiftFromTargetUm": 2.275802387513315e-09,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.41797364268309695,
+        0.4179736426870414
+      ],
+      "geometricPrincipalDiameterRatio": 1.0000000000094371,
+      "geometricLongAxisAngleDeg": 163.0926562009537,
+      "geometricPrincipalBestFocusShiftUm": [
+        2.260214147181392e-09,
+        2.2913875064836115e-09
+      ],
+      "geometricPrincipalFocusSeparationUm": 3.117335930221919e-11,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 2.898457019905882e-13,
+      "chiefDirectionErrorUrad": 6.792233373472151e-10,
+      "chiefWorkPlaneHit": [
+        336.08000000000027,
+        192.03000000000006,
+        -80.00000000000009
+      ],
+      "chiefDirection": [
+        6.66629416322713e-16,
+        -1.3019048847872048e-16,
+        -1.0
+      ],
+      "nativeVsIndependentRayDifferenceMm": 3.515571301265078e-13,
+      "nativeVsIndependentDirectionDifference": 3.005368777304051e-15,
+      "fixedElementDriftMm": 1.449228509952941e-13
+    },
+    {
+      "target": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "focus": [
+        336.08,
+        192.03,
+        -79.0
+      ],
+      "motors": [
+        4.761214819130952e-15,
+        3.250393641785985e-14,
+        1.2654824761509486e-15,
+        -5.901630096476328e-14,
+        -2.4952151977819126
+      ],
+      "maxNormalizedResidual": 3.7433056654379016e-11,
+      "jacobianSingularValues": [
+        3.1679781324840572,
+        2.182011551816166,
+        0.42172422253405895,
+        0.2491665694096179,
+        0.18092884173997092
+      ],
+      "configuration": 3,
+      "sourceIndex": 2,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.0800000000007,
+        192.02999999999983
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.1597909875729734,
+      "geometricRmsRadiusAtBestFocusUm": 0.1597909875729734,
+      "geometricBestFocusShiftFromTargetUm": -3.7707153671335226e-08,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.45195716354093046,
+        0.45195716354182813
+      ],
+      "geometricPrincipalDiameterRatio": 1.0000000000019862,
+      "geometricLongAxisAngleDeg": 47.306091368814265,
+      "geometricPrincipalBestFocusShiftUm": [
+        -3.769153913981916e-08,
+        -3.772276690131494e-08
+      ],
+      "geometricPrincipalFocusSeparationUm": 3.1227761495779694e-11,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 4.556346636343676e-13,
+      "chiefDirectionErrorUrad": 1.061427563862212e-09,
+      "chiefWorkPlaneHit": [
+        336.08000000000044,
+        192.03000000000003,
+        -80.00000000000009
+      ],
+      "chiefDirection": [
+        2.3942865619429677e-17,
+        1.0611574871395858e-15,
+        -1.0
+      ],
+      "nativeVsIndependentRayDifferenceMm": 4.62671908852022e-13,
+      "nativeVsIndependentDirectionDifference": 2.9780251091519115e-15,
+      "fixedElementDriftMm": 2.444927891657081e-13
+    },
+    {
+      "target": [
+        0.03,
+        0.0,
+        -0.5,
+        0.0,
+        0.0
+      ],
+      "focus": [
+        336.10999999999996,
+        192.03,
+        -80.5
+      ],
+      "motors": [
+        -1.277821975545561e-05,
+        0.018816087848631317,
+        8.901820965906557e-06,
+        -0.0350607259125263,
+        1.3834618948567838
+      ],
+      "maxNormalizedResidual": 4.864442182395123e-13,
+      "jacobianSingularValues": [
+        3.167976757121648,
+        2.182011119750722,
+        0.35464296324352934,
+        0.24916670128409169,
+        0.18092912523059546
+      ],
+      "configuration": 4,
+      "sourceIndex": 3,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.1099999509386,
+        192.03000000000006
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.15117213390527973,
+      "geometricRmsRadiusAtBestFocusUm": 0.15117213390527973,
+      "geometricBestFocusShiftFromTargetUm": 2.599067605268738e-10,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.4275792613825151,
+        0.42757946670437286
+      ],
+      "geometricPrincipalDiameterRatio": 1.0000004801960158,
+      "geometricLongAxisAngleDeg": 89.99998570398101,
+      "geometricPrincipalBestFocusShiftUm": [
+        0.004579392463292416,
+        -0.004579395821609851
+      ],
+      "geometricPrincipalFocusSeparationUm": 0.009158788284902268,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 3.595093471822542e-13,
+      "chiefDirectionErrorUrad": 2.9800199430555534e-09,
+      "chiefWorkPlaneHit": [
+        336.1100000000003,
+        192.03000000000011,
+        -80.00000000000009
+      ],
+      "chiefDirection": [
+        3.7162300011361546e-16,
+        -2.9567575495456836e-15,
+        -1.0000000000000009
+      ],
+      "nativeVsIndependentRayDifferenceMm": 3.515571301265078e-13,
+      "nativeVsIndependentDirectionDifference": 3.2326626664883075e-15,
+      "fixedElementDriftMm": 1.6633378991627446e-13
+    },
+    {
+      "target": [
+        0.03,
+        0.0,
+        -0.5,
+        1.5,
+        0.0
+      ],
+      "focus": [
+        336.10999999999996,
+        192.03,
+        -80.5
+      ],
+      "motors": [
+        -0.01045869656309433,
+        0.758527816423577,
+        0.0004125835096671668,
+        -0.7679583881287564,
+        1.3847755928333998
+      ],
+      "maxNormalizedResidual": 4.2138514899647816e-13,
+      "jacobianSingularValues": [
+        3.168155970788808,
+        2.1822199034264944,
+        0.35439259002684553,
+        0.24927646598712203,
+        0.18102975303736799
+      ],
+      "configuration": 5,
+      "sourceIndex": 4,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.1100034498237,
+        192.0300000000001
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.15135958365425453,
+      "geometricRmsRadiusAtBestFocusUm": 0.15135958365425453,
+      "geometricBestFocusShiftFromTargetUm": 8.06909604817205e-11,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.42787234741106633,
+        0.4283466252286484
+      ],
+      "geometricPrincipalDiameterRatio": 1.0011084563432338,
+      "geometricLongAxisAngleDeg": 179.99999943832984,
+      "geometricPrincipalBestFocusShiftUm": [
+        -0.2356927232153107,
+        0.23537768452291413
+      ],
+      "geometricPrincipalFocusSeparationUm": 0.47107040773822484,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 2.8421709430404007e-13,
+      "chiefDirectionErrorUrad": 9.881673876120231e-10,
+      "chiefWorkPlaneHit": [
+        336.09690703921564,
+        192.03,
+        -80.00000000000009
+      ],
+      "chiefDirection": [
+        0.026176948307874006,
+        5.480556923348943e-16,
+        -0.9996573249755583
+      ],
+      "nativeVsIndependentRayDifferenceMm": 3.457650183405701e-13,
+      "nativeVsIndependentDirectionDifference": 3.4125853768890396e-15,
+      "fixedElementDriftMm": 1.632702903446565e-13
+    },
+    {
+      "target": [
+        0.03,
+        0.0,
+        -0.5,
+        5.0,
+        0.0
+      ],
+      "focus": [
+        336.10999999999996,
+        192.03,
+        -80.5
+      ],
+      "motors": [
+        -0.11002533393025415,
+        2.467613957573032,
+        0.0032098370511082657,
+        -2.469637104755207,
+        1.3942673855390542
+      ],
+      "maxNormalizedResidual": 5.473919928444815e-14,
+      "jacobianSingularValues": [
+        3.1699454973157324,
+        2.1840153899713495,
+        0.35178037987370947,
+        0.2503619774100668,
+        0.1820465464584975
+      ],
+      "configuration": 6,
+      "sourceIndex": 5,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.11000518236693,
+        192.03000000000014
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.15414965760453517,
+      "geometricRmsRadiusAtBestFocusUm": 0.15414965760453517,
+      "geometricBestFocusShiftFromTargetUm": -1.7894599812195575e-10,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.4343165925074628,
+        0.4376790702172465
+      ],
+      "geometricPrincipalDiameterRatio": 1.007741996893029,
+      "geometricLongAxisAngleDeg": -179.99999994291875,
+      "geometricPrincipalBestFocusShiftUm": [
+        -1.6546601830248138,
+        1.629556793139862
+      ],
+      "geometricPrincipalFocusSeparationUm": 3.2842169761646756,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 4.687428401686771e-13,
+      "chiefDirectionErrorUrad": 1.1532847913449194e-09,
+      "chiefWorkPlaneHit": [
+        336.06625566823743,
+        192.03000000000011,
+        -80.00000000000003
+      ],
+      "chiefDirection": [
+        0.08715574274765724,
+        -5.248109873097606e-16,
+        -0.9961946980917464
+      ],
+      "nativeVsIndependentRayDifferenceMm": 4.1382633578908315e-13,
+      "nativeVsIndependentDirectionDifference": 5.1988988245376616e-15,
+      "fixedElementDriftMm": 1.9895196601282805e-13
+    },
+    {
+      "target": [
+        0.03,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "focus": [
+        336.10999999999996,
+        192.03,
+        -80.0
+      ],
+      "motors": [
+        -1.2778218544131346e-05,
+        0.01881608784634206,
+        8.901819958009956e-06,
+        -0.03506072591000036,
+        0.014874547366394677
+      ],
+      "maxNormalizedResidual": 5.712360133455165e-13,
+      "jacobianSingularValues": [
+        3.1679767571835775,
+        2.1820109855490473,
+        0.3763594188106533,
+        0.24916670125638218,
+        0.180929123991457
+      ],
+      "configuration": 7,
+      "sourceIndex": 6,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.11000006228653,
+        192.02999999999943
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.15427965539526448,
+      "geometricRmsRadiusAtBestFocusUm": 0.15427965539526448,
+      "geometricBestFocusShiftFromTargetUm": -2.2306401398577335e-10,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.43636866939351115,
+        0.43636885483939114
+      ],
+      "geometricPrincipalDiameterRatio": 1.0000004249752399,
+      "geometricLongAxisAngleDeg": 89.99942279922335,
+      "geometricPrincipalBestFocusShiftUm": [
+        0.004368813938567818,
+        -0.004368818042460768
+      ],
+      "geometricPrincipalFocusSeparationUm": 0.008737631981028586,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 4.412235823639328e-13,
+      "chiefDirectionErrorUrad": 1.0147762256461364e-07,
+      "chiefWorkPlaneHit": [
+        336.10999999999984,
+        192.02999999999957,
+        -80.00000000000003
+      ],
+      "chiefDirection": [
+        -7.031995530304685e-14,
+        7.316291251408527e-14,
+        -1.0000000000000009
+      ],
+      "nativeVsIndependentRayDifferenceMm": 3.515571301265078e-13,
+      "nativeVsIndependentDirectionDifference": 3.3639253828290606e-15,
+      "fixedElementDriftMm": 1.8198773652309366e-13
+    },
+    {
+      "target": [
+        0.03,
+        0.0,
+        0.0,
+        1.5,
+        0.0
+      ],
+      "focus": [
+        336.10999999999996,
+        192.03,
+        -80.0
+      ],
+      "motors": [
+        -0.01078057860248217,
+        0.7667229937927063,
+        0.0005176298693483067,
+        -0.7832545564768509,
+        0.015291270281584151
+      ],
+      "maxNormalizedResidual": 1.399208557317408e-11,
+      "jacobianSingularValues": [
+        3.168159629951131,
+        2.1822452224931266,
+        0.3761149884533299,
+        0.24927701595923416,
+        0.18103105556812732
+      ],
+      "configuration": 8,
+      "sourceIndex": 7,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.11000098030854,
+        192.03000000000551
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.1543900008547268,
+      "geometricRmsRadiusAtBestFocusUm": 0.15439000085472676,
+      "geometricBestFocusShiftFromTargetUm": -7.423870419354895e-11,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.4365270619451639,
+        0.4368346163163854
+      ],
+      "geometricPrincipalDiameterRatio": 1.0007045482354544,
+      "geometricLongAxisAngleDeg": 179.99999954751576,
+      "geometricPrincipalBestFocusShiftUm": [
+        -0.08045228381634836,
+        0.0803468359575195
+      ],
+      "geometricPrincipalFocusSeparationUm": 0.16079911977386785,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 6.640956074316489e-12,
+      "chiefDirectionErrorUrad": 1.965297871700287e-06,
+      "chiefWorkPlaneHit": [
+        336.1099999999961,
+        192.0300000000054,
+        -80.00000000000009
+      ],
+      "chiefDirection": [
+        0.02617694830715524,
+        1.829365950492251e-12,
+        -0.9996573249755776
+      ],
+      "nativeVsIndependentRayDifferenceMm": 4.3290658060549894e-13,
+      "nativeVsIndependentDirectionDifference": 4.189260580406167e-15,
+      "fixedElementDriftMm": 1.8474111129762605e-13
+    },
+    {
+      "target": [
+        0.03,
+        0.0,
+        0.0,
+        5.0,
+        0.0
+      ],
+      "focus": [
+        336.10999999999996,
+        192.03,
+        -80.0
+      ],
+      "motors": [
+        -0.11351237332843946,
+        2.494491364265833,
+        0.004342916589587006,
+        -2.5206053590962747,
+        0.015073597020004341
+      ],
+      "maxNormalizedResidual": 8.670591351878063e-14,
+      "jacobianSingularValues": [
+        3.1700007292631565,
+        2.1842990398890816,
+        0.37358922553355967,
+        0.2503658366244915,
+        0.1820536435198695
+      ],
+      "configuration": 9,
+      "sourceIndex": 8,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.1099967227173,
+        192.03000000000006
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.15550419556935074,
+      "geometricRmsRadiusAtBestFocusUm": 0.15550419556935072,
+      "geometricBestFocusShiftFromTargetUm": -9.627633503311891e-12,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.4380579390526347,
+        0.4415995012086091
+      ],
+      "geometricPrincipalDiameterRatio": 1.0080846888967097,
+      "geometricLongAxisAngleDeg": -179.99999999673634,
+      "geometricPrincipalBestFocusShiftUm": [
+        0.23961680903044927,
+        -0.23605298478022735
+      ],
+      "geometricPrincipalFocusSeparationUm": 0.47566979381067664,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 3.457650183405701e-13,
+      "chiefDirectionErrorUrad": 1.451371466253554e-09,
+      "chiefWorkPlaneHit": [
+        336.1100000000003,
+        192.03000000000006,
+        -80.00000000000003
+      ],
+      "chiefDirection": [
+        0.0871557427476583,
+        -1.4513714662535563e-15,
+        -0.996194698091747
+      ],
+      "nativeVsIndependentRayDifferenceMm": 3.457650183405701e-13,
+      "nativeVsIndependentDirectionDifference": 4.320405435225936e-15,
+      "fixedElementDriftMm": 1.8198773652309366e-13
+    },
+    {
+      "target": [
+        0.03,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "focus": [
+        336.10999999999996,
+        192.03,
+        -79.5
+      ],
+      "motors": [
+        -1.2778219744361852e-05,
+        0.018816087848589822,
+        8.901820992047973e-06,
+        -0.03506072591247614,
+        -1.2758528922052108
+      ],
+      "maxNormalizedResidual": 1.5709655798445965e-13,
+      "jacobianSingularValues": [
+        3.167976757082743,
+        2.182010860685032,
+        0.3987194472319514,
+        0.24916670131089683,
+        0.1809291229206597
+      ],
+      "configuration": 10,
+      "sourceIndex": 9,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.11000015785413,
+        192.02999999999994
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.1571410132469972,
+      "geometricRmsRadiusAtBestFocusUm": 0.1571410132469972,
+      "geometricBestFocusShiftFromTargetUm": -2.0067686534344833e-10,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.44446184349612233,
+        0.4444619650596839
+      ],
+      "geometricPrincipalDiameterRatio": 1.0000002735073064,
+      "geometricLongAxisAngleDeg": -179.99962496788905,
+      "geometricPrincipalBestFocusShiftUm": [
+        -0.004160658482133049,
+        0.004160654637284484
+      ],
+      "geometricPrincipalFocusSeparationUm": 0.008321313119417533,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 3.979039320256561e-13,
+      "chiefDirectionErrorUrad": 1.632981207636137e-09,
+      "chiefWorkPlaneHit": [
+        336.11000000000035,
+        192.03,
+        -80.00000000000003
+      ],
+      "chiefDirection": [
+        -7.789979903814141e-16,
+        1.4351967654208616e-15,
+        -1.0000000000000018
+      ],
+      "nativeVsIndependentRayDifferenceMm": 4.582862941503293e-13,
+      "nativeVsIndependentDirectionDifference": 3.627540420867265e-15,
+      "fixedElementDriftMm": 2.6812987050722663e-13
+    },
+    {
+      "target": [
+        0.03,
+        0.0,
+        0.5,
+        1.5,
+        0.0
+      ],
+      "focus": [
+        336.10999999999996,
+        192.03,
+        -79.5
+      ],
+      "motors": [
+        -0.01110731252133835,
+        0.7749172724628776,
+        0.0006260763203869866,
+        -0.7985500243133643,
+        -1.2761741220992353
+      ],
+      "maxNormalizedResidual": 2.1171953079601735e-13,
+      "jacobianSingularValues": [
+        3.1681627898221727,
+        2.182279858395817,
+        0.39847995398504,
+        0.2492776100711977,
+        0.18103195986759538
+      ],
+      "configuration": 11,
+      "sourceIndex": 10,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.1099989553853,
+        192.02999999999997
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.15724970028925706,
+      "geometricRmsRadiusAtBestFocusUm": 0.15724970028925706,
+      "geometricBestFocusShiftFromTargetUm": -3.5643683560368176e-10,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.4446157233430222,
+        0.4449228589465143
+      ],
+      "geometricPrincipalDiameterRatio": 1.0006907888933454,
+      "geometricLongAxisAngleDeg": -179.99999929079067,
+      "geometricPrincipalBestFocusShiftUm": [
+        0.061865204357476694,
+        -0.06178567406753195
+      ],
+      "geometricPrincipalFocusSeparationUm": 0.12365087842500865,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 4.0194366942304643e-13,
+      "chiefDirectionErrorUrad": 5.592969951182249e-10,
+      "chiefWorkPlaneHit": [
+        336.12309296078496,
+        192.03000000000006,
+        -80.00000000000009
+      ],
+      "chiefDirection": [
+        0.02617694830787374,
+        -1.8630309921941715e-16,
+        -0.9996573249755594
+      ],
+      "nativeVsIndependentRayDifferenceMm": 4.764346674119284e-13,
+      "nativeVsIndependentDirectionDifference": 4.2016306117369876e-15,
+      "fixedElementDriftMm": 2.360884497795176e-13
+    },
+    {
+      "target": [
+        0.03,
+        0.0,
+        0.5,
+        5.0,
+        0.0
+      ],
+      "focus": [
+        336.10999999999996,
+        192.03,
+        -79.5
+      ],
+      "motors": [
+        -0.11705190650161602,
+        2.5213363484641054,
+        0.0055149044840840135,
+        -2.5715478173362953,
+        -1.2843735648107153
+      ],
+      "maxNormalizedResidual": 2.732813975114823e-13,
+      "jacobianSingularValues": [
+        3.170053258901639,
+        2.18469499239013,
+        0.39602879307453326,
+        0.2503697204955539,
+        0.18205757889420152
+      ],
+      "configuration": 12,
+      "sourceIndex": 11,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.1099898198202,
+        192.02999999999994
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.16081642133294857,
+      "geometricRmsRadiusAtBestFocusUm": 0.16081642133294857,
+      "geometricBestFocusShiftFromTargetUm": -2.725902253047241e-10,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.45238552057350695,
+        0.45731617367071115
+      ],
+      "geometricPrincipalDiameterRatio": 1.0108992283637934,
+      "geometricLongAxisAngleDeg": 179.99999995074182,
+      "geometricPrincipalBestFocusShiftUm": [
+        1.9823471948100124,
+        -1.953436650951818
+      ],
+      "geometricPrincipalFocusSeparationUm": 3.93578384576183,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 3.457650183405701e-13,
+      "chiefDirectionErrorUrad": 1.0692640707904257e-09,
+      "chiefWorkPlaneHit": [
+        336.1537443317633,
+        192.03000000000006,
+        -80.00000000000009
+      ],
+      "chiefDirection": [
+        0.08715574274765775,
+        9.05304826802454e-16,
+        -0.9961946980917471
+      ],
+      "nativeVsIndependentRayDifferenceMm": 4.1382633578908315e-13,
+      "nativeVsIndependentDirectionDifference": 4.3441701596649965e-15,
+      "fixedElementDriftMm": 1.8198773652309366e-13
+    },
+    {
+      "target": [
+        0.0,
+        0.03,
+        -0.5,
+        0.0,
+        1.5
+      ],
+      "focus": [
+        336.08,
+        192.06,
+        -80.5
+      ],
+      "motors": [
+        0.5399207896044014,
+        -7.455991771103491e-16,
+        -0.5463934016114831,
+        -2.7244220213702157e-16,
+        1.3847755641852597
+      ],
+      "maxNormalizedResidual": 4.958256027975949e-13,
+      "jacobianSingularValues": [
+        3.1682748202043327,
+        2.1606902154023198,
+        0.35439467661180346,
+        0.24918208158020386,
+        0.17422851288351704
+      ],
+      "configuration": 13,
+      "sourceIndex": 12,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.0800000000001,
+        192.0600034498239
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.1513595868441911,
+      "geometricRmsRadiusAtBestFocusUm": 0.1513595868441911,
+      "geometricBestFocusShiftFromTargetUm": 2.928751150947136e-10,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.4278723564508888,
+        0.42834663423385416
+      ],
+      "geometricPrincipalDiameterRatio": 1.0011084562389105,
+      "geometricLongAxisAngleDeg": 89.99999990978482,
+      "geometricPrincipalBestFocusShiftUm": [
+        -0.23569272319634496,
+        0.23537768492806999
+      ],
+      "geometricPrincipalFocusSeparationUm": 0.4710704081244149,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 3.515571301265078e-13,
+      "chiefDirectionErrorUrad": 4.3451435327641187e-10,
+      "chiefWorkPlaneHit": [
+        336.0800000000003,
+        192.04690703921548,
+        -80.00000000000009
+      ],
+      "chiefDirection": [
+        -8.181692917271734e-17,
+        0.026176948307873617,
+        -0.9996573249755587
+      ],
+      "nativeVsIndependentRayDifferenceMm": 4.0693694993695867e-13,
+      "nativeVsIndependentDirectionDifference": 3.554514887746904e-15,
+      "fixedElementDriftMm": 1.9276541204150329e-13
+    },
+    {
+      "target": [
+        -0.03,
+        0.0,
+        -0.5,
+        -1.5,
+        0.0
+      ],
+      "focus": [
+        336.05,
+        192.03,
+        -80.5
+      ],
+      "motors": [
+        -0.010458696563093782,
+        -0.7585278164235614,
+        0.0004125835096662375,
+        0.7679583881287371,
+        1.3847755928331562
+      ],
+      "maxNormalizedResidual": 3.005373727660299e-13,
+      "jacobianSingularValues": [
+        3.1681559709398877,
+        2.182219903264944,
+        0.35439258952421077,
+        0.24927646601649628,
+        0.181029753119013
+      ],
+      "configuration": 14,
+      "sourceIndex": 13,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.0499965501764,
+        192.03000000000014
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.1513595836540424,
+      "geometricRmsRadiusAtBestFocusUm": 0.15135958365404242,
+      "geometricBestFocusShiftFromTargetUm": 1.488359630116164e-10,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.42787234741375907,
+        0.4283466252247593
+      ],
+      "geometricPrincipalDiameterRatio": 1.001108456327844,
+      "geometricLongAxisAngleDeg": -179.99999964254147,
+      "geometricPrincipalBestFocusShiftUm": [
+        -0.23569272310945052,
+        0.23537768455339514
+      ],
+      "geometricPrincipalFocusSeparationUm": 0.4710704076628457,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 2.8421709430404007e-13,
+      "chiefDirectionErrorUrad": 6.34561909902092e-10,
+      "chiefWorkPlaneHit": [
+        336.0630929607849,
+        192.03,
+        -80.00000000000009
+      ],
+      "chiefDirection": [
+        -0.026176948307873583,
+        4.758510171524342e-16,
+        -0.9996573249755576
+      ],
+      "nativeVsIndependentRayDifferenceMm": 3.457650183405701e-13,
+      "nativeVsIndependentDirectionDifference": 3.2787385414579305e-15,
+      "fixedElementDriftMm": 1.6633378991627446e-13
+    },
+    {
+      "target": [
+        0.0,
+        -0.03,
+        -0.5,
+        0.0,
+        -1.5
+      ],
+      "focus": [
+        336.08,
+        192.0,
+        -80.5
+      ],
+      "motors": [
+        -0.5399207896043848,
+        -2.540432367117913e-15,
+        0.5463934016114541,
+        1.559077728913353e-14,
+        1.3847755641856736
+      ],
+      "maxNormalizedResidual": 3.5482727867020003e-13,
+      "jacobianSingularValues": [
+        3.1682748203537057,
+        2.203335317141615,
+        0.3543946768014001,
+        0.24918208160764657,
+        0.18759208459270346
+      ],
+      "configuration": 15,
+      "sourceIndex": 14,
+      "nativeRaysChecked": 545,
+      "rayErrors": [],
+      "vignettedSampleCountsBySurface": {},
+      "centroidProjectXYMm": [
+        336.08,
+        191.99999655017646
+      ],
+      "geometricRmsRadiusAtTargetUm": 0.15135958684334933,
+      "geometricRmsRadiusAtBestFocusUm": 0.15135958684334935,
+      "geometricBestFocusShiftFromTargetUm": 2.406773477070954e-11,
+      "geometricD4SigmaPrincipalDiametersUm": [
+        0.4278723564499022,
+        0.4283466342300805
+      ],
+      "geometricPrincipalDiameterRatio": 1.0011084562323995,
+      "geometricLongAxisAngleDeg": 90.00000008530168,
+      "geometricPrincipalBestFocusShiftUm": [
+        -0.23569272358259702,
+        0.23537768477655166
+      ],
+      "geometricPrincipalFocusSeparationUm": 0.47107040835914865,
+      "passedCalibrationAndSampledApertures": true,
+      "chiefXYErrorMm": 4.0693694993695867e-13,
+      "chiefDirectionErrorUrad": 8.205847921676923e-10,
+      "chiefWorkPlaneHit": [
+        336.0800000000004,
+        192.0130929607847,
+        -80.00000000000009
+      ],
+      "chiefDirection": [
+        4.2684788516465954e-16,
+        -0.02617694830787391,
+        -0.9996573249755591
+      ],
+      "nativeVsIndependentRayDifferenceMm": 4.764346674119284e-13,
+      "nativeVsIndependentDirectionDifference": 3.823125722692656e-15,
+      "fixedElementDriftMm": 2.382173337059642e-13
+    }
+  ],
+  "statesChecked": 15,
+  "savedReloadChecks": 15,
+  "nativeFileSha256": "53370bdc5bcfceedebf282c69785acbb336fa554c244dc41724c06126fa5c2f3",
+  "surfaceCount": 38,
+  "sourceFileUnchanged": true,
+  "elapsedSeconds": 7.484000000000037,
+  "scope": "Open-path native real-ray cross-check, 512 equal-power rays and 32 boundary rays plus chief per state. No material or hole-wall interaction."
+}

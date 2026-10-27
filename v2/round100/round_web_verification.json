@@ -1,0 +1,16 @@
+{
+  "model": "deep-hole-v2-100um-1mm-research",
+  "designSha256": "f8ae1d32f4a3cc8ab2fba72db7611db223f39b8bb570e3dc55b476a4ef53e10b",
+  "holeDiameterUm": 100,
+  "holeDepthUm": 1000,
+  "radiusUm": 30,
+  "aoiDeg": 1.5,
+  "contour": 1.5,
+  "states": 504,
+  "failed": 0,
+  "minimumMarginUm": 4.560049640791526,
+  "maximumVoiceMm": 1.3847756078937714,
+  "verticalBottomMarginUm": -13.845401382585765,
+  "reverseBottomMarginUm": -40.06658233630193,
+  "highAngleBottomMarginUm": -41.680092144819035
+}

@@ -1,0 +1,176 @@
+{
+  "version": "deep-hole-v2-100um-1mm-research",
+  "status": "independent-optical-and-ideal-channel-checks-complete",
+  "voiceLimitMm": 3.5,
+  "totalVoiceStrokeMm": 7,
+  "designSha256": "f8ae1d32f4a3cc8ab2fba72db7611db223f39b8bb570e3dc55b476a4ef53e10b",
+  "originalFieldStates": 423,
+  "depthStates": 3528,
+  "target": {
+    "holeDiameterMm": 0.1,
+    "depthMm": 1
+  },
+  "maximumNormalizedResidual": 5.532404534491775e-10,
+  "originalVoiceRangeMm": [
+    -2.544075476117858,
+    3.000975979199039
+  ],
+  "depthVoiceRangeMm": [
+    -1.2843747265531233,
+    1.3942680678915724
+  ],
+  "nominal": {
+    "target": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "focus": [
+      336.08,
+      192.03,
+      -80.0
+    ],
+    "motors": [
+      4.84374746274088e-15,
+      6.16810239716465e-15,
+      -5.916916887749007e-15,
+      -1.117064201348699e-14,
+      0.014839506923182746
+    ],
+    "maxNormalizedResidual": 3.3644659916578006e-15,
+    "jacobianSingularValues": [
+      3.167978132403231,
+      2.1820115518095387,
+      0.3763604805380629,
+      0.2491665693650421,
+      0.18092884171944928
+    ]
+  },
+  "nominalGaussian": {
+    "waistProjectZMm": -80.00568512503804,
+    "waistDiameterUm": 19.993430435310298,
+    "rayleighMm": 0.5080144179521936
+  },
+  "nominalConfocalLengthMm": 1.0160288359043872,
+  "maximumOriginalFieldGeometricRmsUm": 0.37064964813004614,
+  "channelTrials": [
+    {
+      "signedAoiDeg": 0.0,
+      "states": 504,
+      "minimumRadialMarginUm": -13.845401382604525,
+      "voiceRangeMm": [
+        -1.2758528939114624,
+        1.3834618948568156
+      ]
+    },
+    {
+      "signedAoiDeg": 1.0,
+      "states": 504,
+      "minimumRadialMarginUm": 3.5943554800001163,
+      "voiceRangeMm": [
+        -1.2759601494357382,
+        1.3840463760097903
+      ]
+    },
+    {
+      "signedAoiDeg": 1.5,
+      "states": 504,
+      "minimumRadialMarginUm": 4.560049640877885,
+      "voiceRangeMm": [
+        -1.2761741868753955,
+        1.3847756078929936
+      ]
+    },
+    {
+      "signedAoiDeg": 2.0,
+      "states": 504,
+      "minimumRadialMarginUm": 4.555856406611362,
+      "voiceRangeMm": [
+        -1.2765268295236158,
+        1.3857639225114184
+      ]
+    },
+    {
+      "signedAoiDeg": 3.0,
+      "states": 504,
+      "minimumRadialMarginUm": -6.387513977304454,
+      "voiceRangeMm": [
+        -1.2778061521608275,
+        1.3883569579357273
+      ]
+    },
+    {
+      "signedAoiDeg": 5.0,
+      "states": 504,
+      "minimumRadialMarginUm": -41.680099153137476,
+      "voiceRangeMm": [
+        -1.2843747265531233,
+        1.3942680678915724
+      ]
+    },
+    {
+      "signedAoiDeg": -1.5,
+      "states": 504,
+      "minimumRadialMarginUm": -40.066582960790235,
+      "voiceRangeMm": [
+        -1.2764111413752697,
+        1.384856068488466
+      ]
+    }
+  ],
+  "channelScanCenterDiameterMm": 0.06,
+  "cppNumpyChecks": [
+    {
+      "sourceIndex": 0,
+      "maxDifference": 1.6364687382974807e-13
+    },
+    {
+      "sourceIndex": 38,
+      "maxDifference": 8.210099267103033e-13
+    },
+    {
+      "sourceIndex": 76,
+      "maxDifference": 4.1966430330830917e-13
+    },
+    {
+      "sourceIndex": 115,
+      "maxDifference": 1.503464019947387e-12
+    },
+    {
+      "sourceIndex": 153,
+      "maxDifference": 2.318145675417327e-13
+    },
+    {
+      "sourceIndex": 191,
+      "maxDifference": 5.814441597117993e-13
+    },
+    {
+      "sourceIndex": 230,
+      "maxDifference": 5.723568364702403e-14
+    },
+    {
+      "sourceIndex": 268,
+      "maxDifference": 5.966338534335591e-13
+    },
+    {
+      "sourceIndex": 306,
+      "maxDifference": 2.2104540420286867e-13
+    },
+    {
+      "sourceIndex": 345,
+      "maxDifference": 1.3589129821411916e-13
+    },
+    {
+      "sourceIndex": 383,
+      "maxDifference": 4.918287999089443e-13
+    },
+    {
+      "sourceIndex": 422,
+      "maxDifference": 4.885243503617997e-13
+    }
+  ],
+  "elapsedSeconds": 137.64099999999996,
+  "scope": "20 um waist / 1 mm confocal design target under assumed M2=1.2. 60 um center trajectory is an optical-channel trial, not a calibrated 100 um machined hole. No material, pulse energy, breakthrough or wall-removal claim."
+}

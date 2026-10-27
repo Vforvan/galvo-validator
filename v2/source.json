@@ -1,14 +1,33 @@
 {
-  "engineeringRevision": "fd5f3146f098e2dc9ae56c9f0dbe53641b06a249",
   "publishedPath": "v2/",
-  "webBranch": "optics-v2-structure",
-  "currentCandidate": {
-    "designSha256": "3be0eaf7547f13128fe559bbe7fc81e2d1e99eda9ee5e61526985678921ef271",
-    "model": "deep-hole-v2-square30-web-research",
-    "nativeSimulationRun": false,
-    "statesChecked": 3080,
-    "voiceLimitMm": 3.5
+  "model": "deep-hole-v2-100um-1mm-research",
+  "designSha256": "f8ae1d32f4a3cc8ab2fba72db7611db223f39b8bb570e3dc55b476a4ef53e10b",
+  "primaryTarget": {
+    "holeDiameterUm": 100,
+    "holeDepthUm": 1000
   },
-  "historicalNativeReports": "v2/deep-hole/pose-consistency/",
-  "scope": "Unified deep-hole 3D web study; current candidate has ray/Gaussian checks only. Historical Zemax files remain unchanged."
+  "finalTarget": {
+    "shape": "square",
+    "sideUm": 30,
+    "depthUm": 300
+  },
+  "focalLengthFixed": false,
+  "nativeSimulationRerun": false,
+  "webpageChecks": {
+    "model": "deep-hole-v2-100um-1mm-research",
+    "designSha256": "f8ae1d32f4a3cc8ab2fba72db7611db223f39b8bb570e3dc55b476a4ef53e10b",
+    "holeDiameterUm": 100,
+    "holeDepthUm": 1000,
+    "radiusUm": 30,
+    "aoiDeg": 1.5,
+    "contour": 1.5,
+    "states": 504,
+    "failed": 0,
+    "minimumMarginUm": 4.560049640791526,
+    "maximumVoiceMm": 1.3847756078937714,
+    "verticalBottomMarginUm": -13.845401382585765,
+    "reverseBottomMarginUm": -40.06658233630193,
+    "highAngleBottomMarginUm": -41.680092144819035
+  },
+  "scope": "V1-style five-axis optics with synchronized ideal cylindrical-hole clearance checks"
 }

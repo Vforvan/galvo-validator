@@ -1,6 +1,6 @@
 {
   "engineeringRepository": "https://github.com/Vforvan/5AIX-GALVO/tree/optics-v2-structure/simulation/no_relay_v2",
-  "engineeringRevision": "1e113574746c7b4f0c354b39ba99995d393e3937",
+  "engineeringRevision": "94bd171b29068c9ce522e939314304ead528aabd",
   "webBranch": "optics-v2-structure",
   "publishedPath": "v2/",
   "validatedArtifacts": {
@@ -16,5 +16,12 @@
     "housingWithinOriginalEnvelope": true,
     "metadataAmendment": null
   },
-  "scope": "V2 interactive 3D validator and independent review; V1 validator is retained."
+  "deepHoleCandidate": {
+    "publishedPath": "v2/deep-hole/",
+    "designSha256": "f8ae1d32f4a3cc8ab2fba72db7611db223f39b8bb570e3dc55b476a4ef53e10b",
+    "nativeFileSha256": "53370bdc5bcfceedebf282c69785acbb336fa554c244dc41724c06126fa5c2f3",
+    "voiceLimitMm": 3.5,
+    "scope": "Independent optical candidate and ideal-channel study; material drilling unverified."
+  },
+  "scope": "V2 interactive 3D validator, original review and independent deep-hole candidate; V1 validator is retained."
 }

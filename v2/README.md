@@ -2,6 +2,8 @@
 
 分支：`optics-v2-structure`。本目录是可复查的 V2 研究候选；V1.0 工程和标签作为对照保存。
 
+当前音圈机械上限按用户新确认的±3.5 mm、总行程7 mm处理，见 [motion_limits.json](motion_limits.json)。本目录保留原光学处方及其历史验证记录；重新优化的Ø0.1 mm × 深1 mm候选见 [独立深孔工程](deep-hole/README.md) 和 [在线模型](https://vforvan.github.io/galvo-validator/v2/deep-hole/)。机械音圈行程不等同于工件焦点Z行程。
+
 打开 [原生工程](5AXIS_no_relay_v2.zos) · [交互点列对比与光路](review.html) · [配置表](configurations.csv)。
 
 ## 具体修改

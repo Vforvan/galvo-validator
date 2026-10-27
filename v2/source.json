@@ -29,5 +29,24 @@
     "reverseBottomMarginUm": -40.06658233630193,
     "highAngleBottomMarginUm": -41.680092144819035
   },
-  "scope": "V1-style five-axis optics with synchronized ideal cylindrical-hole clearance checks"
+  "helicalPlanningNodeChecks": {
+    "designSha256": "f8ae1d32f4a3cc8ab2fba72db7611db223f39b8bb570e3dc55b476a4ef53e10b",
+    "plannerSha256": "f7ac923c9f5a0cb639478bc5cc7cf6461fb2a045a62abbbc2c9364c7240d09c0",
+    "points": 101,
+    "stepMm": 0.01,
+    "angleStepDeg": 5,
+    "pitchMm": 0.72,
+    "turns": 1.3888888888888888,
+    "radiusUm": 30,
+    "aoiDeg": 1.5,
+    "startDepthUm": 0,
+    "endDepthUm": 1000,
+    "contour": 1.5,
+    "failed": 0,
+    "minimumMarginUm": 4.560049647764597,
+    "maximumVoiceMm": 1.3847755559956891,
+    "maximumPositionResidual": 2.982328273226642e-10,
+    "scope": "Planning nodes only; controller interpolation, dynamics and material removal are not verified."
+  },
+  "scope": "V1-style five-axis optics with per-node helical descent and synchronized ideal cylindrical-hole clearance checks"
 }

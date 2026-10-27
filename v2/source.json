@@ -1,5 +1,5 @@
 {
-  "engineeringRevision": "fd5f3146f098e2dc9ae56c9f0dbe53641b06a249",
+  "engineeringRevision": "3ab20dc2060d260d80cdd9d9c07ae52d7bd590c5",
   "publishedPath": "v2/",
   "webBranch": "optics-v2-structure",
   "currentCandidate": {
@@ -9,6 +9,6 @@
     "statesChecked": 3080,
     "voiceLimitMm": 3.5
   },
-  "historicalNativeReports": "v2/deep-hole/pose-consistency/",
-  "scope": "Unified deep-hole 3D web study; current candidate has ray/Gaussian checks only. Historical Zemax files remain unchanged."
+  "fullPathVerificationPublished": false,
+  "scope": "Unified current deep-hole 3D web study; candidate has ray/Gaussian checks only."
 }

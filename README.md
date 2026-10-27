@@ -4,10 +4,7 @@
 
 - [V1.0 在线仿真](https://vforvan.github.io/galvo-validator/galvo-validator.html)。
 - [V2 深孔三维统一仿真](https://vforvan.github.io/galvo-validator/v2/)：30×30 µm、深300 µm方孔，7 µm候选、分层填充、五轴逆解、角度×Z一致性。
-- [历史 V2 光路](https://vforvan.github.io/galvo-validator/v2/archive/no-relay.html) · [历史100 µm深孔候选](https://vforvan.github.io/galvo-validator/v2/archive/deep100.html)。
-- [历史 Zemax / POP 记录](https://vforvan.github.io/galvo-validator/v2/deep-hole/pose-consistency/)：适用于上一版处方。
-
-当前30 µm方孔候选仅完成网页光学检查，本轮未运行Zemax；加工能力仍待工艺验证。
+当前候选仅完成网页光学检查，本轮未运行Zemax；加工能力仍待工艺验证。
 
 ## 同心圆整组扫描
 

@@ -1,6 +1,6 @@
 # V2 深孔统一网页 · 30 µm 方孔候选
 
-[在线仿真](https://vforvan.github.io/galvo-validator/v2/)将完整三维光路、微孔剖切、分层填充、五轴逆解及角度×Z一致性合并到同一入口。旧 `/v2/deep-hole/` 自动进入该页；历史光路、原生文件与POP报告保留，并明确标记为上一版处方。
+[在线仿真](https://vforvan.github.io/galvo-validator/v2/)将完整三维光路、微孔剖切、分层填充、五轴逆解及角度×Z一致性合并到同一入口。V2 只保留当前深孔候选，不再提供旧无中继光路的切换入口。
 
 本轮只运行仓库的实曲面光线和高斯束计算，不启动Zemax、不改写任何 `.zos`。新候选不能使用旧POP结果作为其验证依据。
 
@@ -10,7 +10,7 @@
 - 新候选名义1/e²束腰直径约7 µm，入口直径2 mm、515 nm、M²=1.2均作为模型输入。它不是实测光斑。
 - 只改变L1/L2球面曲率和L2轴向位置。四片物镜、四振镜统一58×40×2 mm外形、各中心、出光轴和381.08×310×345 mm整机外包络保持。
 - 音圈机械限位±3.5 mm。3080组采样覆盖Z±0.15 mm、AOI−5°到+5°每1°、方位每45°及中心/四角附近。具体数值见 `verification.json`，15组另用1152条NumPy光线复核。
-- 默认13焦层填充/轮廓轨迹在AOI=0°、5°分别逐点核对2925点，共5850点；位置逆解、镜面余量和行程检查通过，音圈约−0.203～+0.205 mm。见 `path_verification.json`，该结果不代表孔内送光或材料加工验收。
+- 默认13焦层填充/轮廓轨迹可导出为逐点五轴命令；导出会逐点求解并检查行程。本次合并后未重跑完整轨迹验证，因此不发布旧的完整路径验证报告。
 - 7 µm光斑的名义共焦长度约0.125 mm，短于300 µm孔深。默认25 µm层距，通过五轴逆解逐层重新对焦；不会把共焦长度当成整孔深度或音圈行程。
 
 ## 网页的计算含义
@@ -32,6 +32,6 @@ node analysis/optics_demo/test_square.cjs
 python simulation/deep_hole_v2/web_square/export_site.py tmp/galvo-validator-web-v2
 ```
 
-优化与验证不调用ZOS API。处方保存在本目录 `design.json`，与上一版 `../design.json` 独立。当前相空间/近轴假设、真实光束M²、相干衍射、装调误差及材料工艺须在后续阶段复核。
+优化与验证不调用ZOS API。处方保存在本目录 `design.json`；共享光线追迹基础代码和初始处方已并入 `../_base/`。当前相空间/近轴假设、真实光束M²、相干衍射、装调误差及材料工艺须在后续阶段复核。
 
 来源：[SCANLAB precSYS 02/2026 手册](https://www.scanlab.de/sites/default/files/2026-03/SCANLAB-precSYS-EN.pdf)，[Newport 高斯束尺寸与Rayleigh长度](https://www.newport.com/n/gaussian-beam-optics)。

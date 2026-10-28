@@ -37,5 +37,14 @@
   "priorLimitedTrial": "lens_trial/native_comparison.json",
   "historicalResults": "history\\previous-prescription-20261028-090555",
   "retiredTrialProject": "history\\previous-prescription-20261028-090555\\V2_lens_trial.zos",
-  "backup": "F:\\5AIX-GALVO\\tmp\\v2-before-promotion-20261028-090555"
+  "backup": "F:\\5AIX-GALVO\\tmp\\v2-before-promotion-20261028-090555",
+  "latestNSCVerification": {
+    "project": "nsc/V2_hole_check.zos",
+    "configurations": 6,
+    "source": "Current real optics; input Gaussian phase space M2=1.2",
+    "analysisRaysPerCase": 8192,
+    "results": "nsc/results.json",
+    "sourceProjectUnchanged": true,
+    "scope": "Planned radial AOI1.5-2.5deg, radius30um; six sampled delivery cases, no ablation or full-path acceptance."
+  }
 }

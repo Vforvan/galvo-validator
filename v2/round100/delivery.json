@@ -1,0 +1,41 @@
+{
+  "project": "V2_main.zos",
+  "projectReady": true,
+  "projectSha256": "a3923a3a486587a4d439965d841696db92b0ae158ede5294fabc94af1c6516da",
+  "designSha256": "0a60075d4404c151717c150bd97d1eb09b04e4cb31e178367141f09faafc5228",
+  "configurations": 160,
+  "surfaces": 39,
+  "savedConfiguration": 158,
+  "status": "accepted_prescription_synchronized_without_new_tests",
+  "nativeGeometricConfigurationsVerified": 0,
+  "batchWaveAnalysisComplete": false,
+  "newOpticalTestsRun": false,
+  "configurationCommandsRegenerated": true,
+  "mergedTrialConfigurations": {
+    "normal": [
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+    ],
+    "horizontal": [
+      155,
+      156,
+      157,
+      158,
+      159,
+      160
+    ],
+    "examplePair": [
+      152,
+      158
+    ],
+    "previous146Retained": true
+  },
+  "priorLimitedTrial": "lens_trial/native_comparison.json",
+  "historicalResults": "history\\previous-prescription-20261028-090555",
+  "retiredTrialProject": "history\\previous-prescription-20261028-090555\\V2_lens_trial.zos",
+  "backup": "F:\\5AIX-GALVO\\tmp\\v2-before-promotion-20261028-090555"
+}

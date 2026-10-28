@@ -1,6 +1,6 @@
 {
-  "version": "deep-hole-v2-100um-1mm-research",
-  "status": "research-candidate-awaiting-independent-validation",
+  "version": "v2-accepted-retuned-four-element",
+  "status": "user-accepted-synchronized-without-new-tests",
   "frontCurvaturesPerMm": [
     0.005291716107171454,
     0.031600642204407545,
@@ -67,63 +67,63 @@
     }
   },
   "objective": {
-    "version": "ring-optimized-fixed-envelope-v2-research",
+    "version": "accepted-retuned-four-element-v2",
     "wavelengthUm": 0.515,
     "glass": "F_SILICA",
     "indexAt515": 1.4615309610026677,
     "parameters": [
-      0.01010557818176339,
-      -0.004279583551366338,
-      -0.011329711324917684,
-      -0.0021693421199795175,
-      0.012196969298325587,
-      0.002155799055809424,
-      0.016298999912933734,
+      0.002089975129218001,
+      -0.00717617941137754,
+      -0.01290311456121046,
+      -0.007877110183320928,
+      0.011759365874857965,
+      -0.00014192134542899822,
+      0.01936291653040607,
       6.200058508695882,
-      3.049544408609996,
-      2.002637048105039,
-      1.0313693506489445,
+      3.0495444086099965,
+      2.00263704810504,
+      1.0313693506489443,
       5.1586375944203375,
       9.997109080281142,
       20.56064417691063
     ],
     "radiiMm": [
-      98.95524847896465,
-      -233.6675959231433,
-      -88.26350216008399,
-      -460.96924537169906,
-      81.98758031942255,
-      463.86512569676233,
-      61.35345759505592,
-      3923.4342029828713
+      478.47459331928354,
+      -139.34991625411996,
+      -77.50066817249032,
+      -126.95010945986385,
+      85.03859907429562,
+      -7046.156425428546,
+      51.645112368773326,
+      160.87588993520978
     ],
     "distancesMm": [
       6.200058508695882,
-      3.049544408609996,
-      2.002637048105039,
-      1.0313693506489445,
+      3.0495444086099965,
+      2.00263704810504,
+      1.0313693506489443,
       5.1586375944203375,
       9.997109080281142,
       20.56064417691063
     ],
-    "backFocalLengthMm": 50.00344495810657,
-    "effectiveFocalLengthMm": 74.820239740242,
+    "backFocalLengthMm": 50.003350610562364,
+    "effectiveFocalLengthMm": 74.82031513193412,
     "clearDiameterMm": 46.0,
     "blankDiameterMm": 50.8,
     "optimizedPupilDiameterMm": 34.0,
     "maxFieldDeg": 1.1,
     "matrixReducedAngle": [
       [
-        0.6683144177525572,
-        34.278706609321816
+        0.6683124833461226,
+        32.9219047913842
       ],
       [
-        -0.013365367492429336,
-        0.8107748009139434
+        -0.013365354024995134,
+        0.8379120564712635
       ]
     ],
     "cost": 7.809924732212622,
-    "scope": "Each Gaussian pupil ring is evaluated for anisotropy and centroid shift; not accepted until independent inverse, apertures, native and POP checks pass.",
+    "scope": "User-accepted four-element prescription; fixed first/last physical vertices. Previous limited trial only; no new tests during promotion.",
     "trainingStates": [
       [
         0,
@@ -268,7 +268,7 @@
     "objectiveLastZMm": -29.996555041893423,
     "workPlaneZMm": -80.0
   },
-  "scope": "Research V2 without R1/R2. Four mirror centers and apertures jointly revised inside original housing envelope; front spherical surfaces and L2 position redesigned; four-element objective reoptimized at fixed front/rear mounting planes and unchanged nominal working distance. MF/output/work datum retained.",
+  "scope": "Same L1/L2, four galvos and four-element objective layout; eight objective curvatures retuned.",
   "optimizer": {
     "cost": 0.014098826019589158,
     "success": false,
@@ -360,5 +360,13 @@
     "waistDiameterTargetUm": 20,
     "wavelengthMm": 0.000515,
     "assumedM2": 1.2
-  }
+  },
+  "preserveObjectiveVertices": true,
+  "acceptedTrial": {
+    "file": "simulation/v2/lens_trial/native_comparison.json",
+    "variant": "add0",
+    "projectSha256": "6fe77a5e848e0e7ce060e352d9c3006bb5aba5972f632a37a5ffc318e3b9617f"
+  },
+  "previousActiveProjectSha256": "218f966fa189258a104456b1fcab3cce2101d9c305e29488b985ad66188ca2d2",
+  "newOpticalTestsRun": false
 }

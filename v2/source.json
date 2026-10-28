@@ -1,7 +1,34 @@
 {
   "publishedPath": "v2/",
-  "model": "deep-hole-v2-100um-1mm-research",
-  "designSha256": "f8ae1d32f4a3cc8ab2fba72db7611db223f39b8bb570e3dc55b476a4ef53e10b",
+  "model": "v2-accepted-retuned-four-element",
+  "designSha256": "0a60075d4404c151717c150bd97d1eb09b04e4cb31e178367141f09faafc5228",
+  "nativeFileSha256": "a3923a3a486587a4d439965d841696db92b0ae158ede5294fabc94af1c6516da",
+  "nativeSimulationRerun": false,
+  "newOpticalTestsRun": false,
+  "configurations": 160,
+  "mergedTrial": {
+    "normal": [
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+    ],
+    "horizontal": [
+      155,
+      156,
+      157,
+      158,
+      159,
+      160
+    ],
+    "examplePair": [
+      152,
+      158
+    ],
+    "previous146Retained": true
+  },
   "primaryTarget": {
     "holeDiameterUm": 100,
     "holeDepthUm": 1000
@@ -11,42 +38,5 @@
     "sideUm": 30,
     "depthUm": 300
   },
-  "focalLengthFixed": false,
-  "nativeSimulationRerun": false,
-  "webpageChecks": {
-    "model": "deep-hole-v2-100um-1mm-research",
-    "designSha256": "f8ae1d32f4a3cc8ab2fba72db7611db223f39b8bb570e3dc55b476a4ef53e10b",
-    "holeDiameterUm": 100,
-    "holeDepthUm": 1000,
-    "radiusUm": 30,
-    "aoiDeg": 1.5,
-    "contour": 1.5,
-    "states": 504,
-    "failed": 0,
-    "minimumMarginUm": 4.560049640791526,
-    "maximumVoiceMm": 1.3847756078937714,
-    "verticalBottomMarginUm": -13.845401382585765,
-    "reverseBottomMarginUm": -40.06658233630193,
-    "highAngleBottomMarginUm": -41.680092144819035
-  },
-  "helicalPlanningNodeChecks": {
-    "designSha256": "f8ae1d32f4a3cc8ab2fba72db7611db223f39b8bb570e3dc55b476a4ef53e10b",
-    "plannerSha256": "f7ac923c9f5a0cb639478bc5cc7cf6461fb2a045a62abbbc2c9364c7240d09c0",
-    "points": 101,
-    "stepMm": 0.01,
-    "angleStepDeg": 5,
-    "pitchMm": 0.72,
-    "turns": 1.3888888888888888,
-    "radiusUm": 30,
-    "aoiDeg": 1.5,
-    "startDepthUm": 0,
-    "endDepthUm": 1000,
-    "contour": 1.5,
-    "failed": 0,
-    "minimumMarginUm": 4.560049647764597,
-    "maximumVoiceMm": 1.3847755559956891,
-    "maximumPositionResidual": 2.982328273226642e-10,
-    "scope": "Planning nodes only; controller interpolation, dynamics and material removal are not verified."
-  },
-  "scope": "V1-style five-axis optics with per-node helical descent and synchronized ideal cylindrical-hole clearance checks"
+  "status": "user-accepted-prescription-synchronized-without-new-tests"
 }

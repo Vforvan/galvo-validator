@@ -1,10 +1,9 @@
 {
   "publishedPath": "v2/",
   "model": "v2-accepted-retuned-four-element",
+  "sourceRevision": "d546814f59afe303772db696690cb8cfb1c0ec54",
   "designSha256": "0a60075d4404c151717c150bd97d1eb09b04e4cb31e178367141f09faafc5228",
   "nativeFileSha256": "a3923a3a486587a4d439965d841696db92b0ae158ede5294fabc94af1c6516da",
-  "nativeSimulationRerun": true,
-  "newOpticalTestsRun": true,
   "configurations": 160,
   "mergedTrial": {
     "normal": [
@@ -38,7 +37,17 @@
     "sideUm": 30,
     "depthUm": 300
   },
-  "status": "accepted-prescription-with-six-case-nsc-hole-delivery-check",
+  "targetControls": {
+    "workingFieldDiameterMm": 2.5,
+    "xyLimitsMm": [
+      -1.25,
+      1.25
+    ],
+    "voiceLimitsMm": [
+      -3.5,
+      3.5
+    ]
+  },
   "nscVerification": {
     "project": "nsc/V2_hole_check.zos",
     "configurations": 6,
@@ -48,5 +57,6 @@
     "sourceProjectUnchanged": true,
     "scope": "Planned radial AOI1.5-2.5deg, radius30um; six sampled delivery cases, no ablation or full-path acceptance."
   },
-  "testScope": "Six NSC ray-delivery cases only; no new full-path sequential, POP or PSF sweep."
+  "status": "accepted-prescription-with-six-case-nsc-hole-delivery-check",
+  "testScope": "Six recorded NSC cases and separate JavaScript checks; no new native, full-path POP or PSF sweep during cleanup."
 }

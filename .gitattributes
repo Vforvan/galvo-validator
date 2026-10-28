@@ -1,1 +1,2 @@
-/v2/web-square/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/v2/round100/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/v2/round100/nsc/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

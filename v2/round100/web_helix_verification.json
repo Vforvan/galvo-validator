@@ -1,0 +1,19 @@
+{
+  "designSha256": "0a60075d4404c151717c150bd97d1eb09b04e4cb31e178367141f09faafc5228",
+  "plannerSha256": "b13b5068d133f51ecab240ca7fdd9b8db0807e95267297a3c49a08907f1aa136",
+  "points": 101,
+  "stepMm": 0.01,
+  "angleStepDeg": 5,
+  "pitchMm": 0.72,
+  "turns": 1.3888888888888888,
+  "radiusUm": 30,
+  "aoiDeg": 1.5,
+  "startDepthUm": 0,
+  "endDepthUm": 1000,
+  "contour": 1.5,
+  "failed": 0,
+  "minimumMarginUm": 4.56332108602095,
+  "maximumVoiceMm": 1.3852791134563374,
+  "maximumPositionResidual": 9.122702593344911e-13,
+  "scope": "Planning nodes only; controller interpolation, dynamics and material removal are not verified."
+}

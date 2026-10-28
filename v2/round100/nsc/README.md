@@ -36,3 +36,13 @@
 - 各配置追迹8192条分析光线，完整经过当前处方；理想吸收孔壁记录首次截光，关闭反射分裂和散射，以单独判断直接通光。
 - 探测面在目标深度之后1 µm，代表该深度的到达能量；当前加工面/孔底可吸收这些能量，不把它解释为光穿透实体材料。
 - 这一步不判断材料去除率、实际孔形、热效应、排屑或等离子体遮挡。
+
+## 布局中外围光线的检查
+
+2026-10-28读取配置1已有ZRD，没有重新追迹：8192条光线全部经过6片透镜和5面反射镜，8190条到达40号孔底探测器，2条在38号孔口参考面之后撞到39号孔壁，没有发现上游逃逸路径。记录见[布局射线路径核对](layout_audit.json)。
+
+光源是四维高斯相空间采样，布局不是只绘制1/e²边界。前200条中9号光线距源中心2.2398 mm，明显高于该子样本0.5884 mm的中位数，但仍通过完整光路，孔底落点约为工件局部X=26.63 µm、Y=0.95 µm。外围线在布局上与密集主束分离，并不等于它漏过光学元件。没有截图中的光线编号时，不能断言截图中的孤立线就是9号。
+
+查看单个位姿时，NSC 3D Layout的Configuration选Current。与本轮直达通光结果比较时，Split Rays、Scatter Rays、Use Polarization采用与分析一致的关闭设置；这仅用于直接通光检查，不代替杂散光分析。若从布局直接追迹，Ray Database选None。工程附带的`V2_hole_check.ZRD`只对应配置1，不能叠加到配置2～6的几何上；其他配置须重新生成相应ZRD。先检查未过滤光线，再按需要用到达40号或撞到39号的光线筛选显示，避免只看孔底通过光线而掩盖截光。
+
+参考：[Ansys NSC 3D Layout说明](https://ansyshelp.ansys.com/public/Views/Secured/Zemax/v25101/en/OpticStudio_User_Guide/OpticStudio_Help/topics/NSC_3D_Layout.html)、[Source File说明](https://ansyshelp.ansys.com/public/Views/Secured/Zemax/v25101/en/OpticStudio_User_Guide/OpticStudio_Help/topics/Source_File.html)。

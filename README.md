@@ -1,17 +1,17 @@
-# 五轴光路交互仿真与振镜分辨率预算
+# 五轴光路网页
 
-## 网页版本
+- [当前V2](https://vforvan.github.io/galvo-validator/v2/)：Ø100 µm、深1000 µm圆孔的五轴光路、旋入路径、固定工件及孔道通光检查。目标控件工作域Ø2.5 mm，音圈机械行程±3.5 mm。
+- [冻结V1](https://vforvan.github.io/galvo-validator/galvo-validator.html)：原整机光路与同心圆扫描演示。
 
-- [V1.0 在线仿真](https://vforvan.github.io/galvo-validator/galvo-validator.html)。
-- [V2 圆孔可行性](https://vforvan.github.io/galvo-validator/v2/)：首要目标Ø100 µm、深1000 µm；整机三维、五轴控制与同步孔内通光检查。
-工作焦距允许调整，30×30 µm、深300 µm方孔为最终目标。当前光学采样结果不代表成孔工艺验收。
+## 当前V2资源
 
-## 同心圆整组扫描
+- [主顺序工程](v2/round100/V2_main.zos)与[配置说明](v2/round100/README.md)。
+- [非序列孔道工程](v2/round100/nsc/V2_hole_check.zos)与[6个工况说明](v2/round100/nsc/README.md)。
+- [主工程配置Excel](v2/round100/V2配置点位与像面.xlsx)。
+- [非序列位姿Excel](v2/round100/nsc/V2非序列6配置位姿.xlsx)。
+- [precSYS基础参数对照](v2/round100/comparewithprecsys.xlsx)。
+- [发布版本与验证范围](v2/source.json)。
 
-- 直径 D0.1～D1 mm，间隔 0.1 mm；圆周每隔 1°取点并闭合。
-- AOI 从 −5°到 +5°，每隔 1°；每个 AOI 连续演示 10 圈，共 110 圈。
-- 页面支持整组播放、进度定位和逐点五轴 CSV 导出，保留原单圈与孔加工示例。
-- [五轴耦合运动学与同心圆方程](KINEMATICS.md)：四振镜机械角＋音圈位移映射到 x、y、z、α、β。
-- [Z=0 整组数值验证报告](concentric-verification.json)：39,710 个圆周点逐点复核。
+旧版V2方孔页面、V2a演示及过期发布目录已移除。完整建模、构建和数值检查代码位于[工程仓库](https://github.com/Vforvan/5AIX-GALVO/tree/optics-v2-structure)。网页按当前工程的`simulation/v2/export_site.py`生成。
 
-网页提供当前光学模型的位置逆解。换圈连接运动、时间律及实际电机动态约束尚未规划。
+网页和已有NSC代表工况用于静态光学评估，不代表全工作域、连续动态或材料加工验收。

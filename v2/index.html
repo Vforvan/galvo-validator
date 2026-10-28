@@ -6,7 +6,7 @@
 <nav><a data-v1>V1 光路</a><strong>V2 圆孔可行性</strong><a data-zemax>主 Zemax 工程</a><a data-configurations>配置参数表</a></nav>
 <h1>Ø100 µm × 深1000 µm · 五轴光路与孔内通光</h1>
 <p class="muted">当前首要目标：100 µm 圆孔、深宽比10:1。515 nm · 入口光束直径2 mm · 假设 M²=1.2。30 µm × 深300 µm 方孔为最终目标。</p>
-<div class="layout"><aside class="card"><h2>五轴控制</h2><div class="row"><button data-mode="target" aria-pressed="true">目标五轴</button><button data-mode="motor" aria-pressed="false">电机直调</button></div><div id="controls"></div>
+<div class="layout"><aside class="card"><h2>五轴控制</h2><div class="row"><button data-mode="target" aria-pressed="true">目标五轴</button><button data-mode="motor" aria-pressed="false">电机直调</button></div><p class="muted">播放时实时显示当前五轴数值；切换视图不暂停，手动修改数值会暂停并清除当前路径。</p><div id="controls"></div>
 <div class="row" style="margin-top:16px"><button data-preset="entrance">入口中心</button><button data-preset="bottom">孔底中心</button><button data-preset="ring">孔底环扫姿态</button></div><p class="muted">X/Y 相对孔中心，Z=0 为孔深中面。入口 Z=+0.5 mm，孔底 Z=−0.5 mm。</p></aside>
 <section><div class="row"><label for="view">观察位置</label><select id="view"><option value="scene">三维 · 整机光路</option><option value="top">俯视 · 下层光学</option><option value="mirrors">四振镜近景</option><option value="module">音圈与前置镜组</option><option value="output">物镜与喷嘴</option><option value="workpiece">工件与出光近景</option><option value="focus">局部放大 · 固定半剖</option></select><button id="fit">适应视野</button></div>
 <div class="row flags"><label><input type="checkbox" data-flag="footprints" checked> 光束轮廓</label><label><input type="checkbox" data-flag="motors" checked> 电机</label><label><input type="checkbox" data-flag="enclosure" checked> 箱体包络</label><label><input type="checkbox" data-flag="workpiece" checked> 工件</label></div>
@@ -5112,7 +5112,7 @@ void main() {
       $('#sweep-status').textContent=checked+'个姿态抽查完成，'+failed+'个未通过；'+(Number.isFinite(minimum)?'最小孔道余量 '+minimum.toFixed(2)+' µm（深度 '+worst.depthUm+' µm、方位 '+worst.phaseDeg+'°）；':'')+'最大音圈位移 '+maximumVoice.toFixed(3)+' mm。结果仅适用于当前半径、径向AOI与轮廓倍率，未验证连续全域或材料加工。';
     }finally{if(token===sweepToken){sweeping=false;$('#sweep').textContent='检查全深度与整圈';}}
   }
-  for(const button of root.querySelectorAll('[data-mode]'))button.addEventListener('click',()=>{pause();mode=button.dataset.mode;controls();});
+  for(const button of root.querySelectorAll('[data-mode]'))button.addEventListener('click',()=>{mode=button.dataset.mode;controls();});
   for(const button of root.querySelectorAll('[data-preset]'))button.addEventListener('click',()=>{
     pause();const preset=button.dataset.preset;$('#radius').value=preset==='ring'?30:0;$('#depth').value=preset==='entrance'?0:1000;$('#aoi').value=preset==='ring'?1.5:0;$('#phase').value=0;applyRing();
   });

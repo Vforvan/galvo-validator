@@ -3,8 +3,8 @@
   "model": "v2-accepted-retuned-four-element",
   "designSha256": "0a60075d4404c151717c150bd97d1eb09b04e4cb31e178367141f09faafc5228",
   "nativeFileSha256": "a3923a3a486587a4d439965d841696db92b0ae158ede5294fabc94af1c6516da",
-  "nativeSimulationRerun": false,
-  "newOpticalTestsRun": false,
+  "nativeSimulationRerun": true,
+  "newOpticalTestsRun": true,
   "configurations": 160,
   "mergedTrial": {
     "normal": [
@@ -38,5 +38,15 @@
     "sideUm": 30,
     "depthUm": 300
   },
-  "status": "user-accepted-prescription-synchronized-without-new-tests"
+  "status": "accepted-prescription-with-six-case-nsc-hole-delivery-check",
+  "nscVerification": {
+    "project": "nsc/V2_hole_check.zos",
+    "configurations": 6,
+    "source": "Current real optics; input Gaussian phase space M2=1.2",
+    "analysisRaysPerCase": 8192,
+    "results": "nsc/results.json",
+    "sourceProjectUnchanged": true,
+    "scope": "Planned radial AOI1.5-2.5deg, radius30um; six sampled delivery cases, no ablation or full-path acceptance."
+  },
+  "testScope": "Six NSC ray-delivery cases only; no new full-path sequential, POP or PSF sweep."
 }

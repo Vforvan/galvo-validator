@@ -1,0 +1,263 @@
+{
+  "status": "computed",
+  "sourceProjectSha256": "a3923a3a486587a4d439965d841696db92b0ae158ede5294fabc94af1c6516da",
+  "sourceUnchanged": true,
+  "cases": [
+    {
+      "target": [
+        0.03,
+        0.0,
+        -0.5,
+        1.5000000000000002,
+        0.0
+      ],
+      "focus": [
+        336.10999999999996,
+        192.03,
+        -80.5
+      ],
+      "motors": [
+        -0.010455298321537744,
+        0.7584062670160344,
+        0.0004124057107653153,
+        -0.767831969891216,
+        1.3852791502949713
+      ],
+      "maxNormalizedResidual": 1.8035573035035668e-13,
+      "jacobianSingularValues": [
+        3.1646091986768585,
+        2.180711410939464,
+        0.3546599631516867,
+        0.2495557551001421,
+        0.18116974397222135
+      ],
+      "configuration": 1,
+      "aoiDeg": 1.5,
+      "phaseDeg": 0,
+      "depthMm": 1.0,
+      "entryPowerW": 1.0000000000000004,
+      "bottomPowerW": 0.999755859375,
+      "directDeliveryFraction": 0.9997558593749996,
+      "blockedFraction": 0.0002441406250004441,
+      "bottomDetectorCentroidLocalMm": [
+        0.03002769711069977,
+        -2.1098263638125795e-07
+      ]
+    },
+    {
+      "target": [
+        0.03,
+        0.0,
+        -0.5,
+        2.0,
+        0.0
+      ],
+      "focus": [
+        336.10999999999996,
+        192.03,
+        -80.5
+      ],
+      "motors": [
+        -0.018262210946738293,
+        1.0045690092918431,
+        0.0006346238709249147,
+        -1.0119892407025828,
+        1.386270152577602
+      ],
+      "maxNormalizedResidual": 4.2021941482062175e-13,
+      "jacobianSingularValues": [
+        3.1648719424546767,
+        2.1813204098331616,
+        0.3545250364930078,
+        0.24963038498821694,
+        0.18122083225655553
+      ],
+      "configuration": 2,
+      "aoiDeg": 2.0,
+      "phaseDeg": 0,
+      "depthMm": 1.0,
+      "entryPowerW": 1.0000000000000004,
+      "bottomPowerW": 0.9995117187500004,
+      "directDeliveryFraction": 0.99951171875,
+      "blockedFraction": 0.00048828125,
+      "bottomDetectorCentroidLocalMm": [
+        0.03004217803875566,
+        1.0719597081832971e-06
+      ]
+    },
+    {
+      "target": [
+        0.03,
+        0.0,
+        -0.5,
+        2.5,
+        0.0
+      ],
+      "focus": [
+        336.10999999999996,
+        192.03,
+        -80.5
+      ],
+      "motors": [
+        -0.028227094580988724,
+        1.2503356758689723,
+        0.0009062781651730657,
+        -1.2559760008933742,
+        1.38737363732531
+      ],
+      "maxNormalizedResidual": 2.8843594179761567e-13,
+      "jacobianSingularValues": [
+        3.1652139211215022,
+        2.18210695135616,
+        0.3543519838404799,
+        0.2497255767218459,
+        0.1812864594194182
+      ],
+      "configuration": 3,
+      "aoiDeg": 2.5,
+      "phaseDeg": 0,
+      "depthMm": 1.0,
+      "entryPowerW": 1.0,
+      "bottomPowerW": 0.9982910156250004,
+      "directDeliveryFraction": 0.9982910156250004,
+      "blockedFraction": 0.001708984374999556,
+      "bottomDetectorCentroidLocalMm": [
+        0.030061875957057695,
+        -1.8336332440036418e-06
+      ]
+    },
+    {
+      "target": [
+        1.8369701987210296e-18,
+        0.03,
+        -0.5,
+        9.186949968260946e-17,
+        1.5000000000000002
+      ],
+      "focus": [
+        336.08,
+        192.06,
+        -80.5
+      ],
+      "motors": [
+        0.539833064342275,
+        2.4962252223043508e-14,
+        -0.5463023285492373,
+        -4.2373097614515884e-14,
+        1.3852791216503426
+      ],
+      "maxNormalizedResidual": 3.6348701826227625e-13,
+      "jacobianSingularValues": [
+        3.165291330857436,
+        2.158754415946064,
+        0.35467924901597,
+        0.24942514785419845,
+        0.17438614694032623
+      ],
+      "configuration": 4,
+      "aoiDeg": 1.5,
+      "phaseDeg": 90,
+      "depthMm": 1.0,
+      "entryPowerW": 1.0,
+      "bottomPowerW": 0.9996337890624999,
+      "directDeliveryFraction": 0.9996337890624999,
+      "blockedFraction": 0.000366210937500111,
+      "bottomDetectorCentroidLocalMm": [
+        -9.206077314776022e-07,
+        -0.030028005581683392
+      ]
+    },
+    {
+      "target": [
+        1.8369701987210296e-18,
+        0.03,
+        -0.5,
+        1.5317807204447847e-16,
+        2.5
+      ],
+      "focus": [
+        336.08,
+        192.06,
+        -80.5
+      ],
+      "motors": [
+        0.8874104428638295,
+        -1.799142185052553e-14,
+        -0.890527500991399,
+        2.991730401764621e-14,
+        1.387373606722402
+      ],
+      "maxNormalizedResidual": 3.418376692820857e-13,
+      "jacobianSingularValues": [
+        3.1671381332539914,
+        2.1455677776744695,
+        0.3543952088990326,
+        0.24937695997737633,
+        0.17003374871469035
+      ],
+      "configuration": 5,
+      "aoiDeg": 2.5,
+      "phaseDeg": 90,
+      "depthMm": 1.0,
+      "entryPowerW": 1.0000000000000002,
+      "bottomPowerW": 0.9979248046875004,
+      "directDeliveryFraction": 0.9979248046875002,
+      "blockedFraction": 0.002075195312499778,
+      "bottomDetectorCentroidLocalMm": [
+        1.952400556790551e-06,
+        -0.03006284099328589
+      ]
+    },
+    {
+      "target": [
+        0.021213203435596427,
+        0.021213203435596427,
+        0.0,
+        1.4145007934175509,
+        1.4145007934175509
+      ],
+      "focus": [
+        336.1012132034356,
+        192.0512132034356,
+        -80.0
+      ],
+      "motors": [
+        0.5023799785555949,
+        0.751649709308437,
+        -0.5201823173195604,
+        -0.7500394448204498,
+        0.017990092813615095
+      ],
+      "maxNormalizedResidual": 1.43655681243539e-13,
+      "jacobianSingularValues": [
+        3.165442581911807,
+        2.1605228192942216,
+        0.376090042871909,
+        0.2495149793059806,
+        0.17480241285149167
+      ],
+      "configuration": 6,
+      "aoiDeg": 2.0,
+      "phaseDeg": 45,
+      "depthMm": 0.5,
+      "entryPowerW": 1.0,
+      "bottomPowerW": 1.0,
+      "directDeliveryFraction": 1.0,
+      "blockedFraction": 0.0,
+      "bottomDetectorCentroidLocalMm": [
+        0.021240527778221687,
+        -0.021240771422398486
+      ]
+    }
+  ],
+  "objects": {
+    "source": 37,
+    "entry": 38,
+    "wall": 39,
+    "bottom": 40
+  },
+  "analysisRays": 8192,
+  "sourceModel": "4D Gaussian phase-space rays at the head entrance; real six lenses and five mirrors traced in native NSC; M2=1.2 geometrical surrogate, not coherent diffraction.",
+  "wallModel": "Absorbing ideal circular bore; no reflection, scattering or ablation. Transmission normalized to transparent entry detector.",
+  "project": "V2_hole_check.zos"
+}

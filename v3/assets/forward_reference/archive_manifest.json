@@ -1,0 +1,150 @@
+{
+  "description": "G1错位改版前的已接受纵向布局，保留原始文件与来源哈希。",
+  "files": [
+    {
+      "source": "simulation/v3/design.json",
+      "archive": "design.json",
+      "sha256": "c3730be48a2c93db0c405ee5d8742a84d65f3a44c3b3b99b362f817eb784242e"
+    },
+    {
+      "source": "simulation/v3/prescription.json",
+      "archive": "prescription.json",
+      "sha256": "db7a855ddda6ff5c1cbbeebb85f37103531ced79e5bea7b32f62c2441bb58870"
+    },
+    {
+      "source": "simulation/v3/cases.json",
+      "archive": "cases.json",
+      "sha256": "b4de68a0c87195198f56f190c141c73431057f94e2b4fa179888544cbc495717"
+    },
+    {
+      "source": "simulation/v3/configurations.csv",
+      "archive": "configurations.csv",
+      "sha256": "155c6cc2ebda46614109e31d6d7111a332a68c7a4e11db691833f3e56a9ad322"
+    },
+    {
+      "source": "simulation/v3/release.json",
+      "archive": "release.json",
+      "sha256": "77181d4b023f6b96b2613a44e65a7c5616adcaa3da536635c716741861c4ee78"
+    },
+    {
+      "source": "simulation/v3/reference_rays.json",
+      "archive": "reference_rays.json",
+      "sha256": "bec0ace6a750e1e2dfb6de4ffd49946e2da7f8e9115fc559959ff0b5e314654f"
+    },
+    {
+      "source": "simulation/v3/native_POP_reference.json",
+      "archive": "native_POP_reference.json",
+      "sha256": "9c77433cc8f3eb29d8e799a2c4a578e83c917df0944ca8416db1eb24b440dcd4"
+    },
+    {
+      "source": "simulation/v3/forward_publish_audit.json",
+      "archive": "forward_publish_audit.json",
+      "sha256": "12bf0bea7b1e3a618e6134d40add5304ed6af9853ca0959fc0e620c56fb95fff"
+    },
+    {
+      "source": "simulation/v3/README.md",
+      "archive": "README.md",
+      "sha256": "6d12668526165db072032fa17ed8364ddd9f36e82ce43f6f7be5ef4711944385"
+    },
+    {
+      "source": "simulation/v3/AGENTS.md",
+      "archive": "AGENTS.md",
+      "sha256": "b37e66e07c6eaa37ec8a7da70fd115fa2b27f77234d212a43d704ae1a2bc5e06"
+    },
+    {
+      "source": "simulation/v3/V3_assembly_forward.zos",
+      "archive": "V3_assembly_forward.zos",
+      "sha256": "0f2bd3bdfc4aec95387a28f9b6ecec4f7029f7dcaa41ef6a71f7b8d0456a6392"
+    },
+    {
+      "source": "simulation/v3/V3_pop.CFG",
+      "archive": "V3_pop.CFG",
+      "sha256": "d9a0cc934f9c2100f4e12dffe5ee74a4b292aec6ff40e850e2429f2a1c3f91aa"
+    },
+    {
+      "source": "simulation/v3/V3_spot.CFG",
+      "archive": "V3_spot.CFG",
+      "sha256": "6a8e400f6ce7ba782878835c072cda43c4be8349e9ab2bc8b11f38546ca39bf9"
+    },
+    {
+      "source": "simulation/v3/V3_psf.CFG",
+      "archive": "V3_psf.CFG",
+      "sha256": "6e535e581bd3910dffec7a3c0f9758c9e2569c6b7d2b890023e1412a0ce452bd"
+    },
+    {
+      "source": "simulation/v3/web_verification.json",
+      "archive": "web_verification.json",
+      "sha256": "8ec2fe1ba838e8ffef0dc5548243a83e1f5e393740dc2af956f0e8eb2e7c018f"
+    },
+    {
+      "source": "simulation/v3/browser_verification.json",
+      "archive": "browser_verification.json",
+      "sha256": "e6072ab724337dfe4b85f4eec2b5f0a2314968e0a5a8d0704b340ded325c3ef6"
+    },
+    {
+      "source": "simulation/v3/motor_mount_verification.json",
+      "archive": "motor_mount_verification.json",
+      "sha256": "e6b2d886e8e7f00a9bf3e92a441943f9ed8f19ef74c2c75b351fbc6620574765"
+    },
+    {
+      "source": "simulation/v3/web_motor_mount_verification.json",
+      "archive": "web_motor_mount_verification.json",
+      "sha256": "4aa4f13f7bdc631316e3d68f5d1565c89ad173df4709f071ff68cb9497c5ed31"
+    },
+    {
+      "source": "simulation/v3/index.html",
+      "archive": "index.html",
+      "sha256": "11fa2fdefe1598413b602fa9eef1bb881f8aaebd0a766eef54e52134864ead81"
+    },
+    {
+      "source": "analysis/optics_demo/round_ui.js",
+      "archive": "sources/analysis/optics_demo/round_ui.js",
+      "sha256": "781d652ff151b5661a73ec010bf421ddf50a64efff7c5d212b2659ab9472bb37"
+    },
+    {
+      "source": "analysis/optics_demo/build_v3.cjs",
+      "archive": "sources/analysis/optics_demo/build_v3.cjs",
+      "sha256": "1162f7480a693674791dbcf0b40e4024b36b0f08b56a5bfc76e1bbb9ad0364ce"
+    },
+    {
+      "source": "analysis/optics_demo/test_v3.cjs",
+      "archive": "sources/analysis/optics_demo/test_v3.cjs",
+      "sha256": "553923999670380631ea9dbc57afe8ad1b8561e54416fcad342474032649905e"
+    },
+    {
+      "source": "analysis/optics_demo/test_v3_browser.cjs",
+      "archive": "sources/analysis/optics_demo/test_v3_browser.cjs",
+      "sha256": "ccb26abd5b977f89650a53520e19c62ec038bcb199182a22f8f802f406b0087e"
+    },
+    {
+      "source": "analysis/optics_demo/v3_model_data.js",
+      "archive": "sources/analysis/optics_demo/v3_model_data.js",
+      "sha256": "8f03e1dab81954e23953b2b383e1a6d8edbaa85519f344215b7d9e69bce30ae7"
+    },
+    {
+      "source": "tests/data/v3/criteria.json",
+      "archive": "sources/tests/data/v3/criteria.json",
+      "sha256": "b4c1c08ab9ad7aa0052f81ac184b16dd5084b3f35452833832324685960ff2d6"
+    },
+    {
+      "source": "tests/checks/v3_native.py",
+      "archive": "sources/tests/checks/v3_native.py",
+      "sha256": "916644b1978890e499ea66e3339228e519690d3d0b11d463f9a561a16702c8fe"
+    },
+    {
+      "source": "tests/checks/v3_artifacts.py",
+      "archive": "sources/tests/checks/v3_artifacts.py",
+      "sha256": "9e4ce18b165dc65495f16d1b858d0faabc0720c27faf38e324dd369e91bea3f5"
+    },
+    {
+      "source": "tests/checks/v3_geometry.py",
+      "archive": "sources/tests/checks/v3_geometry.py",
+      "sha256": "f34d206f682c1433411df8076dd5ba2c7e481f766f009bfaa23ecd636fe5e09b"
+    },
+    {
+      "source": "tests/suites.json",
+      "archive": "sources/tests/suites.json",
+      "sha256": "33d378dd2c7094723e2267cf5beb281c5736e2fb128fda43abb3e80043c783c8"
+    }
+  ]
+}

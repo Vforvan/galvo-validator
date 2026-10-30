@@ -1,0 +1,1034 @@
+{
+  "status": "passed",
+  "sourceSha256": "aa1f1d790fa517bbffb2ed34bdaac96e5b51b2fe16f6d50323a72af577fc2925",
+  "comparisonDesignSha256": "c3730be48a2c93db0c405ee5d8742a84d65f3a44c3b3b99b362f817eb784242e",
+  "native": [
+    {
+      "id": "cfg-1",
+      "configuration": 1,
+      "geometricRmsUm": 0.0036138082943660862,
+      "nativeIndependentMaxDifferenceMm": 7.476584436270687e-13,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 1.4894515081301874e-14,
+      "fixedVertexErrorMm": 4.413129679995641e-13,
+      "frameRotationError": 9.62378307390625e-15,
+      "minimumForwardSegmentMm": 3.0,
+      "clearanceMm": 3.585034906272172
+    },
+    {
+      "id": "cfg-143",
+      "configuration": 2,
+      "geometricRmsUm": 0.03472011216857909,
+      "nativeIndependentMaxDifferenceMm": 1.0294781007061621e-12,
+      "cppIndependentMaxDifferenceMm": 1.797546735911271e-13,
+      "directionError": 6.375948702673212e-15,
+      "fixedVertexErrorMm": 4.2795455740035177e-13,
+      "frameRotationError": 5.8652988874074065e-15,
+      "minimumForwardSegmentMm": 2.999999999999975,
+      "clearanceMm": 3.585031836360925
+    },
+    {
+      "id": "cfg-145",
+      "configuration": 3,
+      "geometricRmsUm": 0.03472011216873765,
+      "nativeIndependentMaxDifferenceMm": 1.0294781007061621e-12,
+      "cppIndependentMaxDifferenceMm": 1.2710574864626038e-13,
+      "directionError": 7.46505692139061e-15,
+      "fixedVertexErrorMm": 4.2942668832768723e-13,
+      "frameRotationError": 5.7934071431952055e-15,
+      "minimumForwardSegmentMm": 2.999999999999975,
+      "clearanceMm": 3.585031836360925
+    },
+    {
+      "id": "cfg-159",
+      "configuration": 4,
+      "geometricRmsUm": 0.2568058189826276,
+      "nativeIndependentMaxDifferenceMm": 2.8421709430404007e-13,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 9.2205760035373e-15,
+      "fixedVertexErrorMm": 3.8664233728732117e-13,
+      "frameRotationError": 8.881784197001252e-16,
+      "minimumForwardSegmentMm": 3.000000000000025,
+      "clearanceMm": 3.585031902904791
+    },
+    {
+      "id": "cfg-160",
+      "configuration": 5,
+      "geometricRmsUm": 0.1512545402402886,
+      "nativeIndependentMaxDifferenceMm": 9.396373601939866e-13,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 1.8986382975475183e-14,
+      "fixedVertexErrorMm": 4.2641815000471454e-13,
+      "frameRotationError": 1.0751408024913127e-14,
+      "minimumForwardSegmentMm": 3.0000000000000178,
+      "clearanceMm": 3.5850382539748007
+    },
+    {
+      "id": "cfg-2",
+      "configuration": 6,
+      "geometricRmsUm": 0.012465451457192004,
+      "nativeIndependentMaxDifferenceMm": 1.368970808788651e-12,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 3.095269776636971e-15,
+      "fixedVertexErrorMm": 4.0194366942304643e-13,
+      "frameRotationError": 1.0449080326193576e-14,
+      "minimumForwardSegmentMm": 2.9999999999999964,
+      "clearanceMm": 3.5850333381118755
+    },
+    {
+      "id": "cfg-102",
+      "configuration": 7,
+      "geometricRmsUm": 0.005789859577289284,
+      "nativeIndependentMaxDifferenceMm": 9.396373601939866e-13,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 3.473886738020192e-15,
+      "fixedVertexErrorMm": 4.8792936553571e-13,
+      "frameRotationError": 6.060638241914243e-15,
+      "minimumForwardSegmentMm": 3.0000000000000213,
+      "clearanceMm": 3.585036551761565
+    },
+    {
+      "id": "v1-15",
+      "configuration": 8,
+      "geometricRmsUm": 0.13734616065205585,
+      "nativeIndependentMaxDifferenceMm": 1.8198773652309366e-13,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 4.5976774481631885e-15,
+      "fixedVertexErrorMm": 4.3071800148430736e-13,
+      "frameRotationError": 2.673771110915334e-15,
+      "minimumForwardSegmentMm": 2.9999999999999822,
+      "clearanceMm": 3.585034916643661
+    },
+    {
+      "id": "v1-16",
+      "configuration": 9,
+      "geometricRmsUm": 1.0837415506381147,
+      "nativeIndependentMaxDifferenceMm": 7.583857986973234e-13,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 9.62626489108249e-15,
+      "fixedVertexErrorMm": 4.0250850583642395e-13,
+      "frameRotationError": 9.912743641726658e-15,
+      "minimumForwardSegmentMm": 3.000000000000014,
+      "clearanceMm": 3.5850354238697824
+    },
+    {
+      "id": "v1-17",
+      "configuration": 10,
+      "geometricRmsUm": 0.7101756435912764,
+      "nativeIndependentMaxDifferenceMm": 3.5612299842971617e-13,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 3.079270990079131e-15,
+      "fixedVertexErrorMm": 4.87618850296495e-13,
+      "frameRotationError": 1.797052957135242e-15,
+      "minimumForwardSegmentMm": 3.000000000000007,
+      "clearanceMm": 3.5850345055377817
+    },
+    {
+      "id": "v1-7",
+      "configuration": 11,
+      "geometricRmsUm": 1.0837510568049384,
+      "nativeIndependentMaxDifferenceMm": 1.0531384369669982e-12,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 3.561089854308117e-15,
+      "fixedVertexErrorMm": 4.548340787900342e-13,
+      "frameRotationError": 6.8168055347189735e-15,
+      "minimumForwardSegmentMm": 3.0000000000000284,
+      "clearanceMm": 3.58503542385366
+    },
+    {
+      "id": "v1-8",
+      "configuration": 12,
+      "geometricRmsUm": 0.710173427248864,
+      "nativeIndependentMaxDifferenceMm": 4.856703836433968e-13,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 1.518553995285046e-14,
+      "fixedVertexErrorMm": 4.413129679995641e-13,
+      "frameRotationError": 5.833162908189533e-15,
+      "minimumForwardSegmentMm": 2.9999999999999964,
+      "clearanceMm": 3.585034505547374
+    },
+    {
+      "id": "edge-z-1-a+7.5",
+      "configuration": 13,
+      "geometricRmsUm": 1.0168324702240885,
+      "nativeIndependentMaxDifferenceMm": 1.664066208866694e-12,
+      "cppIndependentMaxDifferenceMm": 8.038873388460929e-14,
+      "directionError": 6.979882320459064e-15,
+      "fixedVertexErrorMm": 4.715650308224323e-13,
+      "frameRotationError": 1.2362421867697566e-14,
+      "minimumForwardSegmentMm": 2.9999999999999822,
+      "clearanceMm": 3.5850387803686816
+    },
+    {
+      "id": "edge-z-1-a-7.5",
+      "configuration": 14,
+      "geometricRmsUm": 0.7763784837829603,
+      "nativeIndependentMaxDifferenceMm": 1.4380373887290168e-12,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 2.0489817323381892e-14,
+      "fixedVertexErrorMm": 4.3383856571136184e-13,
+      "frameRotationError": 1.4763879194638542e-14,
+      "minimumForwardSegmentMm": 2.9999999999999787,
+      "clearanceMm": 3.5850378045831146
+    },
+    {
+      "id": "edge-z+1-a+7.5",
+      "configuration": 15,
+      "geometricRmsUm": 1.1464610097788084,
+      "nativeIndependentMaxDifferenceMm": 6.635114874557503e-13,
+      "cppIndependentMaxDifferenceMm": 8.038873388460929e-14,
+      "directionError": 6.177963476558951e-15,
+      "fixedVertexErrorMm": 4.909208871419721e-13,
+      "frameRotationError": 1.5622222714862009e-15,
+      "minimumForwardSegmentMm": 3.000000000000025,
+      "clearanceMm": 3.5850323565927535
+    },
+    {
+      "id": "edge-z+1-a-7.5",
+      "configuration": 16,
+      "geometricRmsUm": 0.6393476111569777,
+      "nativeIndependentMaxDifferenceMm": 1.5673226333731506e-12,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 1.215767789440212e-14,
+      "fixedVertexErrorMm": 4.892210576011974e-13,
+      "frameRotationError": 1.043904873469304e-14,
+      "minimumForwardSegmentMm": 2.9999999999999893,
+      "clearanceMm": 3.5850314939009325
+    },
+    {
+      "id": "diagonal-z-1",
+      "configuration": 17,
+      "geometricRmsUm": 1.0964678816614908,
+      "nativeIndependentMaxDifferenceMm": 1.2274098754510978e-12,
+      "cppIndependentMaxDifferenceMm": 8.038873388460929e-14,
+      "directionError": 8.835520102975623e-15,
+      "fixedVertexErrorMm": 4.2795455740035177e-13,
+      "frameRotationError": 7.599961144910608e-15,
+      "minimumForwardSegmentMm": 2.999999999999993,
+      "clearanceMm": 3.5850386198462356
+    },
+    {
+      "id": "diagonal-z+1",
+      "configuration": 18,
+      "geometricRmsUm": 1.1564135768915311,
+      "nativeIndependentMaxDifferenceMm": 1.2710574864626038e-13,
+      "cppIndependentMaxDifferenceMm": 8.038873388460929e-14,
+      "directionError": 1.0714699402721754e-14,
+      "fixedVertexErrorMm": 4.3238510507851555e-13,
+      "frameRotationError": 2.5559253454202264e-15,
+      "minimumForwardSegmentMm": 2.9999999999999822,
+      "clearanceMm": 3.5850322175940255
+    },
+    {
+      "id": "domain-75",
+      "configuration": 19,
+      "geometricRmsUm": 1.1428654693052094,
+      "nativeIndependentMaxDifferenceMm": 1.7053025658242404e-13,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 1.0533615767723176e-14,
+      "fixedVertexErrorMm": 5.735872463117317e-13,
+      "frameRotationError": 4.476828941703193e-15,
+      "minimumForwardSegmentMm": 2.999999999999975,
+      "clearanceMm": 3.585038256022583
+    },
+    {
+      "id": "domain-16",
+      "configuration": 20,
+      "geometricRmsUm": 0.9570617104781892,
+      "nativeIndependentMaxDifferenceMm": 7.389644451905042e-13,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 1.4638796844415832e-14,
+      "fixedVertexErrorMm": 4.0693694993695867e-13,
+      "frameRotationError": 8.010934229844464e-15,
+      "minimumForwardSegmentMm": 2.999999999999993,
+      "clearanceMm": 3.5850379286335645
+    },
+    {
+      "id": "domain-54",
+      "configuration": 21,
+      "geometricRmsUm": 0.9570617104760855,
+      "nativeIndependentMaxDifferenceMm": 6.355287432313019e-13,
+      "cppIndependentMaxDifferenceMm": 6.355287432313019e-14,
+      "directionError": 1.4751357324583827e-14,
+      "fixedVertexErrorMm": 3.7382922181353437e-13,
+      "frameRotationError": 7.588599744428075e-15,
+      "minimumForwardSegmentMm": 2.999999999999993,
+      "clearanceMm": 3.5850379286335645
+    }
+  ],
+  "pop": [
+    {
+      "configuration": 1,
+      "target": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          16.38375260860357,
+          16.38375260860398
+        ],
+        "ellipseRatio": 1.000000000000025,
+        "D80um": 14.6125690183308,
+        "D95um": 20.053311439210137,
+        "powerW": 0.9999979333805131,
+        "peakWPerMm2": 9492.67441301811,
+        "centroidMm": [
+          4.386651094082782e-15,
+          4.619056064652295e-14
+        ],
+        "gridStepUm": [
+          0.37576480982985394,
+          0.3757648098227013
+        ],
+        "borderPowerFraction": 8.920587080528477e-16
+      },
+      "equivalentD4Um": 16.383752608603775,
+      "D4IncreaseFraction": -2.4799508979711504e-07,
+      "D95IncreaseFraction": 0.0005952284880226255,
+      "passed": true,
+      "seconds": 4.03099999999904
+    },
+    {
+      "configuration": 2,
+      "target": [
+        -9.184850993605149e-18,
+        -0.05,
+        1.0,
+        5.0,
+        0.0
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          17.16442692585912,
+          17.227645730365317
+        ],
+        "ellipseRatio": 1.003683129345318,
+        "D80um": 15.42268465278749,
+        "D95um": 21.07182992196989,
+        "powerW": 0.9999979334156431,
+        "peakWPerMm2": 8616.842732402458,
+        "centroidMm": [
+          5.778245297623276e-06,
+          -5.389395126324502e-06
+        ],
+        "gridStepUm": [
+          0.3644052614024836,
+          0.36574027432774303
+        ],
+        "borderPowerFraction": 2.568900986237864e-12
+      },
+      "equivalentD4Um": 17.196007276209336,
+      "D4IncreaseFraction": 1.2815885543915329e-06,
+      "D95IncreaseFraction": 0.0018531466418423292,
+      "passed": true,
+      "seconds": 3.436999999998079
+    },
+    {
+      "configuration": 3,
+      "target": [
+        -9.184850993605149e-18,
+        -0.05,
+        1.0,
+        -5.0,
+        6.138825188787401e-16
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          17.16442929302769,
+          17.22764371066301
+        ],
+        "ellipseRatio": 1.0036828732581862,
+        "D80um": 15.393651087291364,
+        "D95um": 21.074412177047844,
+        "powerW": 0.9999979334150055,
+        "peakWPerMm2": 8616.830901374104,
+        "centroidMm": [
+          -5.943938956417571e-06,
+          -5.389063178517005e-06
+        ],
+        "gridStepUm": [
+          0.3617540702239812,
+          0.3630792281847477
+        ],
+        "borderPowerFraction": 6.5660821068118855e-12
+      },
+      "equivalentD4Um": 17.196007453974556,
+      "D4IncreaseFraction": 1.287381309111879e-06,
+      "D95IncreaseFraction": -0.0005520701914709658,
+      "passed": true,
+      "seconds": 3.312999999998283
+    },
+    {
+      "configuration": 4,
+      "target": [
+        0.05,
+        0.0,
+        1.0,
+        7.5,
+        0.0
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          17.178143115373825,
+          17.374038003024967
+        ],
+        "ellipseRatio": 1.0114037289324842,
+        "D80um": 15.517087020190651,
+        "D95um": 21.16257296528276,
+        "powerW": 0.9999979372516187,
+        "peakWPerMm2": 8529.778031720336,
+        "centroidMm": [
+          -9.539745382716913e-05,
+          -5.768924402283741e-07
+        ],
+        "gridStepUm": [
+          0.36615653581406443,
+          0.3692997156750109
+        ],
+        "borderPowerFraction": 3.119350286427678e-12
+      },
+      "equivalentD4Um": 17.275812898613673,
+      "D4IncreaseFraction": 2.173513646841485e-06,
+      "D95IncreaseFraction": 0.0010540241959724472,
+      "passed": true,
+      "seconds": 3.3590000000003783
+    },
+    {
+      "configuration": 5,
+      "target": [
+        0.0,
+        -0.05,
+        -1.0,
+        0.0,
+        -7.5
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          15.71688028915426,
+          15.856904073167478
+        ],
+        "ellipseRatio": 1.0089091334563287,
+        "D80um": 14.16959161920034,
+        "D95um": 19.281292794359068,
+        "powerW": 0.999997933308442,
+        "peakWPerMm2": 10211.41790900289,
+        "centroidMm": [
+          -9.154997845824193e-15,
+          -9.804732635064603e-05
+        ],
+        "gridStepUm": [
+          0.39702781684966393,
+          0.39356685960148907
+        ],
+        "borderPowerFraction": 3.900114678577012e-14
+      },
+      "equivalentD4Um": 15.786736935623392,
+      "D4IncreaseFraction": -7.761768225922339e-07,
+      "D95IncreaseFraction": -5.61889356909262e-06,
+      "passed": true,
+      "seconds": 3.3280000000013388
+    },
+    {
+      "configuration": 6,
+      "target": [
+        0.03,
+        0.0,
+        0.5,
+        1.5,
+        0.0
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          16.757845263032614,
+          16.76488254581912
+        ],
+        "ellipseRatio": 1.0004199395970095,
+        "D80um": 14.959961780438137,
+        "D95um": 20.527096180245273,
+        "powerW": 0.999997933409752,
+        "peakWPerMm2": 9069.53245271697,
+        "centroidMm": [
+          -3.1544414195793987e-06,
+          6.33971620149796e-09
+        ],
+        "gridStepUm": [
+          0.3692447293150926,
+          0.36936721607671547
+        ],
+        "borderPowerFraction": 1.0064850960616186e-15
+      },
+      "equivalentD4Um": 16.7613635350992,
+      "D4IncreaseFraction": -1.6448708295424552e-07,
+      "D95IncreaseFraction": -0.00026888153066406684,
+      "passed": true,
+      "seconds": 3.2659999999996217
+    },
+    {
+      "configuration": 7,
+      "target": [
+        -0.02298133329356935,
+        0.01928362829059617,
+        -0.5,
+        -1.1491751348861754,
+        0.9643106935218847
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          16.015810529246387,
+          16.018036710255323
+        ],
+        "ellipseRatio": 1.0001389989601133,
+        "D80um": 14.348508659197995,
+        "D95um": 19.65069680175072,
+        "powerW": 0.9999979333571444,
+        "peakWPerMm2": 9931.901717690629,
+        "centroidMm": [
+          -1.5102396240056085e-06,
+          -1.4790994981740852e-06
+        ],
+        "gridStepUm": [
+          0.3856705378323045,
+          0.3856929510356394
+        ],
+        "borderPowerFraction": 1.03355685270578e-15
+      },
+      "equivalentD4Um": 16.01692358107394,
+      "D4IncreaseFraction": 4.332515679550397e-09,
+      "D95IncreaseFraction": 1.574018299077551e-05,
+      "passed": true,
+      "seconds": 2.9059999999990396
+    },
+    {
+      "configuration": 8,
+      "target": [
+        1.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          16.378608103735584,
+          16.387929332389906
+        ],
+        "ellipseRatio": 1.0005691099387253,
+        "D80um": 14.699041658487989,
+        "D95um": 20.042109033030865,
+        "powerW": 0.999997933577555,
+        "peakWPerMm2": 9486.764749821547,
+        "centroidMm": [
+          -0.00012724362858113,
+          -7.034984456640821e-08
+        ],
+        "gridStepUm": [
+          0.375601938125853,
+          0.37572663897223485
+        ],
+        "borderPowerFraction": 9.137467783445713e-16
+      },
+      "equivalentD4Um": 16.383268055150882,
+      "D4IncreaseFraction": -2.8747325186984085e-07,
+      "D95IncreaseFraction": -0.001089279546514943,
+      "passed": true,
+      "seconds": 2.8909999999996217
+    },
+    {
+      "configuration": 9,
+      "target": [
+        1.25,
+        0.0,
+        0.0,
+        7.5,
+        0.0
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          16.503840938259874,
+          16.903781126409392
+        ],
+        "ellipseRatio": 1.0242331581869746,
+        "D80um": 14.958749957232765,
+        "D95um": 20.409582833263507,
+        "powerW": 0.9999979338991454,
+        "peakWPerMm2": 9124.445578793253,
+        "centroidMm": [
+          -0.000145713111120025,
+          5.801837205542778e-07
+        ],
+        "gridStepUm": [
+          0.3807234286889127,
+          0.3837579164613276
+        ],
+        "borderPowerFraction": 8.2829632413517e-16
+      },
+      "equivalentD4Um": 16.70261401593834,
+      "D4IncreaseFraction": 1.3831723228996395e-06,
+      "D95IncreaseFraction": -0.001464648378932898,
+      "passed": true,
+      "seconds": 2.9070000000028813
+    },
+    {
+      "configuration": 10,
+      "target": [
+        1.25,
+        0.0,
+        0.0,
+        -7.5,
+        -0.0
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          16.731687963899628,
+          16.757728421590322
+        ],
+        "ellipseRatio": 1.001556355685504,
+        "D80um": 15.037591101338089,
+        "D95um": 20.492594764210164,
+        "powerW": 0.999997937006011,
+        "peakWPerMm2": 9098.99298098995,
+        "centroidMm": [
+          0.0001178341019251961,
+          -2.1535888826263823e-06
+        ],
+        "gridStepUm": [
+          0.3736026395590547,
+          0.3775946935850349
+        ],
+        "borderPowerFraction": 9.155225951446052e-16
+      },
+      "equivalentD4Um": 16.744703130656617,
+      "D4IncreaseFraction": 7.819873637515684e-10,
+      "D95IncreaseFraction": -0.0005665706713335883,
+      "passed": true,
+      "seconds": 2.8590000000003783
+    },
+    {
+      "configuration": 11,
+      "target": [
+        0.0,
+        1.25,
+        0.0,
+        0.0,
+        7.5
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          16.503740485794424,
+          16.903556068585978
+        ],
+        "ellipseRatio": 1.024225755557396,
+        "D80um": 14.951790272881578,
+        "D95um": 20.417578003460065,
+        "powerW": 0.9999979339166486,
+        "peakWPerMm2": 9124.675208775732,
+        "centroidMm": [
+          6.533068770482933e-16,
+          0.00014572373996742547
+        ],
+        "gridStepUm": [
+          0.38267940962078106,
+          0.37965365896119024
+        ],
+        "borderPowerFraction": 9.963706323180447e-15
+      },
+      "equivalentD4Um": 16.702451994932314,
+      "D4IncreaseFraction": 1.830431964222612e-06,
+      "D95IncreaseFraction": 0.0003213645644588592,
+      "passed": true,
+      "seconds": 2.75
+    },
+    {
+      "configuration": 12,
+      "target": [
+        0.0,
+        1.25,
+        0.0,
+        -0.0,
+        -7.5
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          16.7319737500384,
+          16.757640909833018
+        ],
+        "ellipseRatio": 1.0015340186506425,
+        "D80um": 15.023189664412808,
+        "D95um": 20.503808580630064,
+        "powerW": 0.9999979368645028,
+        "peakWPerMm2": 9098.795482128005,
+        "centroidMm": [
+          6.553834327935246e-15,
+          -0.00011793197910375416
+        ],
+        "gridStepUm": [
+          0.37908069341914163,
+          0.3750726427388959
+        ],
+        "borderPowerFraction": 1.0186680234554583e-15
+      },
+      "equivalentD4Um": 16.744802411969385,
+      "D4IncreaseFraction": 2.030174552913877e-06,
+      "D95IncreaseFraction": -0.001747077456495938,
+      "passed": true,
+      "seconds": 3.0309999999990396
+    },
+    {
+      "configuration": 13,
+      "target": [
+        1.25,
+        0.0,
+        -1.0,
+        7.499999999999999,
+        0.0
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          15.75102323081597,
+          16.13432364818941
+        ],
+        "ellipseRatio": 1.0243349534666126,
+        "D80um": 14.334921018065991,
+        "D95um": 19.488919998980872,
+        "powerW": 0.9999979334399569,
+        "peakWPerMm2": 10009.91964679765,
+        "centroidMm": [
+          -0.0001376899125399337,
+          2.1818125302616467e-07
+        ],
+        "gridStepUm": [
+          0.39824072440493125,
+          0.4013999597739692
+        ],
+        "borderPowerFraction": 8.740994679837621e-16
+      },
+      "equivalentD4Um": 15.941521464281097,
+      "D4IncreaseFraction": 5.53513530787697e-07,
+      "D95IncreaseFraction": -0.00018346044108863424,
+      "passed": true,
+      "seconds": 2.8280000000013388
+    },
+    {
+      "configuration": 14,
+      "target": [
+        1.25,
+        0.0,
+        -1.0,
+        -7.499999999999999,
+        9.237673039968207e-16
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          16.001505049976842,
+          16.06458273640721
+        ],
+        "ellipseRatio": 1.0039419845966588,
+        "D80um": 14.357376674576157,
+        "D95um": 19.662556917206043,
+        "powerW": 0.9999979331004331,
+        "peakWPerMm2": 9934.232910617917,
+        "centroidMm": [
+          0.00013913697205805245,
+          -2.5932023013843046e-06
+        ],
+        "gridStepUm": [
+          0.3910319722810189,
+          0.39534009104236323
+        ],
+        "borderPowerFraction": 1.495451785555154e-15
+      },
+      "equivalentD4Um": 16.03301287289419,
+      "D4IncreaseFraction": -1.8307727659427897e-06,
+      "D95IncreaseFraction": -5.616348261727744e-05,
+      "passed": true,
+      "seconds": 2.7659999999996217
+    },
+    {
+      "configuration": 15,
+      "target": [
+        1.25,
+        0.0,
+        1.0,
+        7.499999999999999,
+        0.0
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          17.25317986138661,
+          17.670714885660225
+        ],
+        "ellipseRatio": 1.0242004678342267,
+        "D80um": 15.652808397156075,
+        "D95um": 21.371161963502708,
+        "powerW": 0.9999979501104624,
+        "peakWPerMm2": 8352.008691638677,
+        "centroidMm": [
+          -0.00014804081411130512,
+          8.198288509755139e-07
+        ],
+        "gridStepUm": [
+          0.36797662355983757,
+          0.37092539088266857
+        ],
+        "borderPowerFraction": 1.4810871586006823e-13
+      },
+      "equivalentD4Um": 17.4606993617546,
+      "D4IncreaseFraction": 1.203484073508676e-06,
+      "D95IncreaseFraction": 0.0007237241099447012,
+      "passed": true,
+      "seconds": 2.9059999999990396
+    },
+    {
+      "configuration": 16,
+      "target": [
+        1.25,
+        0.0,
+        1.0,
+        -7.499999999999999,
+        9.237673039968207e-16
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          17.456172127652152,
+          17.46355901643839
+        ],
+        "ellipseRatio": 1.0004231677330069,
+        "D80um": 15.655747796914813,
+        "D95um": 21.354380051072138,
+        "powerW": 0.9999979518858478,
+        "peakWPerMm2": 8360.551269644404,
+        "centroidMm": [
+          9.912320403913843e-05,
+          -1.8060818291996435e-06
+        ],
+        "gridStepUm": [
+          0.47591930274121635,
+          0.3634028659351354
+        ],
+        "borderPowerFraction": 2.127780501269774e-11
+      },
+      "equivalentD4Um": 17.4598651813913,
+      "D4IncreaseFraction": 2.1766267677136852e-06,
+      "D95IncreaseFraction": -8.385534494292912e-05,
+      "passed": true,
+      "seconds": 2.9840000000003783
+    },
+    {
+      "configuration": 17,
+      "target": [
+        0.8838834764831844,
+        0.8838834764831843,
+        -1.0,
+        4.618836519984103e-16,
+        7.499999999999999
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          15.827157681261674,
+          16.218097203511302
+        ],
+        "ellipseRatio": 1.0247005514270244,
+        "D80um": 14.365713831369085,
+        "D95um": 19.60616072614813,
+        "powerW": 0.9999979334020146,
+        "peakWPerMm2": 9899.607341099945,
+        "centroidMm": [
+          -9.993785023129611e-05,
+          0.00012089540543409924
+        ],
+        "gridStepUm": [
+          0.398254388609818,
+          0.39512663867272
+        ],
+        "borderPowerFraction": 2.412892332766738e-15
+      },
+      "equivalentD4Um": 16.021435070866854,
+      "D4IncreaseFraction": -1.0785472781549288e-06,
+      "D95IncreaseFraction": -3.8816230607530144e-07,
+      "passed": true,
+      "seconds": 2.812999999998283
+    },
+    {
+      "configuration": 18,
+      "target": [
+        0.8838834764831844,
+        0.8838834764831843,
+        1.0,
+        4.618836519984103e-16,
+        7.499999999999999
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          17.296860168683832,
+          17.705731103556396
+        ],
+        "ellipseRatio": 1.0236384483013183,
+        "D80um": 15.690864136684034,
+        "D95um": 21.436774862679464,
+        "powerW": 0.9999979684117203,
+        "peakWPerMm2": 8307.741593042176,
+        "centroidMm": [
+          -8.492105020992471e-05,
+          0.00012829232567777756
+        ],
+        "gridStepUm": [
+          0.3683461877831232,
+          0.36545047287038007
+        ],
+        "borderPowerFraction": 5.396003328063706e-13
+      },
+      "equivalentD4Um": 17.500101573491825,
+      "D4IncreaseFraction": 9.41931949327568e-07,
+      "D95IncreaseFraction": 0.000750082612443359,
+      "passed": true,
+      "seconds": 2.938000000001921
+    },
+    {
+      "configuration": 19,
+      "target": [
+        0.8838834764831842,
+        -0.8838834764831847,
+        -1.0,
+        5.318471839399389,
+        5.318471839399388
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          15.97512514503915,
+          16.52540764491838
+        ],
+        "ellipseRatio": 1.0344462090207858,
+        "D80um": 14.558914196195511,
+        "D95um": 19.905881654152537,
+        "powerW": 0.9999979348006671,
+        "peakWPerMm2": 9641.555602958899,
+        "centroidMm": [
+          -0.00011207419508709768,
+          -7.532397912782358e-05
+        ],
+        "gridStepUm": [
+          0.3953811701329351,
+          0.395096460459187
+        ],
+        "borderPowerFraction": 7.220884724780171e-16
+      },
+      "equivalentD4Um": 16.247936952128963,
+      "D4IncreaseFraction": -3.0105095527144243e-05,
+      "D95IncreaseFraction": -7.665741683382521e-05,
+      "passed": true,
+      "seconds": 2.7340000000003783
+    },
+    {
+      "configuration": 20,
+      "target": [
+        1.25,
+        0.0,
+        -1.0,
+        -5.31847183939939,
+        -5.318471839399388
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          15.871786933781818,
+          16.236373456727353
+        ],
+        "ellipseRatio": 1.0229707294122972,
+        "D80um": 14.414378213470577,
+        "D95um": 19.68705825386707,
+        "powerW": 0.9999979371420976,
+        "peakWPerMm2": 9908.146104264231,
+        "centroidMm": [
+          -2.0615459822667103e-05,
+          -2.5643287948116453e-05
+        ],
+        "gridStepUm": [
+          0.39351079853751525,
+          0.39417740497741005
+        ],
+        "borderPowerFraction": 1.0140970663636464e-15
+      },
+      "equivalentD4Um": 16.053045196550315,
+      "D4IncreaseFraction": -2.6379448950231144e-05,
+      "D95IncreaseFraction": -1.818279911958154e-05,
+      "passed": true,
+      "seconds": 2.702999999997701
+    },
+    {
+      "configuration": 21,
+      "target": [
+        -1.25,
+        0.0,
+        -1.0,
+        5.318471839399388,
+        -5.31847183939939
+      ],
+      "metrics": {
+        "principalD4sigmaUm": [
+          15.871787512330558,
+          16.236383891086543
+        ],
+        "ellipseRatio": 1.0229713495390949,
+        "D80um": 14.414436029588856,
+        "D95um": 19.68708029364624,
+        "powerW": 0.9999979372760164,
+        "peakWPerMm2": 9908.138498353672,
+        "centroidMm": [
+          2.062767200021216e-05,
+          -2.5628535549541477e-05
+        ],
+        "gridStepUm": [
+          0.39351410383436086,
+          0.3941807283721799
+        ],
+        "borderPowerFraction": 9.801777057107364e-16
+      },
+      "equivalentD4Um": 16.053050647398845,
+      "D4IncreaseFraction": -2.637820710593708e-05,
+      "D95IncreaseFraction": -1.605281519323487e-05,
+      "passed": true,
+      "seconds": 2.735000000000582
+    }
+  ],
+  "sampling": 1024,
+  "inputM2": 1.0,
+  "scope": "当前正式ZOS副本的全部配置原生光线与相干POP；不是孔道POP、全域POP或硬件验收。",
+  "beamParameters": [
+    {
+      "name": "束腰—X",
+      "value": 1.0
+    },
+    {
+      "name": "束腰—Y",
+      "value": 1.0
+    },
+    {
+      "name": "偏心X：",
+      "value": 0.0
+    },
+    {
+      "name": "偏心Y：",
+      "value": 0.0
+    },
+    {
+      "name": "孔径—X",
+      "value": 0.0
+    },
+    {
+      "name": "孔径—Y",
+      "value": 0.0
+    },
+    {
+      "name": "阶数 X",
+      "value": 0.0
+    },
+    {
+      "name": "阶数 Y",
+      "value": 0.0
+    }
+  ],
+  "sourceUnchanged": true
+}

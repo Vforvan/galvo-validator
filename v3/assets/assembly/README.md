@@ -1,4 +1,4 @@
-当前V3已采用本纵向布局；下载副本经21配置保存后核对，见[发布核对](../forward_publish_audit.json)，浏览器检查见[网页核对](../browser_verification.json)。本说明后文的候选阶段记录保留供追溯。
+历史记录：本目录描述G1改版前的纵向布局；当前新版见[净空改进说明](../g1_clearance_revision/README.md)。
 
 # V3纵向装配候选：沿V1/V2保留进出关系
 
@@ -78,8 +78,8 @@ POP只覆盖21配置，不是532点全域物理光斑验收。仍为理想静态
 
 ## 文件与复现
 
-- [原生工程](../V3_assembly_forward.zos)；[五轴配置表](../configurations.csv)。
-- 分析设置：[点列图](../V3_spot.CFG)、[POP](../V3_pop.CFG)。加载对应工程和CFG，切换配置后刷新。
+- [原生工程](../V3_assembly_forward.zos)；[五轴配置表](../forward_reference/configurations.csv)。
+- 分析设置：[点列图](../forward_reference/V3_spot.CFG)、[POP](../forward_reference/V3_pop.CFG)。加载对应工程和CFG，切换配置后刷新。
 - [汇总](summary.json)、[532点几何/机械数据](candidate.json)、[原生光线及POP记录](native_report.json)。
 - 完整光强网格保存在各`baseline_XX_pop.npz`、`candidate_XX_pop.npz`及`candidate_hi_XX_pop.npz`文件中。
 

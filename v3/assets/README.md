@@ -1,73 +1,51 @@
-# V3：纵向装配三镜片水平像面
+# V3：G1/G2错位三镜片布局，独立测试通过
 
-2026-10-30按用户“用这版更新网页V3”，把已通过21配置原生复核的纵向装配候选`assembly_forward_trial/V3_assembly_forward.zos`发布为V3当前基线。进出光关系沿用V1/V2：入口和末端下折前都沿+X，G4兼最终向下折转，像面水平；G4及其电机布置在主箱体+X端外。三片透镜仍沿用Round3处方，曲率、Conic、A4/A6和厚度未重新优化；本轮改的是振镜位置、镜片外形、电机安装方向和外部G4的箱体包络。原水平入口基线`V3_main.zos`与孔道工程已归档到[round3_reference](round3_reference/README.md)，不再作为当前工程。
+2026-10-30按用户授权修改本地布局。G1向入口移动20 mm，G2向入口移动10 mm、向−Y移动7.627608158 mm，扩大后续光束到G1的空间。三片透镜和四面振镜数量、透镜处方及位置保持，不增加镜片。
 
-| 版本 | 光学结构 | 网页 |
-|---|---|---|
-| V3，当前基线 | L1/L2＋单片双面非球面F75，共3片透镜；4面振镜，G4兼最终向下折转；水平像面 | [V3网页](https://vforvan.github.io/galvo-validator/v3/) |
-| V2，保留对照 | L1/L2＋四片F75物镜，共6片透镜；4面振镜＋独立折转镜 | [V2网页](https://vforvan.github.io/galvo-validator/v2/) |
+**当前工作工程：[V3_G1_clearance.zos](V3_G1_clearance.zos)，21配置、默认5。状态：独立测试通过。** DeepSeek运行20261030-140246-11eda5完成六阶段检查；用户重存后的ZOS另经21配置只读核对，光学结构和真实光线不变。
 
-## 工程
+## 布局
 
-- [V3_assembly_forward.zos](V3_assembly_forward.zos)：当前主工程，21配置、默认5、45个顺序面，全部水平像面。源候选保存后曾被再次保存；发布前重新打开核对21配置的曲率、材料、Conic/A4/A6、净口径和逐面光线，均与计算记录一致，再从只读核对生成默认配置5的下载副本。记录见[forward_publish_audit.json](forward_publish_audit.json)。
-- [V3_main.zos](round3_reference/V3_main.zos)：历史基线，Round3三镜片水平入口布局，21配置、默认5；不是当前网页布局。
-- [V3_hole_POP.zos](round3_reference/V3_hole_POP.zos)：历史孔道POP工程，6配置、默认1；**没有**随纵向布局重做，不能用来宣称新布局已完成孔道验证。
-- [configurations.csv](configurations.csv)：21配置的目标和五轴电机指令。
-- [prescription.json](prescription.json)：Round3处方参数、实际表面行和本轮镜片外形；[design.json](design.json)为网页使用的独立V3数据；[release.json](release.json)记录来源、哈希和工程数量。
-- 原生分析设置：[点列图](V3_spot.CFG)、[POP](V3_pop.CFG)，均由新布局候选导出。本轮未重跑PSF，旧版[V3_psf.CFG](round3_reference/V3_psf.CFG)只作历史设置。
+| 振镜 | 当前镜心/mm | 外形u×v×厚/mm | 净口径u×v/mm |
+|---|---|---|---|
+| G1 | (160,92,49.4) | 30×25×2 | 28×23 |
+| G2 | (170,34.372391841644,49.4) | 58×40×2 | 56×38 |
+| G3 | (260,192.03,49.4) | 64×40×2 | 62×38 |
+| G4 | (336.08,192.03,49.4) | 58×46×2 | 56×38 |
 
-输入515 nm、原高斯1/e²直径2 mm、几何EPD 3 mm；F75标称有效焦距75 mm，中心厚度13.194127 mm。净口径直径L1/L2/F75分别为10.17/22.86/46 mm。工作域Ø2.5 mm、Z±1 mm、合成AOI≤7.5°；音圈机械范围±3.5 mm。
+已同步G1/G2/G3零位法向、G2数学转轴、G1/G2电机与轴段占位、21配置五轴指令、原生工程与网页模型。G1/G3电机上置，G2在外侧，G4在+Y侧；机体仍按Ø38×75 mm、轴段按Ø10 mm预留。
 
-## 接口与内部布局
+固定入口为(0,92,49.4)沿+X，G3→G4标称沿+X，最终由G4向−Z出光，水平像面基准Z=−80 mm。主箱体仍止于X=300，G4及其电机在箱体外。名义入口到G3的分段几何长度保持400.026471174344 mm。
 
-固定接口：输入基准点(0,92,49.4) mm、沿+X；G3→G4仍沿+X；出光轴线X=336.08、Y=192.03 mm；标称出光−Z，像面基准Z=−80 mm。没有改成顶部竖直进光。
+输入515 nm、原高斯1/e²直径2 mm，几何EPD 3 mm。工作域Ø2.5 mm、Z±1 mm、合成AOI≤7.5°，音圈机械范围±3.5 mm。原三片透镜仍为L1/L2和单片双面非球面F75，材料、曲率、非球面、厚度及净口径保持。
 
-主箱体按X=0～300 mm、Y=−20～330 mm、Z=0～275 mm预留。G4镜心X=336.08 mm、G4电机位于箱体+X端外，G3→G4光束穿过端壁预留窗口。窗口法兰、外部G4支架、密封和线缆尚未设计，不能把该包络当作可制造机壳。该修正只改封装包络，不改光学面、镜心或五轴指令，21配置原生光线/POP记录继续有效。
+## 工程和数据
 
-| 振镜 | 镜心/mm | 数学正转轴 | 电机安装侧 | 外形u×v×厚/mm | 光学净口径/mm |
-|---|---|---|---|---|---:|
-| G1 | (180,92,49.4) | (0,0,1) | 上方 | 30×25×2 | 28×23 |
-| G2 | (180,42,49.4) | (0.970153,−0.242495,0) | +轴，朝外侧 | 58×40×2 | 56×38 |
-| G3 | (260,192.03,49.4) | (0,0,1) | 上方 | 64×40×2 | 62×38 |
-| G4 | (336.08,192.03,49.4) | (0,1,0) | +Y侧 | 58×46×2 | 56×38 |
+- [design.json](design.json)、[prescription.json](prescription.json)：当前工作模型及三片透镜处方。
+- [cases.json](cases.json)、[configurations.csv](configurations.csv)：新布局21配置五轴指令。
+- [reference_rays.json](reference_rays.json)：依据新模型生成的独立光线参考，21配置原生复核通过。
+- [release.json](release.json)、[forward_publish_audit.json](forward_publish_audit.json)：当前文件来源与哈希。后者记录独立测试和重存文件核对；另见[saved_native_audit.json](saved_native_audit.json)。
+- [本地网页](index.html)，或打开仓库`output/galvo-validator-v3-round3.html`。页面显示“G1净空改进布局 · 独立测试通过”，原生配置选择器显示本版21配置POP记录。
+- [布局构建脚本](g1_clearance_revision/prepare.py)、[本轮结构说明](g1_clearance_revision/README.md)。
 
-G1的58 mm长边会挡住G2→G3光束，因此按真实足迹缩小为30×25 mm；G3需要更长的镜面，预留64×40 mm，这是本轮的负载代价，后续需连同转子惯量选型评估。G4机械v向增至46 mm，但光学净窗口仍为56×38 mm，与原生工程净口径一致。
+上一已接受纵向布局的数据、ZOS、旧POP及文档原样归档于[forward_reference](forward_reference/README.md)，来源哈希见其`archive_manifest.json`；原`V3_assembly_forward.zos`继续保留。更早Round3水平基线与孔道工程在[round3_reference](round3_reference/README.md)。V2保持独立，未改动其处方、工程或电机指令。
 
-电机按Ø38×75 mm机体、Ø10 mm轴段预留。G1/G3电机在上方，G2在外侧，G4及其电机在箱体+X端外；本版修正后的转轴与镜心对齐，安装中心分别为G3 (260,192.03,124.9) mm、G4 (336.08,270.53,49.4) mm。机体到本镜片边缘的轴向间隙为15.5/18/18/18 mm。镜架、法兰、轴承接口、线缆、机壳壁厚、外部G4支架和连续扫掠体尚未完成真实CAD验收。
+## 测试交接
 
-## 核对范围
-
-- 532个几何目标覆盖Ø2.5 mm、Z±1 mm、合成AOI≤7.5°，重新求解后全部可达，最大归一化残差2.36×10⁻¹⁰。四振镜最大绝对指令1.413°/1.227°/1.972°/1.649°，音圈最大3.301 mm，仍在±3.5 mm内。
-- 每个目标追迹输入中心和半径1.5/2.5 mm轮廓。示意机体/轴段胶囊包络到采样光线的最小间隙3.112 mm；采样光线与非预期镜片盒相交0次。该检查不是连续扫掠或真实CAD碰撞检查。
-- 保存并重新打开工程后，21配置原生光线与独立Python/C++求交一致，最大位置差小于4×10⁻¹² mm；曲面、材料、净口径和像面朝向逐项复核。
-- 21配置原生POP（515 nm、M²=1、1 W、1024²）：等效D4σ直径15.787～17.500 µm，原布局为15.758～17.677 µm；同目标最大增加0.2632%，D95最大增加0.3171%。配置1/16/18/19的2048²核对采样差小于0.009%。POP只覆盖21配置，不是532点全域物理光斑验收。
-- 网页检查：21配置光线与独立参考一致，101点旋入路径通过，浏览器实际打开后完成三维渲染、配置9加载、五轴输入应用、下载哈希和移动端布局检查，见[web_verification.json](web_verification.json)、[browser_verification.json](browser_verification.json)。浏览截图保存在仓库`output/v3_forward_20261030/`，不随网页发布。
-
-## 网页与物理光学的边界
-
-V3网页对真实球面、Conic及A4/A6曲面求交并按Snell定律折射，追迹四面振镜，不保留独立固定折转镜。焦点Z采用512条等功率几何光线在水平面上的最小RMS位置，与源工程一致。
-
-网页实时光束轮廓及孔道包络使用近轴高斯估计，假设M²=1.2，**不是实时POP**。原生配置选择器另显示本布局既有的21配置POP记录（M²=1、总功率1 W），只对应所选配置姿态；手动改动姿态会清除该历史结果显示。新版孔道POP尚未重做，网页的Ø100 µm孔检查仍是近轴高斯包络示例。
-
-历史全域POP汇总和旧孔道验证属于Round3原水平布局，不因改名V3而成为新布局结论。网页不判断材料烧蚀、排屑、制造公差或硬件动态。
-
-## 构建与发布
-
-在仓库根目录执行：
+本轮完整测试已由DeepSeek执行并通过，六阶段原始运行目录为`tests/results/20261030-140246-11eda5/`。测试按[交接文档](validation/deepseek_summary.md)，在仓库根目录执行：
 
 ```powershell
-$env:GALVO_PYTHON='C:/Users/27699/AppData/Local/Programs/Python/Python312/python.exe'
-npm run build:v3 --prefix analysis/optics_demo
-npm run test:v3 --prefix analysis/optics_demo
-npm run test:v3:browser --prefix analysis/optics_demo
+python tests/run.py --force
 ```
 
-浏览器检查需要Playwright和本机Edge，路径与`test_concentric_browser.cjs`相同；不启动Zemax。离线页面为`output/galvo-validator-v3-round3.html`（文件名沿用历史路径，内容已是纵向装配布局），也可直接打开本目录的`index.html`。
+六阶段为版本一致性、532目标几何/机械、构建、网页引擎、浏览器和21配置原生光线/POP。报告、截图、测试副本及日志保存在根目录`tests/results/<运行编号>/`；总结使用[模板](validation/deepseek_summary.md)。失败时保留原始错误，不降门槛、不跳过或自行改布局。
 
-发布脚本：
+专项门槛：G2→G3光束到G1旋转基片净空至少5 mm；电机/轴段保守光线净空至少3 mm。扩大轮廓应通过真实净口径，532目标保持可达。相同目标新POP的D4/D95相对归档已接受结果增加各不超过1%，窗口边缘功率比例不超过1e-4。
 
-```powershell
-python simulation/v3/export_site.py <网页仓库目录>
-```
+## 状态边界
 
-脚本会重建网页仓库的`v3/assets/`，保留归档，只新增/更新V3入口和版本导航，不删除V2。原始候选保存脚本`promote_round3.py`和`promote_forward_web.py`用于追溯，正常构建不重复运行。
+独立实测G1旁最小采样净空13.678667 mm；电机/轴段最小胶囊净空3.087625 mm；G3长边通光余量1.158407 mm。真实镜架、法兰、机壳、线缆、公差、热漂移和连续扫掠仍未验收；需特别关注G3长边通光余量与G2电机到端壁空间。
+
+网页实时高斯包络假设M²=1.2，不是实时POP。新布局原生POP已按DeepSeek的21配置实测记录更新，等效D4范围15.786737～17.500102 µm；旧布局M²=1相干POP仍单独存于根目录`tests/data/v3/pop_regression_reference.json`作回归比较。新孔道POP没有重做，不能继承任何旧结构孔道结论。
+
+已根据本轮报告更新验收状态与页面POP。当前下载文件的SHA-256为`163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f`；与实测文件的3字节保存差异及21配置只读核对记录见`saved_native_audit.json`，未重复计算POP。

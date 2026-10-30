@@ -1,15 +1,28 @@
 {
   "version": "V3",
   "date": "2026-10-30",
-  "baseline": "Round3-lenses-forward-assembly",
+  "baseline": "Round3-lenses-G1-clearance",
   "status": "active",
   "noNewOpticalOptimization": true,
   "noSubagentWork": true,
-  "designSha256": "c3730be48a2c93db0c405ee5d8742a84d65f3a44c3b3b99b362f817eb784242e",
+  "designSha256": "0d1d754c361d8389749df2092b8408b10c6722a25e4acb945c97f907c0fa9102",
   "sourceRound3Sha256": "dccc7330620814cc927c61e3b088e730b60d39d7d3a58a7a42eb80cc93e17c69",
-  "nativeProject": "V3_assembly_forward.zos",
+  "nativeProject": "V3_G1_clearance.zos",
   "configurationCount": 21,
   "projects": [
+    {
+      "file": "V3_G1_clearance.zos",
+      "sha256": "163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f",
+      "configurations": 21,
+      "allImagesHorizontal": true,
+      "source": "simulation/v3/g1_clearance_revision/V3_G1_clearance.zos",
+      "sourceSha256": "aa1f1d790fa517bbffb2ed34bdaac96e5b51b2fe16f6d50323a72af577fc2925",
+      "releaseAudit": "forward_publish_audit.json",
+      "validationStatus": "independent-tests-passed-resaved-native-reconciled",
+      "testedSha256": "aa1f1d790fa517bbffb2ed34bdaac96e5b51b2fe16f6d50323a72af577fc2925"
+    }
+  ],
+  "historicalProjects": [
     {
       "file": "V3_assembly_forward.zos",
       "sha256": "0f2bd3bdfc4aec95387a28f9b6ecec4f7029f7dcaa41ef6a71f7b8d0456a6392",
@@ -21,32 +34,13 @@
       "releaseAudit": "forward_publish_audit.json"
     }
   ],
-  "historicalProjects": [
-    {
-      "file": "V3_main.zos",
-      "sha256": "77f41f1f1a44b751a20f8cbb6eddf95b066b6438bb62448409f716ce99d1693c",
-      "configurations": 21,
-      "source": "simulation\\v2\\hole_validation_current\\V2_round3_3lens_horizontal.zos",
-      "sourceSha256": "dccc7330620814cc927c61e3b088e730b60d39d7d3a58a7a42eb80cc93e17c69",
-      "sourceUnchanged": true,
-      "allImagesHorizontal": true,
-      "lensShapeUnchanged": true
-    },
-    {
-      "file": "V3_hole_POP.zos",
-      "sha256": "12eb1ba4060533678fffad14b85e9673988440229d671aaca988d8f08050b34f",
-      "configurations": 6,
-      "source": "simulation\\v2\\hole_validation_current\\V2_round3_D100um_POP_channel.zos",
-      "sourceSha256": "afe5491ff4d78bf62a0d2bd81bc10fdc2bb4e1f71e1defe6b5b63ebd1a75f982",
-      "sourceUnchanged": true,
-      "allImagesHorizontal": true,
-      "lensShapeUnchanged": true
-    }
-  ],
-  "archive": "round3_reference/",
+  "archive": "forward_reference/",
+  "round3Archive": "round3_reference/",
   "channelPOPVerified": false,
   "rejectedConsistencyUsed": false,
-  "motorMountRevision": "forward-shaft-D10-G4-bond-rail-20261030",
+  "motorMountRevision": "g1-clearance-D38-L75-shaft-D10-20261030",
   "webPath": "v3/",
-  "v2WebPath": "v2/"
+  "v2WebPath": "v2/",
+  "independentTestRun": "tests\\results\\20261030-140246-11eda5",
+  "savedNativeAudit": "saved_native_audit.json"
 }

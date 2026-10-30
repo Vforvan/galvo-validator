@@ -1,5 +1,5 @@
 {
-  "version": "v3-forward-assembly-3lens-horizontal",
+  "version": "v3-forward-assembly-g1-clearance-3lens-horizontal",
   "date": "2026-10-30",
   "surface": "offline V3 page in headless Microsoft Edge via Playwright",
   "checks": {
@@ -11,7 +11,8 @@
     "downloadHashMatchesAudit": true,
     "navigationTargetsExist": true,
     "nativeConfiguration9Loads1250umAnd7p5deg": true,
-    "configuration9HistoricalD4um": 16.70259091337687,
+    "configuration9HistoricalD4um": 16.70261401593834,
+    "pendingLayoutDoesNotDisplayOldPOP": false,
     "applyFiveAxisInputUpdatesXTo1000um": true,
     "manualPoseClearsHistoricalPOPRecord": true,
     "numberAndSelectorAgreeAfterApply": true,
@@ -20,16 +21,16 @@
   "links": {
     "v1": "output/galvo-validator.html",
     "v2": "output/galvo-validator-v2-deep-unified.html",
-    "assembly": "simulation/v3/assembly_forward_trial/README.md",
-    "zemax": "simulation/v3/V3_assembly_forward.zos",
+    "assembly": "simulation/v3/g1_clearance_revision/README.md",
+    "zemax": "simulation/v3/V3_G1_clearance.zos",
     "configurations": "simulation/v3/configurations.csv",
     "readme": "simulation/v3/README.md"
   },
   "screenshots": [
-    "output/v3_forward_20261030/desktop.png",
-    "output/v3_forward_20261030/config-9-desktop.png",
-    "output/v3_forward_20261030/mirror-assembly.png",
-    "output/v3_forward_20261030/mobile.png"
+    "tests/results/20261030-142417-b758c8/v3.browser/screenshots/desktop.png",
+    "tests/results/20261030-142417-b758c8/v3.browser/screenshots/config-9-desktop.png",
+    "tests/results/20261030-142417-b758c8/v3.browser/screenshots/mirror-assembly.png",
+    "tests/results/20261030-142417-b758c8/v3.browser/screenshots/mobile.png"
   ],
   "scope": "Observed UI, link targets and Three.js rendering; not a new physical optics, continuous-sweep or hardware validation."
 }

@@ -1,0 +1,13 @@
+{
+  "version": "v3-forward-assembly-3lens-horizontal",
+  "referenceConfigurations": 21,
+  "helixPoints": 101,
+  "maxRayDifferenceMm": 4.334310688136611e-13,
+  "maxDirectionDifference": 1.718651621718791e-15,
+  "maxCommandDifference": 0,
+  "maxTargetResidual": 9.28688237422648e-11,
+  "minimumChannelEnvelopeMarginUm": 4.90746669825564,
+  "maximumVoiceMm": 2.0299920572039505,
+  "minimumMirrorClearanceMm": 9.167193445279658,
+  "inputModel": "Forward assembly with Round3 aspheric lenses; Gaussian channel envelope is approximate, not live POP"
+}

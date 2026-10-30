@@ -1,12 +1,12 @@
 {
-  "revision": "forward-shaft-D10-G4-bond-rail-20261030",
+  "revision": "g1-clearance-D38-L75-shaft-D10-20261030",
   "checkedConfigurations": 21,
   "raySamplesPerConfiguration": 4,
   "mounts": [
     {
       "mirror": "G1",
       "center": [
-        180,
+        160,
         92,
         114.9
       ],
@@ -18,14 +18,14 @@
       "radius": 19,
       "length": 75,
       "shaftCenter": [
-        180,
+        160,
         92,
         69.4
       ],
       "shaftLength": 16,
       "shaftRadius": 5,
       "mirrorCenterMm": [
-        180,
+        160,
         92,
         49.4
       ],
@@ -35,41 +35,41 @@
         1
       ],
       "bodyToMirrorEdgeGapMm": 15.5,
-      "source": "accepted forward assembly reservation"
+      "source": "G1 clearance revision; illustrative reservation; pending independent validation"
     },
     {
       "mirror": "G2",
       "center": [
-        261.9778920318942,
-        21.509143063134374,
+        253.23210817091325,
+        19.78931365405248,
         49.4
       ],
       "axis": [
-        -0.9701525684247837,
-        0.24249534836527367,
+        -0.9849953629693876,
+        0.17258080695374137,
         0
       ],
       "radius": 19,
       "length": 75,
       "shaftCenter": [
-        216.6232594580356,
-        32.84580059921092,
+        207.18357495209438,
+        27.857466379139886,
         49.4
       ],
       "shaftLength": 18.5,
       "shaftRadius": 5,
       "mirrorCenterMm": [
-        180,
-        42,
+        170,
+        34.372391841643626,
         49.4
       ],
       "opticalAxis": [
-        0.9701525684247837,
-        -0.24249534836527367,
+        0.9849953629693876,
+        -0.17258080695374137,
         0
       ],
       "bodyToMirrorEdgeGapMm": 18,
-      "source": "accepted forward assembly reservation"
+      "source": "G1 clearance revision; illustrative reservation; pending independent validation"
     },
     {
       "mirror": "G3",
@@ -103,7 +103,7 @@
         1
       ],
       "bodyToMirrorEdgeGapMm": 18,
-      "source": "accepted forward assembly reservation"
+      "source": "G1 clearance revision; illustrative reservation; pending independent validation"
     },
     {
       "mirror": "G4",
@@ -137,10 +137,10 @@
         0
       ],
       "bodyToMirrorEdgeGapMm": 18,
-      "source": "accepted forward assembly reservation"
+      "source": "G1 clearance revision; illustrative reservation; pending independent validation"
     }
   ],
-  "minimumBodyCapsuleRayGapMm": 6.665577830969493,
-  "minimumShaftCapsuleRayGapMm": 4.665581869004335,
+  "minimumBodyCapsuleRayGapMm": 6.651368673428841,
+  "minimumShaftCapsuleRayGapMm": 4.651372711440802,
   "scope": "All four axes, per-mirror blanks and apertures, shaft endpoints and sampled ray separation; not a full assembly or CAD acceptance."
 }

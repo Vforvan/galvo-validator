@@ -1,5 +1,7 @@
 {
-  "revision": "forward-shaft-D10-G4-bond-rail-20261030",
+  "status": "passed",
+  "version": "v3-forward-assembly-g1-clearance-3lens-horizontal",
+  "revision": "g1-clearance-D38-L75-shaft-D10-20261030",
   "mechanical": {
     "motorMounts": [
       {
@@ -12,57 +14,57 @@
         "radius": 19.0,
         "length": 75.0,
         "center": [
-          180.0,
+          160.0,
           92.0,
           114.9
         ],
         "shaftStart": [
-          180.0,
+          160.0,
           92.0,
           61.4
         ],
         "shaftEnd": [
-          180.0,
+          160.0,
           92.0,
           77.4
         ],
         "shaftRadius": 5.0,
         "shaftLength": 16.0,
         "bodyMirrorAxialGapMm": 15.5,
-        "minimumSampledRayCapsuleGapMm": 3.111752104086735,
-        "minimumSampledOtherPlateCapsuleGapMm": 29.74109585104879,
-        "minimumOtherMotorCapsuleGapMm": 43.441562714112905
+        "minimumSampledRayCapsuleGapMm": 3.0876249860213,
+        "minimumSampledOtherPlateCapsuleGapMm": 36.19873932721566,
+        "minimumOtherMotorCapsuleGapMm": 52.965412440168166
       },
       {
         "mirror": "G2",
         "axisOutward": [
-          0.9701525684247837,
-          -0.24249534836527367,
+          0.9849953629693876,
+          -0.17258080695374137,
           0.0
         ],
         "radius": 19.0,
         "length": 75.0,
         "center": [
-          261.9778920318942,
-          21.509143063134374,
+          253.23210817091325,
+          19.78931365405248,
           49.4
         ],
         "shaftStart": [
-          207.64934820010635,
-          35.0888825715897,
+          198.07236784462756,
+          29.453838843461995,
           49.4
         ],
         "shaftEnd": [
-          225.59717071596484,
-          30.602718626832136,
+          216.29478205956121,
+          26.26109391481778,
           49.4
         ],
         "shaftRadius": 5.0,
         "shaftLength": 18.5,
         "bodyMirrorAxialGapMm": 18.0,
-        "minimumSampledRayCapsuleGapMm": 15.962253087998736,
-        "minimumSampledOtherPlateCapsuleGapMm": 42.61539811010311,
-        "minimumOtherMotorCapsuleGapMm": 43.441562714112905
+        "minimumSampledRayCapsuleGapMm": 14.870495011295013,
+        "minimumSampledOtherPlateCapsuleGapMm": 52.72753015190541,
+        "minimumOtherMotorCapsuleGapMm": 52.965412440168166
       },
       {
         "mirror": "G3",
@@ -91,8 +93,8 @@
         "shaftRadius": 5.0,
         "shaftLength": 18.5,
         "bodyMirrorAxialGapMm": 18.0,
-        "minimumSampledRayCapsuleGapMm": 3.5230028632591672,
-        "minimumSampledOtherPlateCapsuleGapMm": 38.8920606167076,
+        "minimumSampledRayCapsuleGapMm": 3.383494179222259,
+        "minimumSampledOtherPlateCapsuleGapMm": 38.90255883145231,
         "minimumOtherMotorCapsuleGapMm": 56.40956731179311
       },
       {
@@ -122,8 +124,8 @@
         "shaftRadius": 5.0,
         "shaftLength": 18.5,
         "bodyMirrorAxialGapMm": 18.0,
-        "minimumSampledRayCapsuleGapMm": 3.3699723683169953,
-        "minimumSampledOtherPlateCapsuleGapMm": 35.42785434188421,
+        "minimumSampledRayCapsuleGapMm": 3.3699712307214806,
+        "minimumSampledOtherPlateCapsuleGapMm": 35.42432353879778,
         "minimumOtherMotorCapsuleGapMm": 56.40956731179311
       }
     ],
@@ -153,42 +155,42 @@
     "requiredBlankWith1mmEdgeReserve": {
       "1.5": [
         [
-          8.77392699318779,
-          6.668831383245546
+          9.495834660122094,
+          6.697249705572347
         ],
         [
-          11.964306141446515,
-          6.673814315198295
+          12.7121200689409,
+          6.669918799014502
         ],
         [
-          54.096746897043474,
-          20.826901117108108
+          55.24297294152341,
+          21.109197536897383
         ],
         [
-          38.636185197212484,
-          27.14018781100924
+          38.59981723630173,
+          27.14018934711254
         ]
       ],
       "2.5": [
         [
-          13.2883047087646,
-          9.776483986738072
+          14.49369186165024,
+          9.824738258047446
         ],
         [
-          15.199675252478176,
-          9.786804394225175
+          16.033445598473797,
+          9.780485178715626
         ],
         [
-          60.39799844886778,
-          23.94502344781405
+          61.68318694438872,
+          24.22773680979614
         ],
         [
-          43.180018376231956,
-          30.257645607610982
+          43.13896119542319,
+          30.25764788312074
         ]
       ]
     },
-    "minimumMirrorProjectionSeparationMm": 27.245142343793223,
+    "minimumMirrorProjectionSeparationMm": 27.049957996064474,
     "worstMirrorPairPose": [
       531,
       3,
@@ -197,5 +199,7 @@
     "sampledUnintendedMirrorHits": [],
     "scope": "532 sampled poses, input center and 48 boundary rays at radii 1.5 and 2.5 mm; conservative motor/shaft capsules and moving mirror boxes. Motor dimensions are reservations, not selected vendor CAD. Lens mounts, connectors, fasteners, cables, enclosure and continuous sweeps not accepted."
   },
-  "scope": "532 sampled states; body and shaft capsules and rotating mirror boxes. Not a continuous or supplier CAD acceptance."
+  "G2G3toG1BlankGapMm": 13.678667460316271,
+  "source": "tests\\results\\20261030-140246-11eda5\\v3.geometry\\geometry.json",
+  "scope": "532个规定目标重新求解；有限轮廓光线、旋转镜片盒和电机/轴段胶囊。未验收连续域、真实镜架、公差或动态。"
 }

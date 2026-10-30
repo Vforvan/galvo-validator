@@ -1,0 +1,282 @@
+{
+  "version": "V3",
+  "baseline": "Round3",
+  "inputM2": 1.0,
+  "historicalResults": true,
+  "states": [
+    {
+      "configuration": 1,
+      "target": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "horizontalEquivalentD4Um": 16.46994213928966,
+      "horizontalPeakWPerMm2": 9393.56446442156,
+      "d95": 20.167220501047446
+    },
+    {
+      "configuration": 2,
+      "target": [
+        -9.184850993605149e-18,
+        -0.05,
+        1.0,
+        5.0,
+        0.0
+      ],
+      "horizontalEquivalentD4Um": 17.39841225111199,
+      "horizontalPeakWPerMm2": 8417.413745165073,
+      "d95": 21.23994925232026
+    },
+    {
+      "configuration": 3,
+      "target": [
+        -9.184850993605149e-18,
+        -0.05,
+        1.0,
+        -5.0,
+        6.138825188787401e-16
+      ],
+      "horizontalEquivalentD4Um": 17.398412104056153,
+      "horizontalPeakWPerMm2": 8417.39297587097,
+      "d95": 21.206912927622593
+    },
+    {
+      "configuration": 4,
+      "target": [
+        0.05,
+        0.0,
+        1.0,
+        7.5,
+        0.0
+      ],
+      "horizontalEquivalentD4Um": 17.476856303587333,
+      "horizontalPeakWPerMm2": 8333.796696217565,
+      "d95": 21.286921493957966
+    },
+    {
+      "configuration": 5,
+      "target": [
+        0.0,
+        -0.05,
+        -1.0,
+        0.0,
+        -7.5
+      ],
+      "horizontalEquivalentD4Um": 15.758266284596147,
+      "horizontalPeakWPerMm2": 10248.543895565323,
+      "d95": 19.188914587766124
+    },
+    {
+      "configuration": 6,
+      "target": [
+        0.03,
+        0.0,
+        0.5,
+        1.5,
+        0.0
+      ],
+      "horizontalEquivalentD4Um": 16.905255099227922,
+      "horizontalPeakWPerMm2": 8915.776940671481,
+      "d95": 20.632022263215934
+    },
+    {
+      "configuration": 7,
+      "target": [
+        -0.02298133329356935,
+        0.01928362829059617,
+        -0.5,
+        -1.1491751348861754,
+        0.9643106935218847
+      ],
+      "horizontalEquivalentD4Um": 16.04531311011404,
+      "horizontalPeakWPerMm2": 9896.732324025277,
+      "d95": 19.66092394167524
+    },
+    {
+      "configuration": 8,
+      "target": [
+        1.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "horizontalEquivalentD4Um": 16.468909165476273,
+      "horizontalPeakWPerMm2": 9387.846652949369,
+      "d95": 20.13258223351148
+    },
+    {
+      "configuration": 9,
+      "target": [
+        1.25,
+        0.0,
+        0.0,
+        7.5,
+        0.0
+      ],
+      "horizontalEquivalentD4Um": 16.768749485660667,
+      "horizontalPeakWPerMm2": 9052.364791937991,
+      "d95": 20.431475527025043
+    },
+    {
+      "configuration": 10,
+      "target": [
+        1.25,
+        0.0,
+        0.0,
+        -7.5,
+        -0.0
+      ],
+      "horizontalEquivalentD4Um": 16.842179676091718,
+      "horizontalPeakWPerMm2": 8992.739658032831,
+      "d95": 20.55959787982394
+    },
+    {
+      "configuration": 11,
+      "target": [
+        0.0,
+        1.25,
+        0.0,
+        0.0,
+        7.5
+      ],
+      "horizontalEquivalentD4Um": 16.766611916234545,
+      "horizontalPeakWPerMm2": 9054.724047190319,
+      "d95": 20.4456869428947
+    },
+    {
+      "configuration": 12,
+      "target": [
+        0.0,
+        1.25,
+        0.0,
+        -0.0,
+        -7.5
+      ],
+      "horizontalEquivalentD4Um": 16.84385050038788,
+      "horizontalPeakWPerMm2": 8991.312285075937,
+      "d95": 20.523149792683107
+    },
+    {
+      "configuration": 13,
+      "target": [
+        1.25,
+        0.0,
+        -1.0,
+        7.499999999999999,
+        0.0
+      ],
+      "horizontalEquivalentD4Um": 15.89966361400049,
+      "horizontalPeakWPerMm2": 10063.087470544784,
+      "d95": 19.375896563261854
+    },
+    {
+      "configuration": 14,
+      "target": [
+        1.25,
+        0.0,
+        -1.0,
+        -7.499999999999999,
+        9.237673039968207e-16
+      ],
+      "horizontalEquivalentD4Um": 16.01721490585917,
+      "horizontalPeakWPerMm2": 9953.465561023491,
+      "d95": 19.550676698332584
+    },
+    {
+      "configuration": 15,
+      "target": [
+        1.25,
+        0.0,
+        1.0,
+        7.499999999999999,
+        0.0
+      ],
+      "horizontalEquivalentD4Um": 17.6345807210051,
+      "horizontalPeakWPerMm2": 8187.833263492573,
+      "d95": 21.50484780609766
+    },
+    {
+      "configuration": 16,
+      "target": [
+        1.25,
+        0.0,
+        1.0,
+        -7.499999999999999,
+        9.237673039968207e-16
+      ],
+      "horizontalEquivalentD4Um": 17.671841804517896,
+      "horizontalPeakWPerMm2": 8162.365987071078,
+      "d95": 21.552149159366056
+    },
+    {
+      "configuration": 17,
+      "target": [
+        0.8838834764831844,
+        0.8838834764831843,
+        -1.0,
+        4.618836519984103e-16,
+        7.499999999999999
+      ],
+      "horizontalEquivalentD4Um": 15.983512935732227,
+      "horizontalPeakWPerMm2": 9946.50987196013,
+      "d95": 19.499426073902978
+    },
+    {
+      "configuration": 18,
+      "target": [
+        0.8838834764831844,
+        0.8838834764831843,
+        1.0,
+        4.618836519984103e-16,
+        7.499999999999999
+      ],
+      "horizontalEquivalentD4Um": 17.676667595807103,
+      "horizontalPeakWPerMm2": 8142.487903104194,
+      "d95": 21.530921316690918
+    },
+    {
+      "configuration": 19,
+      "target": [
+        0.8838834764831842,
+        -0.8838834764831847,
+        -1.0,
+        5.318471839399389,
+        5.318471839399388
+      ],
+      "horizontalEquivalentD4Um": 16.211594129620934,
+      "horizontalPeakWPerMm2": 9687.891563292882,
+      "d95": 19.765369852850753
+    },
+    {
+      "configuration": 20,
+      "target": [
+        1.25,
+        0.0,
+        -1.0,
+        -5.31847183939939,
+        -5.318471839399388
+      ],
+      "horizontalEquivalentD4Um": 16.02807311253874,
+      "horizontalPeakWPerMm2": 9941.008802106668,
+      "d95": 19.596413390016178
+    },
+    {
+      "configuration": 21,
+      "target": [
+        -1.25,
+        0.0,
+        -1.0,
+        5.318471839399388,
+        -5.31847183939939
+      ],
+      "horizontalEquivalentD4Um": 16.02807832259055,
+      "horizontalPeakWPerMm2": 9941.001826712085,
+      "d95": 19.59654937948114
+    }
+  ],
+  "scope": "Stored native POP metrics, not a live browser wave propagation."
+}

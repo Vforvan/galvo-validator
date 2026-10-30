@@ -1,9 +1,8 @@
 # 五轴光路网页
 
-## V3 · Round3三镜片（2026-10-30）
+## V3 · 纵向装配三镜片（2026-10-30）
 
-[当前V3](https://vforvan.github.io/galvo-validator/v3/)采用Round3三镜片非球面处方，G4兼折转、水平像面；[V3主工程](v3/assets/V3_main.zos)、[孔道POP工程](v3/assets/V3_hole_POP.zos)、[版本说明](v3/assets/README.md)。V2保留作独立对照，不与V3混用电机指令。
-
+[当前V3](https://vforvan.github.io/galvo-validator/v3/)采用纵向装配布局：入口和末端下折前均沿+X，G4兼向下折转，水平像面；三片透镜沿用Round3处方，21配置默认5。[V3主工程](v3/assets/V3_assembly_forward.zos)、[装配与POP复核](v3/assets/assembly/README.md)、[发布核对](v3/assets/forward_publish_audit.json)、[版本说明](v3/assets/README.md)。原Round3水平基线保存在[v3/assets/round3_reference](v3/assets/round3_reference/README.md)；新布局孔道POP尚未重做，不能继承旧结构的孔道结论。V2保留作独立对照，不与V3混用电机指令。
 
 - [保留V2对照](https://vforvan.github.io/galvo-validator/v2/)：Ø100 µm、深1000 µm圆孔的五轴光路、旋入路径、固定工件及孔道通光检查。目标控件工作域Ø2.5 mm，音圈机械行程±3.5 mm。
 - [冻结V1](https://vforvan.github.io/galvo-validator/galvo-validator.html)：原整机光路与同心圆扫描演示。

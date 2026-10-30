@@ -1,6 +1,6 @@
 {
-  "version": "V3",
-  "baseline": "Round3",
+  "version": "V3-forward-assembly",
+  "baseline": "forward-assembly",
   "inputM2": 1.0,
   "historicalResults": true,
   "states": [
@@ -13,9 +13,14 @@
         0.0,
         0.0
       ],
-      "horizontalEquivalentD4Um": 16.46994213928966,
-      "horizontalPeakWPerMm2": 9393.56446442156,
-      "d95": 20.167220501047446
+      "horizontalEquivalentD4Um": 16.383756671694982,
+      "principalD4sigmaUm": [
+        16.38375667169445,
+        16.383756671695515
+      ],
+      "horizontalPeakWPerMm2": 9492.670192639967,
+      "d95": 20.04138223756299,
+      "ellipseRatio": 1.000000000000065
     },
     {
       "configuration": 2,
@@ -26,9 +31,14 @@
         5.0,
         0.0
       ],
-      "horizontalEquivalentD4Um": 17.39841225111199,
-      "horizontalPeakWPerMm2": 8417.413745165073,
-      "d95": 21.23994925232026
+      "horizontalEquivalentD4Um": 17.195985238031472,
+      "principalD4sigmaUm": [
+        17.164415042624757,
+        17.227613499922573
+      ],
+      "horizontalPeakWPerMm2": 8616.888451475272,
+      "d95": 21.032852961136598,
+      "ellipseRatio": 1.0036819464654563
     },
     {
       "configuration": 3,
@@ -39,9 +49,14 @@
         -5.0,
         6.138825188787401e-16
       ],
-      "horizontalEquivalentD4Um": 17.398412104056153,
-      "horizontalPeakWPerMm2": 8417.39297587097,
-      "d95": 21.206912927622593
+      "horizontalEquivalentD4Um": 17.19598531618447,
+      "principalD4sigmaUm": [
+        17.164417320784892,
+        17.227611369968137
+      ],
+      "horizontalPeakWPerMm2": 8616.865977444784,
+      "d95": 21.086053158452398,
+      "ellipseRatio": 1.0036816891597433
     },
     {
       "configuration": 4,
@@ -52,9 +67,14 @@
         7.5,
         0.0
       ],
-      "horizontalEquivalentD4Um": 17.476856303587333,
-      "horizontalPeakWPerMm2": 8333.796696217565,
-      "d95": 21.286921493957966
+      "horizontalEquivalentD4Um": 17.275775349480192,
+      "principalD4sigmaUm": [
+        17.17813376011902,
+        17.37397193975742
+      ],
+      "horizontalPeakWPerMm2": 8529.644637593092,
+      "d95": 21.140290587493652,
+      "ellipseRatio": 1.0114004339687388
     },
     {
       "configuration": 5,
@@ -65,9 +85,14 @@
         0.0,
         -7.5
       ],
-      "horizontalEquivalentD4Um": 15.758266284596147,
-      "horizontalPeakWPerMm2": 10248.543895565323,
-      "d95": 19.188914587766124
+      "horizontalEquivalentD4Um": 15.786749188932216,
+      "principalD4sigmaUm": [
+        15.716891640962446,
+        15.856917235766508
+      ],
+      "horizontalPeakWPerMm2": 10211.38340169868,
+      "d95": 19.281401134499905,
+      "ellipseRatio": 1.0089092422345851
     },
     {
       "configuration": 6,
@@ -78,9 +103,14 @@
         1.5,
         0.0
       ],
-      "horizontalEquivalentD4Um": 16.905255099227922,
-      "horizontalPeakWPerMm2": 8915.776940671481,
-      "d95": 20.632022263215934
+      "horizontalEquivalentD4Um": 16.761366292127448,
+      "principalD4sigmaUm": [
+        16.75784807996552,
+        16.764885242917437
+      ],
+      "horizontalPeakWPerMm2": 9069.529972162816,
+      "d95": 20.532617021738616,
+      "ellipseRatio": 1.000419932375466
     },
     {
       "configuration": 7,
@@ -91,9 +121,14 @@
         -1.1491751348861754,
         0.9643106935218847
       ],
-      "horizontalEquivalentD4Um": 16.04531311011404,
-      "horizontalPeakWPerMm2": 9896.732324025277,
-      "d95": 19.66092394167524
+      "horizontalEquivalentD4Um": 16.016923511680368,
+      "principalD4sigmaUm": [
+        16.015810682202524,
+        16.01803641848114
+      ],
+      "horizontalPeakWPerMm2": 9931.901571728835,
+      "d95": 19.65038750105561,
+      "ellipseRatio": 1.0001389711905806
     },
     {
       "configuration": 8,
@@ -104,9 +139,14 @@
         0.0,
         0.0
       ],
-      "horizontalEquivalentD4Um": 16.468909165476273,
-      "horizontalPeakWPerMm2": 9387.846652949369,
-      "d95": 20.13258223351148
+      "horizontalEquivalentD4Um": 16.38327276490358,
+      "principalD4sigmaUm": [
+        16.378612568479674,
+        16.38793428729027
+      ],
+      "horizontalPeakWPerMm2": 9486.666341342894,
+      "d95": 20.063964298963732,
+      "ellipseRatio": 1.0005691397101935
     },
     {
       "configuration": 9,
@@ -117,9 +157,14 @@
         7.5,
         0.0
       ],
-      "horizontalEquivalentD4Um": 16.768749485660667,
-      "horizontalPeakWPerMm2": 9052.364791937991,
-      "d95": 20.431475527025043
+      "horizontalEquivalentD4Um": 16.70259091337687,
+      "principalD4sigmaUm": [
+        16.5038432327354,
+        16.903732014750915
+      ],
+      "horizontalPeakWPerMm2": 9124.404588577616,
+      "d95": 20.43951954242749,
+      "ellipseRatio": 1.0242300400201534
     },
     {
       "configuration": 10,
@@ -130,9 +175,14 @@
         -7.5,
         -0.0
       ],
-      "horizontalEquivalentD4Um": 16.842179676091718,
-      "horizontalPeakWPerMm2": 8992.739658032831,
-      "d95": 20.55959787982394
+      "horizontalEquivalentD4Um": 16.744703117562473,
+      "principalD4sigmaUm": [
+        16.731779895161218,
+        16.75763632154837
+      ],
+      "horizontalPeakWPerMm2": 9098.897330154548,
+      "d95": 20.50421184928278,
+      "ellipseRatio": 1.0015453482264987
     },
     {
       "configuration": 11,
@@ -143,9 +193,14 @@
         0.0,
         7.5
       ],
-      "horizontalEquivalentD4Um": 16.766611916234545,
-      "horizontalPeakWPerMm2": 9054.724047190319,
-      "d95": 20.4456869428947
+      "horizontalEquivalentD4Um": 16.702421422286264,
+      "principalD4sigmaUm": [
+        16.503716390986593,
+        16.90351886560565
+      ],
+      "horizontalPeakWPerMm2": 9124.642587746126,
+      "d95": 20.411018625349367,
+      "ellipseRatio": 1.0242249966702899
     },
     {
       "configuration": 12,
@@ -156,9 +211,14 @@
         -0.0,
         -7.5
       ],
-      "horizontalEquivalentD4Um": 16.84385050038788,
-      "horizontalPeakWPerMm2": 8991.312285075937,
-      "d95": 20.523149792683107
+      "horizontalEquivalentD4Um": 16.74476841716665,
+      "principalD4sigmaUm": [
+        16.73194553147344,
+        16.757601129953624
+      ],
+      "horizontalPeakWPerMm2": 9098.732303785811,
+      "d95": 20.539693015260372,
+      "ellipseRatio": 1.0015333302652656
     },
     {
       "configuration": 13,
@@ -169,9 +229,14 @@
         7.499999999999999,
         0.0
       ],
-      "horizontalEquivalentD4Um": 15.89966361400049,
-      "horizontalPeakWPerMm2": 10063.087470544784,
-      "d95": 19.375896563261854
+      "horizontalEquivalentD4Um": 15.94151264043815,
+      "principalD4sigmaUm": [
+        15.751042795717106,
+        16.13428574610633
+      ],
+      "horizontalPeakWPerMm2": 10010.037715357996,
+      "d95": 19.492496100913463,
+      "ellipseRatio": 1.0243312747834976
     },
     {
       "configuration": 14,
@@ -182,9 +247,14 @@
         -7.499999999999999,
         9.237673039968207e-16
       ],
-      "horizontalEquivalentD4Um": 16.01721490585917,
-      "horizontalPeakWPerMm2": 9953.465561023491,
-      "d95": 19.550676698332584
+      "horizontalEquivalentD4Um": 16.033042225751252,
+      "principalD4sigmaUm": [
+        16.00159250487951,
+        16.064553758279715
+      ],
+      "horizontalPeakWPerMm2": 9934.20420787827,
+      "d95": 19.663661296905484,
+      "ellipseRatio": 1.003934686712026
     },
     {
       "configuration": 15,
@@ -195,9 +265,14 @@
         7.499999999999999,
         0.0
       ],
-      "horizontalEquivalentD4Um": 17.6345807210051,
-      "horizontalPeakWPerMm2": 8187.833263492573,
-      "d95": 21.50484780609766
+      "horizontalEquivalentD4Um": 17.460678348106295,
+      "principalD4sigmaUm": [
+        17.25322047189858,
+        17.670630759781794
+      ],
+      "horizontalPeakWPerMm2": 8351.967256480835,
+      "d95": 21.355706323951168,
+      "ellipseRatio": 1.0241931811259861
     },
     {
       "configuration": 16,
@@ -208,9 +283,14 @@
         -7.499999999999999,
         9.237673039968207e-16
       ],
-      "horizontalEquivalentD4Um": 17.671841804517896,
-      "horizontalPeakWPerMm2": 8162.365987071078,
-      "d95": 21.552149159366056
+      "horizontalEquivalentD4Um": 17.459827177864106,
+      "principalD4sigmaUm": [
+        17.456338020784433,
+        17.463317032353345
+      ],
+      "horizontalPeakWPerMm2": 8363.417382124599,
+      "d95": 21.356170880147953,
+      "ellipseRatio": 1.0003997981455561
     },
     {
       "configuration": 17,
@@ -221,9 +301,14 @@
         4.618836519984103e-16,
         7.499999999999999
       ],
-      "horizontalEquivalentD4Um": 15.983512935732227,
-      "horizontalPeakWPerMm2": 9946.50987196013,
-      "d95": 19.499426073902978
+      "horizontalEquivalentD4Um": 16.02145235076068,
+      "principalD4sigmaUm": [
+        15.827172877750256,
+        16.21811661566823
+      ],
+      "horizontalPeakWPerMm2": 9899.58502699956,
+      "d95": 19.606168336523645,
+      "ellipseRatio": 1.0247007940671173
     },
     {
       "configuration": 18,
@@ -234,9 +319,14 @@
         4.618836519984103e-16,
         7.499999999999999
       ],
-      "horizontalEquivalentD4Um": 17.676667595807103,
-      "horizontalPeakWPerMm2": 8142.487903104194,
-      "d95": 21.530921316690918
+      "horizontalEquivalentD4Um": 17.500085089602564,
+      "principalD4sigmaUm": [
+        17.296878143805536,
+        17.705679348443994
+      ],
+      "horizontalPeakWPerMm2": 8307.68660208154,
+      "d95": 21.420707562390678,
+      "ellipseRatio": 1.0236343923591125
     },
     {
       "configuration": 19,
@@ -247,9 +337,14 @@
         5.318471839399389,
         5.318471839399388
       ],
-      "horizontalEquivalentD4Um": 16.211594129620934,
-      "horizontalPeakWPerMm2": 9687.891563292882,
-      "d95": 19.765369852850753
+      "horizontalEquivalentD4Um": 16.248426112549247,
+      "principalD4sigmaUm": [
+        15.975347381802088,
+        16.526172785182375
+      ],
+      "horizontalPeakWPerMm2": 9640.816048215185,
+      "d95": 19.90740770460303,
+      "ellipseRatio": 1.0344797136622985
     },
     {
       "configuration": 20,
@@ -260,9 +355,14 @@
         -5.31847183939939,
         -5.318471839399388
       ],
-      "horizontalEquivalentD4Um": 16.02807311253874,
-      "horizontalPeakWPerMm2": 9941.008802106668,
-      "d95": 19.596413390016178
+      "horizontalEquivalentD4Um": 16.053468678207786,
+      "principalD4sigmaUm": [
+        15.87180846521611,
+        16.23720807663422
+      ],
+      "horizontalPeakWPerMm2": 9907.55005358948,
+      "d95": 19.687416226201496,
+      "ellipseRatio": 1.023021926721136
     },
     {
       "configuration": 21,
@@ -273,10 +373,15 @@
         5.318471839399388,
         -5.31847183939939
       ],
-      "horizontalEquivalentD4Um": 16.02807832259055,
-      "horizontalPeakWPerMm2": 9941.001826712085,
-      "d95": 19.59654937948114
+      "horizontalEquivalentD4Um": 16.053474109263668,
+      "principalD4sigmaUm": [
+        15.871809029407759,
+        16.237218485888956
+      ],
+      "horizontalPeakWPerMm2": 9907.542475350534,
+      "d95": 19.68739633178119,
+      "ellipseRatio": 1.0230225461889162
     }
   ],
-  "scope": "Stored native POP metrics, not a live browser wave propagation."
+  "scope": "Stored native horizontal-image POP of this accepted layout; not a live browser POP."
 }

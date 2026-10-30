@@ -1,0 +1,87 @@
+{
+  "revision": "v3-g3-g4-axis-aligned-20261030",
+  "checkedConfigurations": 21,
+  "raySamplesPerConfiguration": 4,
+  "mounts": [
+    {
+      "mirror": "G3",
+      "center": [
+        184,
+        192.03,
+        14.5
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "radius": 8,
+      "length": 21,
+      "shaftCenter": [
+        184,
+        192.03,
+        27.45
+      ],
+      "shaftLength": 4.899999999999999,
+      "shaftRadius": 2.1,
+      "mirrorCenterMm": [
+        184,
+        192.03,
+        49.4
+      ],
+      "opticalAxis": [
+        0,
+        0,
+        1
+      ],
+      "bodySide": -1,
+      "bodyOffsetMm": 34.9,
+      "mirrorEdgeAlongAxisMm": 20,
+      "bodyToMirrorEdgeGapMm": 4.399999999999999,
+      "mirrorBondOverlapMm": 0.5,
+      "source": "V3 actual mirror center and scan axis"
+    },
+    {
+      "mirror": "G4",
+      "center": [
+        336.08,
+        226.53,
+        49.4
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "radius": 8,
+      "length": 21,
+      "shaftCenter": [
+        336.08,
+        213.78,
+        49.4
+      ],
+      "shaftLength": 4.5,
+      "shaftRadius": 2.1,
+      "mirrorCenterMm": [
+        336.08,
+        192.03,
+        49.4
+      ],
+      "opticalAxis": [
+        0,
+        1,
+        0
+      ],
+      "bodySide": 1,
+      "bodyOffsetMm": 34.5,
+      "mirrorEdgeAlongAxisMm": 20,
+      "bodyToMirrorEdgeGapMm": 4,
+      "mirrorBondOverlapMm": 0.5,
+      "source": "V3 actual mirror center and scan axis"
+    }
+  ],
+  "minimumBodyBoundingSphereRayGapMm": 10.767210871078149,
+  "minimumShaftBoundingSphereRayGapMm": 8.17037765979487,
+  "sourceOpticalReferenceUnchanged": true,
+  "scope": "G3/G4 axis alignment, shaft endpoints, blank-edge gap and sampled ray separation; not a full assembly or CAD acceptance."
+}

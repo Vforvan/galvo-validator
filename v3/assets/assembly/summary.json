@@ -1,0 +1,31 @@
+{
+  "status": "review-candidate",
+  "project": "V3_assembly_forward.zos",
+  "projectSha256": "5e9decd88edde1987956227287831802a3593482eefdd005c5c3d2a2431aae34",
+  "geometricTargets": 532,
+  "nativeConfigurations": 21,
+  "POPConfigurations": 21,
+  "maximumEquivalentD4IncreasePercent": 0.2632069905579737,
+  "maximumD95IncreasePercent": 0.3170758684170716,
+  "maximumAbsolutePrincipalD4ChangePercent": 1.2567023249817733,
+  "maximumCandidateEllipseRatio": 1.0344797136622985,
+  "minimumMotorRayCapsuleGapMm": 3.111752104086735,
+  "minimumMotorOtherPlateCapsuleGapMm": 29.74109585104879,
+  "minimumMotorMotorCapsuleGapMm": 43.441562714112905,
+  "minimumMirrorSeparationBoundMm": 27.245142343793223,
+  "maximumConvergenceD4DifferencePercent": 0.008245875418178006,
+  "maximumConvergenceD95DifferencePercent": 0.007504008655223604,
+  "baselineUnchanged": true,
+  "defaultWebChanged": false,
+  "prescriptionOptimized": false,
+  "actualCADAccepted": false,
+  "channelPOPRevalidated": false,
+  "baselinePOPEquivalentD4RangeUm": [
+    15.75826628625465,
+    17.676667768242204
+  ],
+  "candidatePOPEquivalentD4RangeUm": [
+    15.786749188932216,
+    17.500085089602564
+  ]
+}

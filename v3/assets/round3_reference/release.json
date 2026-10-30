@@ -1,0 +1,38 @@
+{
+  "version": "V3",
+  "date": "2026-10-30",
+  "baseline": "Round3",
+  "status": "active",
+  "noNewOpticalOptimization": true,
+  "noSubagentWork": true,
+  "sourceRound3Sha256": "dccc7330620814cc927c61e3b088e730b60d39d7d3a58a7a42eb80cc93e17c69",
+  "designSha256": "06bd7243f1a48c24d5d57e0463822d0c81633a638fe77d3864f28e4f291d366d",
+  "projects": [
+    {
+      "file": "V3_main.zos",
+      "sha256": "77f41f1f1a44b751a20f8cbb6eddf95b066b6438bb62448409f716ce99d1693c",
+      "configurations": 21,
+      "source": "simulation\\v2\\hole_validation_current\\V2_round3_3lens_horizontal.zos",
+      "sourceSha256": "dccc7330620814cc927c61e3b088e730b60d39d7d3a58a7a42eb80cc93e17c69",
+      "sourceUnchanged": true,
+      "allImagesHorizontal": true,
+      "lensShapeUnchanged": true
+    },
+    {
+      "file": "V3_hole_POP.zos",
+      "sha256": "12eb1ba4060533678fffad14b85e9673988440229d671aaca988d8f08050b34f",
+      "configurations": 6,
+      "source": "simulation\\v2\\hole_validation_current\\V2_round3_D100um_POP_channel.zos",
+      "sourceSha256": "afe5491ff4d78bf62a0d2bd81bc10fdc2bb4e1f71e1defe6b5b63ebd1a75f982",
+      "sourceUnchanged": true,
+      "allImagesHorizontal": true,
+      "lensShapeUnchanged": true
+    }
+  ],
+  "rejectedConsistencyUsed": false,
+  "webPath": "v3/",
+  "v2WebPath": "v2/",
+  "nativeProject": "V3_main.zos",
+  "configurationCount": 21,
+  "motorMountRevision": "v3-g3-g4-axis-aligned-20261030"
+}

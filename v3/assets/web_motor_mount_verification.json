@@ -1,0 +1,146 @@
+{
+  "revision": "forward-shaft-D10-G4-bond-rail-20261030",
+  "checkedConfigurations": 21,
+  "raySamplesPerConfiguration": 4,
+  "mounts": [
+    {
+      "mirror": "G1",
+      "center": [
+        180,
+        92,
+        114.9
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "radius": 19,
+      "length": 75,
+      "shaftCenter": [
+        180,
+        92,
+        69.4
+      ],
+      "shaftLength": 16,
+      "shaftRadius": 5,
+      "mirrorCenterMm": [
+        180,
+        92,
+        49.4
+      ],
+      "opticalAxis": [
+        0,
+        0,
+        1
+      ],
+      "bodyToMirrorEdgeGapMm": 15.5,
+      "source": "accepted forward assembly reservation"
+    },
+    {
+      "mirror": "G2",
+      "center": [
+        261.9778920318942,
+        21.509143063134374,
+        49.4
+      ],
+      "axis": [
+        -0.9701525684247837,
+        0.24249534836527367,
+        0
+      ],
+      "radius": 19,
+      "length": 75,
+      "shaftCenter": [
+        216.6232594580356,
+        32.84580059921092,
+        49.4
+      ],
+      "shaftLength": 18.5,
+      "shaftRadius": 5,
+      "mirrorCenterMm": [
+        180,
+        42,
+        49.4
+      ],
+      "opticalAxis": [
+        0.9701525684247837,
+        -0.24249534836527367,
+        0
+      ],
+      "bodyToMirrorEdgeGapMm": 18,
+      "source": "accepted forward assembly reservation"
+    },
+    {
+      "mirror": "G3",
+      "center": [
+        260,
+        192.03,
+        124.9
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "radius": 19,
+      "length": 75,
+      "shaftCenter": [
+        260,
+        192.03,
+        78.15
+      ],
+      "shaftLength": 18.5,
+      "shaftRadius": 5,
+      "mirrorCenterMm": [
+        260,
+        192.03,
+        49.4
+      ],
+      "opticalAxis": [
+        0,
+        0,
+        1
+      ],
+      "bodyToMirrorEdgeGapMm": 18,
+      "source": "accepted forward assembly reservation"
+    },
+    {
+      "mirror": "G4",
+      "center": [
+        336.08,
+        270.53,
+        49.4
+      ],
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "radius": 19,
+      "length": 75,
+      "shaftCenter": [
+        336.08,
+        223.78,
+        49.4
+      ],
+      "shaftLength": 18.5,
+      "shaftRadius": 5,
+      "mirrorCenterMm": [
+        336.08,
+        192.03,
+        49.4
+      ],
+      "opticalAxis": [
+        0,
+        1,
+        0
+      ],
+      "bodyToMirrorEdgeGapMm": 18,
+      "source": "accepted forward assembly reservation"
+    }
+  ],
+  "minimumBodyCapsuleRayGapMm": 6.665577830969493,
+  "minimumShaftCapsuleRayGapMm": 4.665581869004335,
+  "scope": "All four axes, per-mirror blanks and apertures, shaft endpoints and sampled ray separation; not a full assembly or CAD acceptance."
+}

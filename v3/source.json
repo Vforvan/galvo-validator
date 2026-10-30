@@ -1,8 +1,20 @@
 {
   "version": "V3",
-  "baseline": "Round3",
-  "designSha256": "06bd7243f1a48c24d5d57e0463822d0c81633a638fe77d3864f28e4f291d366d",
+  "baseline": "Round3-lenses-forward-assembly",
+  "designSha256": "6600253801e25bc61444568e4d2b01b9c9f2096f481e902e7b0aa0f37da79a65",
   "projects": [
+    {
+      "file": "V3_assembly_forward.zos",
+      "sha256": "0f2bd3bdfc4aec95387a28f9b6ecec4f7029f7dcaa41ef6a71f7b8d0456a6392",
+      "configurations": 21,
+      "allImagesHorizontal": true,
+      "source": "simulation/v3/assembly_forward_trial/V3_assembly_forward.zos",
+      "sourceSha256": "358eb79830d6f4f3e0c0b40ea35081422c62ff899ccdfb8d2ba4919f13b036d0",
+      "calculatedGeometrySourceSha256": "5e9decd88edde1987956227287831802a3593482eefdd005c5c3d2a2431aae34",
+      "releaseAudit": "forward_publish_audit.json"
+    }
+  ],
+  "historicalProjects": [
     {
       "file": "V3_main.zos",
       "sha256": "77f41f1f1a44b751a20f8cbb6eddf95b066b6438bb62448409f716ce99d1693c",
@@ -27,8 +39,14 @@
   "physicalLensCount": 3,
   "hasFixedFold": false,
   "configurations": 21,
+  "defaultConfiguration": 5,
   "v2Preserved": true,
   "rejectedConsistencyUsed": false,
   "newOpticalOptimization": false,
-  "motorMountRevision": "v3-g3-g4-axis-aligned-20261030"
+  "channelPOPVerified": false,
+  "nativeProject": "V3_assembly_forward.zos",
+  "browserVerified": true,
+  "releaseAudit": "assets/forward_publish_audit.json",
+  "browserCheck": "assets/browser_verification.json",
+  "motorMountRevision": "forward-shaft-D10-G4-bond-rail-20261030"
 }

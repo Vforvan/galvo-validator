@@ -1,17 +1,35 @@
 {
-  "version": "V3",
+  "version": "v3-forward-assembly-3lens-horizontal",
   "date": "2026-10-30",
-  "surface": "local staged website in the in-app browser",
+  "surface": "offline V3 page in headless Microsoft Edge via Playwright",
   "checks": {
-    "v3TitleAndRound3IdentityVisible": true,
-    "v3SingleF75AndG4OutputFoldVisible": true,
-    "v2NavigationShowsFourElementObjectiveAndSeparateFold": true,
-    "nativeConfiguration9LoadsX1250umAndAOI7p5deg": true,
-    "nativeConfiguration9HistoricalD4um": 16.769,
+    "titleAndForwardIdentity": true,
+    "webglSceneRendered": true,
+    "fourMirrorBlanksMatchDesign": true,
+    "mirrorClearAperturesPositive": true,
+    "g3G4MotorMountsFollowNewAxes": true,
+    "downloadHashMatchesAudit": true,
+    "navigationTargetsExist": true,
+    "nativeConfiguration9Loads1250umAnd7p5deg": true,
+    "configuration9HistoricalD4um": 16.70259091337687,
     "applyFiveAxisInputUpdatesXTo1000um": true,
-    "appliedManualPoseClearsHistoricalPOPRecord": true,
-    "numberAndSliderAgreeAfterApply": true,
-    "bottomRingPresetRemainsOperational": true
+    "manualPoseClearsHistoricalPOPRecord": true,
+    "numberAndSelectorAgreeAfterApply": true,
+    "mobileLayoutFits": true
   },
-  "scope": "Observed UI and Three.js rendering, not a new physical optics or hardware validation."
+  "links": {
+    "v1": "output/galvo-validator.html",
+    "v2": "output/galvo-validator-v2-deep-unified.html",
+    "assembly": "simulation/v3/assembly_forward_trial/README.md",
+    "zemax": "simulation/v3/V3_assembly_forward.zos",
+    "configurations": "simulation/v3/configurations.csv",
+    "readme": "simulation/v3/README.md"
+  },
+  "screenshots": [
+    "output/v3_forward_20261030/desktop.png",
+    "output/v3_forward_20261030/config-9-desktop.png",
+    "output/v3_forward_20261030/mirror-assembly.png",
+    "output/v3_forward_20261030/mobile.png"
+  ],
+  "scope": "Observed UI, link targets and Three.js rendering; not a new physical optics, continuous-sweep or hardware validation."
 }

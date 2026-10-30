@@ -987,7 +987,13 @@
     "savedNativeAudit": "saved_native_audit.json"
   },
   "deepHoleVerification": {
-    "status": "new-layout-channel-POP-not-run",
+    "status": "main-prefix-aligned-native-structure-verified-POP-not-recomputed",
+    "nativeProject": "V3_hole_POP.zos",
+    "sourceMainSha256": "163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f",
+    "structureReport": "hole_structure_verification.json",
+    "configurations": 6,
+    "boreMaskCount": 21,
+    "POPRecomputed": false,
     "notMaterialProcessing": true
   },
   "popVerification": {

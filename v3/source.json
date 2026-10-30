@@ -1,7 +1,7 @@
 {
   "version": "V3",
   "baseline": "Round3-lenses-G1-clearance",
-  "designSha256": "f7ffde85bd26bc3602a5305efa7e26d3065c6bb001a373510e4ce9d379360749",
+  "designSha256": "c25cf93fa2a6d1eb48b8ee14e73ac1d31ec8cdf980dfc39ae06129c09ba24bd0",
   "projects": [
     {
       "file": "V3_main.zos",
@@ -17,12 +17,14 @@
     },
     {
       "file": "V3_hole_POP.zos",
-      "sha256": "99ce6eda1a253d06b821feba490ebf3007a184cc7abf829548a842b52a18cfc2",
+      "sha256": "640df69c9180f6ea93c9ff170e61c11fa29749ab02927fdf21969a3b1f100d19",
       "configurations": 6,
       "defaultConfiguration": 1,
-      "role": "retained-hole-project",
+      "role": "current-main-derived-hole",
       "source": "simulation/v3/V3_hole_POP.zos",
-      "scope": "保留现有hole工程；不代表与最新版main同步重做孔道POP。"
+      "scope": "最新版main的相同光学前端，重算原6个孔道工况指令，追加21个100um虚拟孔道光阑；孔道POP未重新计算。",
+      "sourceMainSha256": "163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f",
+      "validationStatus": "native-structure-prefix-verified"
     }
   ],
   "historicalProjects": [],
@@ -40,5 +42,7 @@
   "browserCheck": "assets/browser_verification.json",
   "independentTestRun": "tests\\results\\20261030-140246-11eda5",
   "G1clearanceMm": 13.678667460316271,
+  "holeStructureMatchesMain": true,
+  "holeStructureVerification": "assets/hole_structure_verification.json",
   "motorMountRevision": "g1-clearance-D38-L75-shaft-D10-20261030"
 }

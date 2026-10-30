@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "sourceMainSha256": "163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f",
+  "holeSha256": "640df69c9180f6ea93c9ff170e61c11fa29749ab02927fdf21969a3b1f100d19",
+  "states": [
+    {
+      "configuration": 1,
+      "id": "helix-north-top0-100",
+      "targetResidual": 2.1967982988257972e-12,
+      "maximumFrameDifferenceMm": 4.412235823639328e-13,
+      "exitRayDifferenceMm": 5.539300435419491e-13,
+      "exitDirectionDifference": 8.736359913584243e-15,
+      "maximumMaskPositionErrorMm": 4.2347393291923196e-13
+    },
+    {
+      "configuration": 2,
+      "id": "helix-north-top0.5-098",
+      "targetResidual": 1.7918999617450027e-13,
+      "maximumFrameDifferenceMm": 4.300985082870044e-13,
+      "exitRayDifferenceMm": 2.2746975882238386e-12,
+      "exitDirectionDifference": 1.8658214765204572e-14,
+      "maximumMaskPositionErrorMm": 3.8263897345803627e-13
+    },
+    {
+      "configuration": 3,
+      "id": "helix-center-top1-099",
+      "targetResidual": 4.376585899246166e-13,
+      "maximumFrameDifferenceMm": 3.883727082608642e-13,
+      "exitRayDifferenceMm": 1.7146362030108896e-12,
+      "exitDirectionDifference": 8.73720890596466e-15,
+      "maximumMaskPositionErrorMm": 4.18919028475775e-13
+    },
+    {
+      "configuration": 4,
+      "id": "bottom-south-a2.5-p90",
+      "targetResidual": 7.064349105689871e-13,
+      "maximumFrameDifferenceMm": 4.2641815000471454e-13,
+      "exitRayDifferenceMm": 8.546344255041995e-13,
+      "exitDirectionDifference": 7.483889005053263e-15,
+      "maximumMaskPositionErrorMm": 5.155231163830949e-13
+    },
+    {
+      "configuration": 5,
+      "id": "helix-center-top0.5-050",
+      "targetResidual": 6.504927278003937e-14,
+      "maximumFrameDifferenceMm": 3.773619153635885e-13,
+      "exitRayDifferenceMm": 8.013161256963051e-13,
+      "exitDirectionDifference": 6.072148766850342e-15,
+      "maximumMaskPositionErrorMm": 3.791928993486617e-13
+    },
+    {
+      "configuration": 6,
+      "id": "helix-center-top0.5-001",
+      "targetResidual": 2.1516122217235534e-13,
+      "maximumFrameDifferenceMm": 4.0523134315403924e-13,
+      "exitRayDifferenceMm": 1.880081342923482e-12,
+      "exitDirectionDifference": 1.4616872756081946e-14,
+      "maximumMaskPositionErrorMm": 4.941210434797571e-13
+    }
+  ],
+  "POPRecomputed": false,
+  "mainOpticalPrefixMatches": true,
+  "preservedConfigurations": 6,
+  "mainSurfaces": 45,
+  "holeSurfaces": 65,
+  "boreMaskCount": 21,
+  "boreDiameterUm": 100.0,
+  "mainFrameDifferenceMm": 4.2641815000471454e-13,
+  "scope": "Native surface/frame/ray consistency of the current main optical prefix plus six preserved bore cases. Bore POP, transmission, convergence and hardware are not recomputed or accepted by this check.",
+  "mainUnchanged": true,
+  "holeUnchanged": true,
+  "nativeProject": "V3_hole_POP.zos",
+  "sourceMain": "V3_main.zos",
+  "validationRun": "20261030-145702-d50670",
+  "previousHoleSha256": "99ce6eda1a253d06b821feba490ebf3007a184cc7abf829548a842b52a18cfc2"
+}

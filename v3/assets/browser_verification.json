@@ -27,10 +27,10 @@
     "readme": "simulation/v3/README.md"
   },
   "screenshots": [
-    "tests/results/20261030-143802-0a623a/v3.browser/screenshots/desktop.png",
-    "tests/results/20261030-143802-0a623a/v3.browser/screenshots/config-9-desktop.png",
-    "tests/results/20261030-143802-0a623a/v3.browser/screenshots/mirror-assembly.png",
-    "tests/results/20261030-143802-0a623a/v3.browser/screenshots/mobile.png"
+    "tests/results/20261030-150122-1437a9/v3.browser/screenshots/desktop.png",
+    "tests/results/20261030-150122-1437a9/v3.browser/screenshots/config-9-desktop.png",
+    "tests/results/20261030-150122-1437a9/v3.browser/screenshots/mirror-assembly.png",
+    "tests/results/20261030-150122-1437a9/v3.browser/screenshots/mobile.png"
   ],
   "scope": "Observed UI, link targets and Three.js rendering; not a new physical optics, continuous-sweep or hardware validation."
 }

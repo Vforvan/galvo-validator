@@ -25,5 +25,7 @@
   "removedZdaCaches": 7,
   "opticalContentsUnchanged": true,
   "oldMainReplaced": true,
-  "testEvidenceOutsideProjectDirectoryPreserved": true
+  "testEvidenceOutsideProjectDirectoryPreserved": true,
+  "subsequentHoleUpdate": "hole_structure_verification.json",
+  "note": "retained中的哈希是清理时记录；hole此后已按用户要求从main更新，当前哈希以release.json为准。"
 }

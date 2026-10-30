@@ -22,7 +22,7 @@
 ## 工程和数据
 
 - [V3_main.zos](V3_main.zos)：当前G1错位最新版main。
-- [V3_hole_POP.zos](V3_hole_POP.zos)：保留现有hole，文件内容未改；未与新main重做孔道验证。
+- [V3_hole_POP.zos](V3_hole_POP.zos)：当前main的孔道延伸；保留原6个工况，重算振镜/音圈指令并追加21个Ø100µm虚拟光阑；原生结构核对通过，孔道POP未重算。
 
 - [design.json](design.json)、[prescription.json](prescription.json)：当前工作模型及三片透镜处方。
 - [cases.json](cases.json)、[configurations.csv](configurations.csv)：新布局21配置五轴指令。
@@ -49,6 +49,12 @@ python tests/run.py --force
 
 独立实测G1旁最小采样净空13.678667 mm；电机/轴段最小胶囊净空3.087625 mm；G3长边通光余量1.158407 mm。真实镜架、法兰、机壳、线缆、公差、热漂移和连续扫掠仍未验收；需特别关注G3长边通光余量与G2电机到端壁空间。
 
-网页实时高斯包络假设M²=1.2，不是实时POP。新布局原生POP已按DeepSeek的21配置实测记录更新，等效D4范围15.786737～17.500102 µm；旧布局M²=1相干POP仍单独存于根目录`tests/data/v3/pop_regression_reference.json`作回归比较。新孔道POP没有重做，不能继承任何旧结构孔道结论。
+网页实时高斯包络假设M²=1.2，不是实时POP。新布局原生POP已按DeepSeek的21配置实测记录更新，等效D4范围15.786737～17.500102 µm；旧布局M²=1相干POP仍单独存于根目录`tests/data/v3/pop_regression_reference.json`作回归比较。hole前端现已与当前main同步，6配置、65面；曲面、材料、口径、镜心/转轴、出射光线及21层光阑位置的原生检查通过。孔道POP没有重新计算，不能继承旧结构的透过率结论。
 
 已根据本轮报告更新验收状态与页面POP。当前下载文件的SHA-256为`163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f`；与实测文件的3字节保存差异及21配置只读核对记录见`saved_native_audit.json`，未重复计算POP。
+
+## main与hole同步
+
+hole以当前main原文件为模板，只重算6个保留工况的配置变换并延伸孔道，main文件未改动。对应指令见[hole_configurations.csv](hole_configurations.csv)，参数及来源见[hole_configurations.json](hole_configurations.json)，原生结构记录见[hole_structure_verification.json](hole_structure_verification.json)。
+
+更新候选：`python simulation/v3/sync_hole_from_main.py`；候选检查：`python tests/run.py --profile v3-hole-candidate`。统一默认v3套件已加入`v3.hole`，也可用`python tests/run.py --profile v3-hole`单独核对当前两个工程的同源结构；检查本身不修改正式工程，不计算孔道POP。

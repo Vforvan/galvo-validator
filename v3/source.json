@@ -1,7 +1,7 @@
 {
   "version": "V3",
   "baseline": "Round3-lenses-forward-assembly",
-  "designSha256": "6600253801e25bc61444568e4d2b01b9c9f2096f481e902e7b0aa0f37da79a65",
+  "designSha256": "c3730be48a2c93db0c405ee5d8742a84d65f3a44c3b3b99b362f817eb784242e",
   "projects": [
     {
       "file": "V3_assembly_forward.zos",

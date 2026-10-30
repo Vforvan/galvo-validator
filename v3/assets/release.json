@@ -6,7 +6,7 @@
   "noNewOpticalOptimization": true,
   "noSubagentWork": true,
   "sourceRound3Sha256": "dccc7330620814cc927c61e3b088e730b60d39d7d3a58a7a42eb80cc93e17c69",
-  "designSha256": "f13d25ec4fd97fe1f9fa8cd16b8d8df4778e90b7f2ac09f058ba331840cba6e6",
+  "designSha256": "06bd7243f1a48c24d5d57e0463822d0c81633a638fe77d3864f28e4f291d366d",
   "projects": [
     {
       "file": "V3_main.zos",
@@ -33,5 +33,6 @@
   "webPath": "v3/",
   "v2WebPath": "v2/",
   "nativeProject": "V3_main.zos",
-  "configurationCount": 21
+  "configurationCount": 21,
+  "motorMountRevision": "v3-g3-g4-axis-aligned-20261030"
 }

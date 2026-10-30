@@ -385,7 +385,7 @@
       "radius": 8,
       "length": 21
     },
-    "motorMounting": "G1 and G3 below mirrors, shaft ends upward; G2 and G4 unchanged. Motor dimensions remain illustrative.",
+    "motorMounting": "V3 G3 below its relocated mirror; G4 body on +Y with shaft pointing -Y. G1/G2 retain their preceding mounting records. Dimensions are illustrative; no full CAD acceptance.",
     "boardProxies": [
       {
         "label": "控制板 / IPC 占位",
@@ -493,7 +493,7 @@
       {
         "center": [
           184.0,
-          142.0,
+          192.03,
           14.5
         ],
         "axis": [
@@ -501,38 +501,71 @@
           0.0,
           1.0
         ],
-        "radius": 8.0,
-        "length": 21.0,
+        "radius": 8,
+        "length": 21,
         "shaftCenter": [
           184.0,
-          142.0,
+          192.03,
           27.45
         ],
         "shaftLength": 4.899999999999999,
-        "shaftRadius": 2.1
+        "shaftRadius": 2.1,
+        "mirrorCenterMm": [
+          184.0,
+          192.03,
+          49.4
+        ],
+        "opticalAxis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "bodySide": -1.0,
+        "bodyOffsetMm": 34.9,
+        "mirrorEdgeAlongAxisMm": 20.0,
+        "bodyToMirrorEdgeGapMm": 4.399999999999999,
+        "mirrorBondOverlapMm": 0.5,
+        "source": "V3 actual mirror center and scan axis"
       },
       {
         "center": [
-          215.46625176280136,
-          223.49625176280136,
+          336.08,
+          226.53,
           49.4
         ],
         "axis": [
-          -0.7071067811865475,
-          -0.7071067811865475,
-          0.0
+          0.0,
+          -1.0,
+          -0.0
         ],
-        "radius": 8.0,
-        "length": 21.0,
+        "radius": 8,
+        "length": 21,
         "shaftCenter": [
-          206.09708691207962,
-          214.12708691207962,
+          336.08,
+          213.78,
           49.4
         ],
-        "shaftLength": 5.5,
-        "shaftRadius": 2.1
+        "shaftLength": 4.5,
+        "shaftRadius": 2.1,
+        "mirrorCenterMm": [
+          336.08,
+          192.03,
+          49.4
+        ],
+        "opticalAxis": [
+          -0.0,
+          1.0,
+          0.0
+        ],
+        "bodySide": 1.0,
+        "bodyOffsetMm": 34.5,
+        "mirrorEdgeAlongAxisMm": 20.0,
+        "bodyToMirrorEdgeGapMm": 4.0,
+        "mirrorBondOverlapMm": 0.5,
+        "source": "V3 actual mirror center and scan axis"
       }
-    ]
+    ],
+    "mountRevision": "v3-g3-g4-axis-aligned-20261030"
   },
   "seeds": [
     {

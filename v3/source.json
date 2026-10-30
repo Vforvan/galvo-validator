@@ -1,7 +1,7 @@
 {
   "version": "V3",
   "baseline": "Round3",
-  "designSha256": "f13d25ec4fd97fe1f9fa8cd16b8d8df4778e90b7f2ac09f058ba331840cba6e6",
+  "designSha256": "06bd7243f1a48c24d5d57e0463822d0c81633a638fe77d3864f28e4f291d366d",
   "projects": [
     {
       "file": "V3_main.zos",
@@ -29,5 +29,6 @@
   "configurations": 21,
   "v2Preserved": true,
   "rejectedConsistencyUsed": false,
-  "newOpticalOptimization": false
+  "newOpticalOptimization": false,
+  "motorMountRevision": "v3-g3-g4-axis-aligned-20261030"
 }

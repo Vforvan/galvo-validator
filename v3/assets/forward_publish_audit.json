@@ -1,9 +1,9 @@
 {
   "status": "passed",
-  "nativeFile": "V3_G1_clearance.zos",
+  "nativeFile": "V3_main.zos",
   "nativeSha256": "163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f",
-  "sourceSha256": "aa1f1d790fa517bbffb2ed34bdaac96e5b51b2fe16f6d50323a72af577fc2925",
-  "source": "g1_clearance_revision/V3_G1_clearance.zos",
+  "sourceSha256": "163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f",
+  "source": "V3_main.zos",
   "nativeRayVerified": true,
   "POPVerified": true,
   "scope": "Independent six-stage tests passed; user re-saved native file differs by three bytes. All 21 configuration surfaces, apertures, frames and rays were checked read-only against the tested model; prior POP remains valid for unchanged optical geometry.",
@@ -264,5 +264,7 @@
       "minimumForwardSegmentMm": 2.999999999999993,
       "clearanceMm": 3.5850379286335645
     }
-  ]
+  ],
+  "originalConstructionSource": "g1_clearance_revision/V3_G1_clearance.zos",
+  "constructionSourceSha256": "aa1f1d790fa517bbffb2ed34bdaac96e5b51b2fe16f6d50323a72af577fc2925"
 }

@@ -281,5 +281,7 @@
   "POPRecomputed": false,
   "POPEvidence": "tests\\results\\20261030-140246-11eda5\\v3.native\\native_pop.json",
   "scope": "Read-only semantic check of re-saved native file: all 21 configurations, surfaces, apertures, frames and real rays; preserves prior independent POP evidence without rerunning POP.",
-  "sourceUnchanged": true
+  "sourceUnchanged": true,
+  "nativeFile": "V3_main.zos",
+  "formerFileName": "V3_G1_clearance.zos"
 }

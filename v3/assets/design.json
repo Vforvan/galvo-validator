@@ -1280,7 +1280,7 @@
   "defaultConfiguration": 5,
   "physicalLensCount": 3,
   "webAssets": "assets/",
-  "nativeProject": "V3_G1_clearance.zos",
+  "nativeProject": "V3_main.zos",
   "sourceRound3Sha256": "dccc7330620814cc927c61e3b088e730b60d39d7d3a58a7a42eb80cc93e17c69",
   "focusMethod": "512 equal-power real aspheric rays; horizontal minimum geometric RMS",
   "layoutBaseline": "forward-g1-clearance",

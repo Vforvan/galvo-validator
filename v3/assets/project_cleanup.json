@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "reason": "用户要求仅保留hole和最新版main两个工程",
+  "retained": [
+    {
+      "file": "V3_main.zos",
+      "sha256": "163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f",
+      "former": "V3_G1_clearance.zos"
+    },
+    {
+      "file": "V3_hole_POP.zos",
+      "sha256": "99ce6eda1a253d06b821feba490ebf3007a184cc7abf829548a842b52a18cfc2"
+    }
+  ],
+  "removedProjectFiles": [
+    "V3_G1_clearance.zos",
+    "V3_assembly_forward.zos",
+    "assembly_forward_trial/V3_assembly_forward.zos",
+    "assembly_u_trial/V3_assembly_U.zos",
+    "forward_reference/V3_assembly_forward.zos",
+    "g1_clearance_revision/V3_G1_clearance.zos",
+    "round3_reference/V3_main.zos",
+    "round3_reference/V3_hole_POP.zos"
+  ],
+  "removedZdaCaches": 7,
+  "opticalContentsUnchanged": true,
+  "oldMainReplaced": true,
+  "testEvidenceOutsideProjectDirectoryPreserved": true
+}

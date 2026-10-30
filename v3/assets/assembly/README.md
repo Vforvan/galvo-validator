@@ -4,7 +4,7 @@
 
 2026-10-30，用户说明进出光应类似V1/V2后，停止采用上一版U形候选的末段侧向布局。本候选保留V3原入口、出光轴线及水平像面，在内部重排振镜，为G2电机留出外侧安装空间。由主模型直接完成，未调用子代理。
 
-**工程：[V3_assembly_forward.zos](../V3_assembly_forward.zos)**，21配置、默认5、45顺序面。该候选保存后经21配置曲面、净口径和光线复核，已发布为V3当前默认布局；原水平入口基线保存在`../round3_reference/`。下文保留候选阶段的复核记录。
+**工程：`V3_assembly_forward.zos`（旧工程已清理）**，21配置、默认5、45顺序面。该候选保存后经21配置曲面、净口径和光线复核，已发布为V3当前默认布局；原水平入口基线保存在`../round3_reference/`。下文保留候选阶段的复核记录。
 
 ## 明确的接口约束
 
@@ -78,7 +78,7 @@ POP只覆盖21配置，不是532点全域物理光斑验收。仍为理想静态
 
 ## 文件与复现
 
-- [原生工程](../V3_assembly_forward.zos)；[五轴配置表](../forward_reference/configurations.csv)。
+- [原生工程](V3_assembly_forward.zos)；[五轴配置表](../forward_reference/configurations.csv)。
 - 分析设置：[点列图](../forward_reference/V3_spot.CFG)、[POP](../forward_reference/V3_pop.CFG)。加载对应工程和CFG，切换配置后刷新。
 - [汇总](summary.json)、[532点几何/机械数据](candidate.json)、[原生光线及POP记录](native_report.json)。
 - 完整光强网格保存在各`baseline_XX_pop.npz`、`candidate_XX_pop.npz`及`candidate_hi_XX_pop.npz`文件中。

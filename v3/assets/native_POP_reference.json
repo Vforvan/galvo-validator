@@ -387,5 +387,6 @@
   "testedNativeSha256": "aa1f1d790fa517bbffb2ed34bdaac96e5b51b2fe16f6d50323a72af577fc2925",
   "currentDownloadSha256": "163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f",
   "savedNativeAudit": "saved_native_audit.json",
-  "scope": "DeepSeek independently computed POP for 21 configurations; re-saved download matched identical optical geometry and real rays. Stored measurements, not live browser POP."
+  "scope": "DeepSeek independently computed POP for 21 configurations; re-saved download matched identical optical geometry and real rays. Stored measurements, not live browser POP.",
+  "nativeProject": "V3_main.zos"
 }

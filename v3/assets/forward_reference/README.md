@@ -9,9 +9,9 @@
 
 ## 工程
 
-- [V3_assembly_forward.zos](V3_assembly_forward.zos)：当前主工程，21配置、默认5、45个顺序面，全部水平像面。源候选保存后曾被再次保存；发布前重新打开核对21配置的曲率、材料、Conic/A4/A6、净口径和逐面光线，均与计算记录一致，再从只读核对生成默认配置5的下载副本。记录见[forward_publish_audit.json](forward_publish_audit.json)。
-- [V3_main.zos](round3_reference/V3_main.zos)：历史基线，Round3三镜片水平入口布局，21配置、默认5；不是当前网页布局。
-- [V3_hole_POP.zos](round3_reference/V3_hole_POP.zos)：历史孔道POP工程，6配置、默认1；**没有**随纵向布局重做，不能用来宣称新布局已完成孔道验证。
+- `V3_assembly_forward.zos`（历史工程文件已清理）：当前主工程，21配置、默认5、45个顺序面，全部水平像面。源候选保存后曾被再次保存；发布前重新打开核对21配置的曲率、材料、Conic/A4/A6、净口径和逐面光线，均与计算记录一致，再从只读核对生成默认配置5的下载副本。记录见[forward_publish_audit.json](forward_publish_audit.json)。
+- `V3_main.zos`（历史工程文件已清理）：历史基线，Round3三镜片水平入口布局，21配置、默认5；不是当前网页布局。
+- `V3_hole_POP.zos`（历史工程文件已清理）：历史孔道POP工程，6配置、默认1；**没有**随纵向布局重做，不能用来宣称新布局已完成孔道验证。
 - [configurations.csv](configurations.csv)：21配置的目标和五轴电机指令。
 - [prescription.json](prescription.json)：Round3处方参数、实际表面行和本轮镜片外形；[design.json](design.json)为网页使用的独立V3数据；[release.json](release.json)记录来源、哈希和工程数量。
 - 原生分析设置：[点列图](V3_spot.CFG)、[POP](V3_pop.CFG)，均由新布局候选导出。本轮未重跑PSF，旧版[V3_psf.CFG](round3_reference/V3_psf.CFG)只作历史设置。

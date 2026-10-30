@@ -2,7 +2,7 @@
 
 2026-10-30按用户授权修改本地布局。G1向入口移动20 mm，G2向入口移动10 mm、向−Y移动7.627608158 mm，扩大后续光束到G1的空间。三片透镜和四面振镜数量、透镜处方及位置保持，不增加镜片。
 
-**当前工作工程：[V3_G1_clearance.zos](V3_G1_clearance.zos)，21配置、默认5。状态：独立测试通过。** DeepSeek运行20261030-140246-11eda5完成六阶段检查；用户重存后的ZOS另经21配置只读核对，光学结构和真实光线不变。
+**当前工作工程：[V3_main.zos](V3_main.zos)，21配置、默认5。状态：独立测试通过。** DeepSeek运行20261030-140246-11eda5完成六阶段检查；用户重存后的ZOS另经21配置只读核对，光学结构和真实光线不变。
 
 ## 布局
 
@@ -21,6 +21,9 @@
 
 ## 工程和数据
 
+- [V3_main.zos](V3_main.zos)：当前G1错位最新版main。
+- [V3_hole_POP.zos](V3_hole_POP.zos)：保留现有hole，文件内容未改；未与新main重做孔道验证。
+
 - [design.json](design.json)、[prescription.json](prescription.json)：当前工作模型及三片透镜处方。
 - [cases.json](cases.json)、[configurations.csv](configurations.csv)：新布局21配置五轴指令。
 - [reference_rays.json](reference_rays.json)：依据新模型生成的独立光线参考，21配置原生复核通过。
@@ -28,7 +31,7 @@
 - [本地网页](index.html)，或打开仓库`output/galvo-validator-v3-round3.html`。页面显示“G1净空改进布局 · 独立测试通过”，原生配置选择器显示本版21配置POP记录。
 - [布局构建脚本](g1_clearance_revision/prepare.py)、[本轮结构说明](g1_clearance_revision/README.md)。
 
-上一已接受纵向布局的数据、ZOS、旧POP及文档原样归档于[forward_reference](forward_reference/README.md)，来源哈希见其`archive_manifest.json`；原`V3_assembly_forward.zos`继续保留。更早Round3水平基线与孔道工程在[round3_reference](round3_reference/README.md)。V2保持独立，未改动其处方、工程或电机指令。
+按用户要求，V3目录及子目录现在仅保留`V3_main.zos`和`V3_hole_POP.zos`两个工程，旧版及试验工程副本、旧ZDA缓存已清理。历史数据、旧POP与说明保留在forward_reference、round3_reference等目录，来源记录保留原文件名与哈希；这些历史目录不再提供原生工程。V2保持独立，未改动其处方、工程或电机指令。
 
 ## 测试交接
 

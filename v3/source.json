@@ -1,32 +1,31 @@
 {
   "version": "V3",
   "baseline": "Round3-lenses-G1-clearance",
-  "designSha256": "0d1d754c361d8389749df2092b8408b10c6722a25e4acb945c97f907c0fa9102",
+  "designSha256": "f7ffde85bd26bc3602a5305efa7e26d3065c6bb001a373510e4ce9d379360749",
   "projects": [
     {
-      "file": "V3_G1_clearance.zos",
+      "file": "V3_main.zos",
       "sha256": "163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f",
       "configurations": 21,
       "allImagesHorizontal": true,
-      "source": "simulation/v3/g1_clearance_revision/V3_G1_clearance.zos",
-      "sourceSha256": "aa1f1d790fa517bbffb2ed34bdaac96e5b51b2fe16f6d50323a72af577fc2925",
+      "source": "simulation/v3/V3_main.zos",
+      "sourceSha256": "163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f",
       "releaseAudit": "forward_publish_audit.json",
       "validationStatus": "independent-tests-passed-resaved-native-reconciled",
-      "testedSha256": "aa1f1d790fa517bbffb2ed34bdaac96e5b51b2fe16f6d50323a72af577fc2925"
-    }
-  ],
-  "historicalProjects": [
+      "testedSha256": "aa1f1d790fa517bbffb2ed34bdaac96e5b51b2fe16f6d50323a72af577fc2925",
+      "formerFileName": "V3_G1_clearance.zos"
+    },
     {
-      "file": "V3_assembly_forward.zos",
-      "sha256": "0f2bd3bdfc4aec95387a28f9b6ecec4f7029f7dcaa41ef6a71f7b8d0456a6392",
-      "configurations": 21,
-      "allImagesHorizontal": true,
-      "source": "simulation/v3/assembly_forward_trial/V3_assembly_forward.zos",
-      "sourceSha256": "358eb79830d6f4f3e0c0b40ea35081422c62ff899ccdfb8d2ba4919f13b036d0",
-      "calculatedGeometrySourceSha256": "5e9decd88edde1987956227287831802a3593482eefdd005c5c3d2a2431aae34",
-      "releaseAudit": "forward_publish_audit.json"
+      "file": "V3_hole_POP.zos",
+      "sha256": "99ce6eda1a253d06b821feba490ebf3007a184cc7abf829548a842b52a18cfc2",
+      "configurations": 6,
+      "defaultConfiguration": 1,
+      "role": "retained-hole-project",
+      "source": "simulation/v3/V3_hole_POP.zos",
+      "scope": "保留现有hole工程；不代表与最新版main同步重做孔道POP。"
     }
   ],
+  "historicalProjects": [],
   "physicalLensCount": 3,
   "hasFixedFold": false,
   "configurations": 21,
@@ -35,7 +34,7 @@
   "rejectedConsistencyUsed": false,
   "newOpticalOptimization": false,
   "channelPOPVerified": false,
-  "nativeProject": "V3_G1_clearance.zos",
+  "nativeProject": "V3_main.zos",
   "browserVerified": true,
   "releaseAudit": "assets/forward_publish_audit.json",
   "browserCheck": "assets/browser_verification.json",

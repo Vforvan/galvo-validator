@@ -1,0 +1,17 @@
+{
+  "version": "V3",
+  "date": "2026-10-30",
+  "surface": "local staged website in the in-app browser",
+  "checks": {
+    "v3TitleAndRound3IdentityVisible": true,
+    "v3SingleF75AndG4OutputFoldVisible": true,
+    "v2NavigationShowsFourElementObjectiveAndSeparateFold": true,
+    "nativeConfiguration9LoadsX1250umAndAOI7p5deg": true,
+    "nativeConfiguration9HistoricalD4um": 16.769,
+    "applyFiveAxisInputUpdatesXTo1000um": true,
+    "appliedManualPoseClearsHistoricalPOPRecord": true,
+    "numberAndSliderAgreeAfterApply": true,
+    "bottomRingPresetRemainsOperational": true
+  },
+  "scope": "Observed UI and Three.js rendering, not a new physical optics or hardware validation."
+}

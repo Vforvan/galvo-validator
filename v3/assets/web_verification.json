@@ -1,0 +1,13 @@
+{
+  "version": "v3-round3-3lens-horizontal",
+  "referenceConfigurations": 21,
+  "helixPoints": 101,
+  "maxRayDifferenceMm": 4.265772177802528e-13,
+  "maxDirectionDifference": 1.6560604692672234e-15,
+  "maxCommandDifference": 0,
+  "maxTargetResidual": 2.822355682496891e-10,
+  "minimumChannelEnvelopeMarginUm": 4.777828657291995,
+  "maximumVoiceMm": 2.006242980872475,
+  "minimumMirrorClearanceMm": 14.76590018589036,
+  "inputModel": "Frozen Round3 with actual even-aspheric refraction; Gaussian channel envelope is approximate, not live POP"
+}

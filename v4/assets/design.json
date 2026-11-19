@@ -1,0 +1,1393 @@
+{
+  "version": "v4-catalog-singlets-fixed-exit-strehl",
+  "parts": {
+    "L1": {
+      "role": "L1",
+      "name": "EKSMA 114-1118E",
+      "material": "F_SILICA",
+      "radiiMm": [
+        -71.84,
+        71.84
+      ],
+      "thicknessMm": 2.7,
+      "index515": 1.4615309610026677,
+      "matrix": [
+        [
+          1.0118683476935493,
+          1.8473779016954208
+        ],
+        [
+          0.012925104843010201,
+          1.0118683476935493
+        ]
+      ],
+      "efl515Mm": -77.36881148324242,
+      "frontPrincipalFromFirstMm": -0.918239955319789,
+      "rearPrincipalFromRearMm": -0.918239955319789,
+      "blankDiameterMm": 12.7,
+      "clearDiameterMm": 11.43,
+      "coatingModel": "",
+      "firstVertexX": 24.033990940859624,
+      "aspheres": [
+        {
+          "conic": 0.0,
+          "A4": 0.0,
+          "A6": 0.0,
+          "A8": 0.0
+        },
+        {
+          "conic": 0.0,
+          "A4": 0.0,
+          "A6": 0.0,
+          "A8": 0.0
+        }
+      ]
+    },
+    "L2": {
+      "role": "L2",
+      "name": "OptoSigma SLSQ-25-120P (plane->L1)",
+      "material": "SILICA",
+      "radiiMm": [
+        0.0,
+        -55.19999999998631
+      ],
+      "thicknessMm": 3.4,
+      "index515": 1.4615309592287145,
+      "matrix": [
+        [
+          1.0,
+          2.326327730884512
+        ],
+        [
+          -0.008361068101971538,
+          0.9805494154145696
+        ]
+      ],
+      "efl515Mm": 119.60194413010464,
+      "frontPrincipalFromFirstMm": -2.326327730884517,
+      "rearPrincipalFromRearMm": -0.0,
+      "blankDiameterMm": 25.0,
+      "clearDiameterMm": 22.5,
+      "coatingModel": "",
+      "firstVertexX": 71.22183427769897,
+      "aspheres": [
+        {
+          "conic": 0.0,
+          "A4": 0.0,
+          "A6": 0.0,
+          "A8": 0.0
+        },
+        {
+          "conic": 0.0,
+          "A4": 0.0,
+          "A6": 0.0,
+          "A8": 0.0
+        }
+      ]
+    }
+  },
+  "objective": {
+    "version": "eksma-117-5075-evenasph",
+    "radiiMm": [
+      34.03,
+      0.0
+    ],
+    "distancesMm": [
+      12.11
+    ],
+    "clearDiameterMm": 45.72,
+    "blankDiameterMm": 50.8,
+    "indexAt515": 1.4615309592287145,
+    "effectiveFocalLengthMm": 73.73286519471867,
+    "elementCount": 1,
+    "aspheres": [
+      {
+        "conic": -0.68,
+        "A4": 3.50194402615361e-07,
+        "A6": 7.05004485494277e-11,
+        "A8": 1.1160003658888086e-14
+      },
+      {
+        "conic": 0.0,
+        "A4": 0.0,
+        "A6": 0.0,
+        "A8": 0.0
+      }
+    ],
+    "matrixReducedAngle": [
+      [
+        0.8876236263937655,
+        8.285832006179836
+      ],
+      [
+        -0.013562473089295164,
+        1.0
+      ]
+    ],
+    "backFocalLengthMm": 65.44703318853884
+  },
+  "centers": [
+    [
+      160.0,
+      92.0,
+      49.4
+    ],
+    [
+      160.0,
+      162.4335133006739,
+      49.4
+    ],
+    [
+      245.0,
+      92.0,
+      49.4
+    ],
+    [
+      336.08,
+      192.03,
+      49.4
+    ]
+  ],
+  "normals": [
+    [
+      -0.7071067811865475,
+      0.7071067811865475,
+      0.0
+    ],
+    [
+      0.425414851338338,
+      -0.9049984553913778,
+      0.0
+    ],
+    [
+      -0.07006244554811124,
+      0.9975426074728928,
+      0.0
+    ],
+    [
+      -0.4760624008739062,
+      -0.5228427970950467,
+      -0.7071067811865475
+    ]
+  ],
+  "axes": [
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.9049984553913779,
+      0.42541485133833806,
+      -0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.7394113746408993,
+      -0.6732539038517754,
+      0.0
+    ]
+  ],
+  "mirrorId": "SCM-17.7x24.4x2",
+  "mirrorBlankMm": [
+    24.4,
+    17.7,
+    2.0
+  ],
+  "focusQuadratureRays": 512,
+  "motorLimitsDeg": [
+    5.5,
+    5.5,
+    5.5,
+    5.5
+  ],
+  "voiceLimitMm": 3.5,
+  "voiceRangeSource": "User-confirmed +/-3.5 mm mechanical travel",
+  "motorRangeSource": "User-estimated +/-5.5 mechanical degrees; supplier specification and loaded dynamics unconfirmed.",
+  "foldX": 336.08,
+  "objectiveFirstZ": -0.7693317887349309,
+  "objectiveLastZ": -12.87933178873493,
+  "packaging": {
+    "version": "v4-catalog-singlets-g3opt-nozzle-shortened-4mm",
+    "source": {
+      "url": "https://www.scanlab.de/sites/default/files/2026-03/SCANLAB-precSYS-EN.pdf",
+      "date": "02/2026",
+      "page": 8,
+      "body": [
+        263.5,
+        303.5,
+        271
+      ],
+      "derivedMinimumAssembly": [
+        356.08,
+        303.5,
+        326.7
+      ],
+      "derivation": "Minimum X: 111.08+200+90/2. Minimum Z: 271+55.7. Excludes handles, connectors and optional modules; a conservative inferred bound, not an official overall dimension."
+    },
+    "body": {
+      "min": [
+        0.0,
+        -20.0,
+        0.0
+      ],
+      "max": [
+        300.0,
+        330.0,
+        275.0
+      ],
+      "wall": 4.0
+    },
+    "exitHousing": {
+      "min": [
+        291.08,
+        147.03,
+        -6.0
+      ],
+      "max": [
+        381.08,
+        237.03,
+        0.0
+      ]
+    },
+    "exitAxis": [
+      336.08,
+      192.03
+    ],
+    "exitStack": [
+      {
+        "id": "flange",
+        "label": "安装法兰",
+        "topZ": 0,
+        "bottomZ": -6,
+        "outerTop": 45,
+        "outerBottom": 45,
+        "clearTop": 26,
+        "clearBottom": 26
+      },
+      {
+        "id": "objectiveSeat",
+        "label": "物镜座",
+        "topZ": -6,
+        "bottomZ": -30,
+        "outerTop": 30,
+        "outerBottom": 30,
+        "clearTop": 26,
+        "clearBottom": 26
+      },
+      {
+        "id": "windowSeat",
+        "label": "保护窗预留座",
+        "topZ": -30,
+        "bottomZ": -40,
+        "outerTop": 30,
+        "outerBottom": 30,
+        "clearTop": 26,
+        "clearBottom": 26
+      },
+      {
+        "id": "taper",
+        "label": "喷嘴收口段",
+        "topZ": -40,
+        "bottomZ": -55,
+        "outerTop": 30,
+        "outerBottom": 10,
+        "clearTop": 26,
+        "clearBottom": 8
+      },
+      {
+        "id": "nozzle",
+        "label": "喷嘴直段",
+        "topZ": -55,
+        "bottomZ": -66.0,
+        "outerTop": 10,
+        "outerBottom": 10,
+        "clearTop": 8,
+        "clearBottom": 8
+      }
+    ],
+    "exitStatus": "All segment lengths and bores are proposed reservations, not precSYS dimensions. No glass refraction or process-gas flow model.",
+    "assembly": {
+      "min": [
+        0.0,
+        -20.0,
+        -66.0
+      ],
+      "max": [
+        390.0,
+        330.0,
+        275.0
+      ]
+    },
+    "electronics": {
+      "min": [
+        10.0,
+        -10.0,
+        190.0
+      ],
+      "max": [
+        290.0,
+        320.0,
+        270.0
+      ],
+      "label": "上层电子空间预留"
+    },
+    "partition": {
+      "min": [
+        8.0,
+        -12.0,
+        180.0
+      ],
+      "max": [
+        292.0,
+        322.0,
+        190.0
+      ]
+    },
+    "opticalReservation": {
+      "min": [
+        8.0,
+        -12.0,
+        16.0
+      ],
+      "max": [
+        292.0,
+        322.0,
+        175.0
+      ]
+    },
+    "input": [
+      0.0,
+      92.0,
+      49.4
+    ],
+    "exit": [
+      336.08,
+      192.03,
+      -66.0
+    ],
+    "focus": [
+      336.08,
+      192.03,
+      -76.0
+    ],
+    "motorSigns": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "motorOffsets": [
+      65.5,
+      84.5,
+      75.5,
+      78.49999999999997
+    ],
+    "motorBody": {
+      "radius": 19.0,
+      "length": 75.0
+    },
+    "motorMounting": "G1/G3 above; G2 on its outward +axis; G4 on +Y. Ø38×75 bodies and Ø10 shaft reservations.",
+    "boardProxies": [
+      {
+        "label": "控制板 / IPC 占位",
+        "center": [
+          85,
+          85,
+          222
+        ],
+        "size": [
+          140,
+          110,
+          30
+        ]
+      },
+      {
+        "label": "四振镜驱动占位",
+        "center": [
+          225,
+          100,
+          225
+        ],
+        "size": [
+          110,
+          140,
+          55
+        ]
+      },
+      {
+        "label": "音圈驱动占位",
+        "center": [
+          90,
+          170,
+          222
+        ],
+        "size": [
+          120,
+          50,
+          30
+        ]
+      },
+      {
+        "label": "接口 / 配电占位",
+        "center": [
+          150,
+          245,
+          222
+        ],
+        "size": [
+          250,
+          70,
+          25
+        ]
+      }
+    ],
+    "assumptions": "Envelope reservations including a resized case; no supplier CAD, flange, mirror-holder, cable, thermal or dynamic acceptance.",
+    "opticalMirrorIds": [
+      "SCM-17.7x24.4x2",
+      "SCM-21x30x2",
+      "SCM-35x45x2",
+      "SCM-42x65x2"
+    ],
+    "motorPlacements": [
+      {
+        "center": [
+          160.0,
+          92.0,
+          111.25
+        ],
+        "axis": [
+          -0.0,
+          -0.0,
+          -1.0
+        ],
+        "radius": 19.0,
+        "length": 75.0,
+        "shaftCenter": [
+          160.0,
+          92.0,
+          65.75
+        ],
+        "shaftLength": 16.0,
+        "shaftRadius": 5.0,
+        "mirrorCenterMm": [
+          160.0,
+          92.0,
+          49.4
+        ],
+        "opticalAxis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "bodyToMirrorEdgeGapMm": 15.5,
+        "source": "V4 G3-optimized layout; illustrative reservation pending CAD tolerance check",
+        "postSide": -1
+      },
+      {
+        "center": [
+          223.80239110509214,
+          192.42526032002672,
+          49.4
+        ],
+        "axis": [
+          -0.9049984553913779,
+          -0.42541485133833806,
+          0.0
+        ],
+        "radius": 19.0,
+        "length": 75.0,
+        "shaftCenter": [
+          181.49371331554522,
+          172.53711601995943,
+          49.4
+        ],
+        "shaftLength": 18.5,
+        "shaftRadius": 5.0,
+        "mirrorCenterMm": [
+          160.0,
+          162.4335133006739,
+          49.4
+        ],
+        "opticalAxis": [
+          0.9049984553913779,
+          0.42541485133833806,
+          -0.0
+        ],
+        "bodyToMirrorEdgeGapMm": 18.0,
+        "source": "V4 G3-optimized layout; illustrative reservation pending CAD tolerance check"
+      },
+      {
+        "center": [
+          245.0,
+          92.0,
+          122.4
+        ],
+        "axis": [
+          -0.0,
+          -0.0,
+          -1.0
+        ],
+        "radius": 19.0,
+        "length": 75.0,
+        "shaftCenter": [
+          245.0,
+          92.0,
+          75.65
+        ],
+        "shaftLength": 18.5,
+        "shaftRadius": 5.0,
+        "mirrorCenterMm": [
+          245.0,
+          92.0,
+          49.4
+        ],
+        "opticalAxis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "bodyToMirrorEdgeGapMm": 18.0,
+        "source": "V4 G3-optimized layout; illustrative reservation pending CAD tolerance check",
+        "postSide": -1
+      },
+      {
+        "center": [
+          336.08,
+          280.03,
+          49.4
+        ],
+        "axis": [
+          -0.0,
+          -1.0,
+          -0.0
+        ],
+        "radius": 19.0,
+        "length": 75.0,
+        "shaftCenter": [
+          336.08,
+          233.28,
+          49.4
+        ],
+        "shaftLength": 18.5,
+        "shaftRadius": 5.0,
+        "mirrorCenterMm": [
+          336.08,
+          192.03,
+          49.4
+        ],
+        "opticalAxis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "bodyToMirrorEdgeGapMm": 18.0,
+        "source": "V4 G3-optimized layout; illustrative reservation pending CAD tolerance check"
+      }
+    ],
+    "mountRevision": "v4-g3opt-D38-L75-shaft-D10",
+    "maxOpticalZ": 159.9,
+    "mechanicalValidation": {
+      "status": "independently-sampled-verified",
+      "actualCADAccepted": false,
+      "continuousSweepVerified": false,
+      "sampledTargets": 532
+    },
+    "offlineMechanicalAudit": {
+      "sampledStates": 532,
+      "minimumRayGapMm": 3.0876249860213,
+      "G2G3toG1BlankGapMm": 13.678667460316271,
+      "continuousSweepVerified": false,
+      "actualCADAccepted": false
+    }
+  },
+  "seeds": [
+    {
+      "configuration": 1,
+      "id": "cfg-1",
+      "target": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "motors": [
+        4.494898707560673e-15,
+        4.568117105317327e-16,
+        4.6650838613769336e-15,
+        -1.1341089949224805e-14,
+        1.9022734012964358e-09
+      ]
+    },
+    {
+      "configuration": 2,
+      "id": "cfg-143",
+      "target": [
+        -9.184850993605149e-18,
+        -0.05,
+        1.0,
+        5.0,
+        0.0
+      ],
+      "motors": [
+        0.8133666707089513,
+        -0.5415164413636591,
+        -0.908653704962984,
+        0.5585578196198109,
+        -2.176306587135086
+      ]
+    },
+    {
+      "configuration": 3,
+      "id": "cfg-145",
+      "target": [
+        -9.184850993605149e-18,
+        -0.05,
+        1.0,
+        -5.0,
+        6.138825188787401e-16
+      ],
+      "motors": [
+        -0.7946191255338785,
+        0.5571761845511879,
+        0.8677615565498572,
+        -0.5883852950380531,
+        -2.1762938213454985
+      ]
+    },
+    {
+      "configuration": 4,
+      "id": "cfg-159",
+      "target": [
+        0.05,
+        0.0,
+        1.0,
+        7.5,
+        0.0
+      ],
+      "motors": [
+        1.2155789782923851,
+        -0.8007609122246447,
+        -1.35341568586144,
+        0.8675771118071111,
+        -2.347390639878319
+      ]
+    },
+    {
+      "configuration": 5,
+      "id": "cfg-160",
+      "target": [
+        0.0,
+        -0.05,
+        -1.0,
+        0.0,
+        -7.5
+      ],
+      "motors": [
+        1.0632545477712265,
+        0.8885038667041713,
+        -1.1178751936942093,
+        -0.8829630923045287,
+        2.048532731775862
+      ]
+    },
+    {
+      "configuration": 6,
+      "id": "cfg-2",
+      "target": [
+        0.03,
+        0.0,
+        0.5,
+        1.5,
+        0.0
+      ],
+      "motors": [
+        0.24466665236399765,
+        -0.16370649383816327,
+        -0.27438438091134026,
+        0.175963502406252,
+        -1.0551873545150994
+      ]
+    },
+    {
+      "configuration": 7,
+      "id": "cfg-102",
+      "target": [
+        -0.02298133329356935,
+        0.01928362829059617,
+        -0.5,
+        -1.1491751348861754,
+        0.9643106935218847
+      ],
+      "motors": [
+        -0.32418892028926805,
+        0.010000822010087795,
+        0.3544177326094576,
+        -0.010225980034108231,
+        1.0793846139788303
+      ]
+    },
+    {
+      "configuration": 8,
+      "id": "v1-15",
+      "target": [
+        1.25,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "motors": [
+        0.22217070538089845,
+        0.03440476858581562,
+        -0.5814989286704184,
+        0.29595793046639657,
+        0.09481992369041253
+      ]
+    },
+    {
+      "configuration": 9,
+      "id": "v1-16",
+      "target": [
+        1.25,
+        0.0,
+        0.0,
+        7.5,
+        0.0
+      ],
+      "motors": [
+        1.409840173830433,
+        -0.7726549224033373,
+        -1.855880452639935,
+        1.1240401776308564,
+        -0.37460730478962984
+      ]
+    },
+    {
+      "configuration": 10,
+      "id": "v1-17",
+      "target": [
+        1.25,
+        0.0,
+        0.0,
+        -7.5,
+        -0.0
+      ],
+      "motors": [
+        -0.9409370239189688,
+        0.8702557535167262,
+        0.6697968233015892,
+        -0.5233326170581547,
+        0.08601980459754924
+      ]
+    },
+    {
+      "configuration": 11,
+      "id": "v1-7",
+      "target": [
+        0.0,
+        1.25,
+        0.0,
+        0.0,
+        7.5
+      ],
+      "motors": [
+        -1.277984987098052,
+        -0.8976984613763329,
+        1.6932772414697357,
+        1.2442424208933236,
+        -0.3745537038351679
+      ]
+    },
+    {
+      "configuration": 12,
+      "id": "v1-8",
+      "target": [
+        0.0,
+        1.25,
+        0.0,
+        -0.0,
+        -7.5
+      ],
+      "motors": [
+        0.8630153188743741,
+        0.9198858622724265,
+        -0.6058474769842526,
+        -0.5675081854604166,
+        0.08602220991837836
+      ]
+    },
+    {
+      "configuration": 13,
+      "id": "edge-z-1-a+7.5",
+      "target": [
+        1.25,
+        0.0,
+        -1.0,
+        7.499999999999999,
+        0.0
+      ],
+      "motors": [
+        1.3861418108101504,
+        -0.7761809924323975,
+        -1.7943644267621648,
+        1.0926435234533485,
+        1.8601293328626989
+      ]
+    },
+    {
+      "configuration": 14,
+      "id": "edge-z-1-a-7.5",
+      "target": [
+        1.25,
+        0.0,
+        -1.0,
+        -7.499999999999999,
+        9.237673039968207e-16
+      ],
+      "motors": [
+        -0.9156200437098891,
+        0.8725568364175013,
+        0.6056330010961988,
+        -0.4903607865416377,
+        2.497462547102216
+      ]
+    },
+    {
+      "configuration": 15,
+      "id": "edge-z+1-a+7.5",
+      "target": [
+        1.25,
+        0.0,
+        1.0,
+        7.499999999999999,
+        0.0
+      ],
+      "motors": [
+        1.4334774791350808,
+        -0.7691130802665798,
+        -1.9172947579491064,
+        1.1553852850385338,
+        -2.416155018079126
+      ]
+    },
+    {
+      "configuration": 16,
+      "id": "edge-z+1-a-7.5",
+      "target": [
+        1.25,
+        0.0,
+        1.0,
+        -7.499999999999999,
+        9.237673039968207e-16
+      ],
+      "motors": [
+        -0.9661502017111598,
+        0.8679161082495072,
+        0.7337830231538202,
+        -0.556206426561213,
+        -2.0971486064733544
+      ]
+    },
+    {
+      "configuration": 17,
+      "id": "diagonal-z-1",
+      "target": [
+        0.8838834764831844,
+        0.8838834764831843,
+        -1.0,
+        4.618836519984103e-16,
+        7.499999999999999
+      ],
+      "motors": [
+        -1.037082571463141,
+        -0.8819647242706258,
+        1.0670098671110235,
+        1.321729124668501,
+        1.9502712736378063
+      ]
+    },
+    {
+      "configuration": 18,
+      "id": "diagonal-z+1",
+      "target": [
+        0.8838834764831844,
+        0.8838834764831843,
+        1.0,
+        4.618836519984103e-16,
+        7.499999999999999
+      ],
+      "motors": [
+        -1.080885563678311,
+        -0.8754571971598802,
+        1.1799172534191325,
+        1.390941165479645,
+        -2.3701136605303885
+      ]
+    },
+    {
+      "configuration": 19,
+      "id": "domain-75",
+      "target": [
+        0.8838834764831842,
+        -0.8838834764831847,
+        -1.0,
+        5.318471839399389,
+        5.318471839399388
+      ],
+      "motors": [
+        0.38383280601398284,
+        -1.2195327600789097,
+        -0.8649496005135023,
+        1.1551280788532932,
+        2.1722066998628513
+      ]
+    },
+    {
+      "configuration": 20,
+      "id": "domain-16",
+      "target": [
+        1.25,
+        0.0,
+        -1.0,
+        -5.31847183939939,
+        -5.318471839399388
+      ],
+      "motors": [
+        0.16115027674040744,
+        1.251020020432973,
+        -0.5098285983236154,
+        -0.8703481827893563,
+        2.4007765043058438
+      ]
+    },
+    {
+      "configuration": 21,
+      "id": "domain-54",
+      "target": [
+        -1.25,
+        0.0,
+        -1.0,
+        5.318471839399388,
+        -5.31847183939939
+      ],
+      "motors": [
+        1.3248598855503015,
+        0.024881183367588842,
+        -1.0276761070419884,
+        -0.35550239284080154,
+        2.400780148422206
+      ]
+    }
+  ],
+  "verification": {
+    "status": "zos-and-pop-verified",
+    "wavelengthUm": 0.515,
+    "imageZMm": -76.0,
+    "nozzleBottomZMm": -66.0,
+    "nominalNozzleGapMm": 10.0,
+    "minStrehl64": 0.9819195483932724,
+    "minStrehl256": 0.981430427894565,
+    "minStrehlConfiguration": 19,
+    "maxRms331Um": 2.125711733686124,
+    "maxD95Um": 23.28722550469609,
+    "minHoleFloorPowerW": 0.993446302923804,
+    "nativeFileSha256": "13b763898d1a23026cc1770924c168fecb4e7e1ff58ef545cd34c22ab70cd23c",
+    "holeFileSha256": "1849ec98fddeb8fe4a2d6317911e552c73b6056b2ca67854570054f17c68d157"
+  },
+  "deepHoleVerification": {
+    "status": "main-prefix-aligned-native-structure-verified-POP-not-recomputed",
+    "nativeProject": "V3_hole_POP.zos",
+    "sourceMainSha256": "163d476c6d9facd75a6d99f1edf7ae24feb3856509287bfaa8271943068c752f",
+    "structureReport": "hole_structure_verification.json",
+    "configurations": 6,
+    "boreMaskCount": 21,
+    "POPRecomputed": false,
+    "notMaterialProcessing": true
+  },
+  "popVerification": {
+    "status": "zos-and-pop-verified",
+    "inputM2": 1.0,
+    "notLivePOP": true,
+    "source": "simulation/v4/native_POP_reference.json"
+  },
+  "acceptedDesignSource": "simulation/v3/design.json",
+  "targetLimits": [
+    1.25,
+    1.25,
+    1.0,
+    7.5,
+    7.5
+  ],
+  "deepHoleTarget": {
+    "holeDiameterMm": 0.1,
+    "depthMm": 1.0,
+    "wavelengthMm": 0.000515,
+    "assumedM2": 1.2
+  },
+  "targetWorkingFieldDiameterMm": 2.5,
+  "release": "v4",
+  "compact": true,
+  "hasFixedFold": false,
+  "surfaceRows": [
+    [
+      24.033990940859624,
+      92.0,
+      49.4,
+      1.0,
+      0.0,
+      0.0,
+      -71.84,
+      0.6842140376649707,
+      0.0,
+      0.0,
+      5.715,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      1.0
+    ],
+    [
+      26.733990940859623,
+      92.0,
+      49.4,
+      1.0,
+      0.0,
+      0.0,
+      71.84,
+      1.4615309610026677,
+      0.0,
+      0.0,
+      5.715,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      1.0
+    ],
+    [
+      71.22183427769897,
+      92.0,
+      49.4,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.6842140384954448,
+      0.0,
+      0.0,
+      11.25,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      74.62183427769898,
+      92.0,
+      49.4,
+      1.0,
+      0.0,
+      0.0,
+      -55.19999999998631,
+      1.4615309592287145,
+      0.0,
+      0.0,
+      11.25,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      160.0,
+      92.0,
+      49.4,
+      -0.7071067811865475,
+      0.7071067811865475,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      11.0,
+      8.0,
+      -0.7071067811865476,
+      -0.7071067811865476,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      160.0,
+      162.4335133006739,
+      49.4,
+      0.425414851338338,
+      -0.9049984553913778,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      13.0,
+      9.0,
+      0.9049984553913779,
+      0.42541485133833806,
+      -0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.9049984553913779,
+      0.42541485133833806,
+      -0.0,
+      1.0,
+      0.0
+    ],
+    [
+      245.0,
+      92.0,
+      49.4,
+      -0.07006244554811124,
+      0.9975426074728928,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      21.5,
+      16.5,
+      -0.9975426074728928,
+      -0.07006244554811124,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      2.0,
+      0.0
+    ],
+    [
+      336.08,
+      192.03,
+      49.4,
+      -0.4760624008739062,
+      -0.5228427970950467,
+      -0.7071067811865475,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      28.0,
+      19.0,
+      0.7394113746408993,
+      -0.6732539038517754,
+      0.0,
+      -0.4760624008739063,
+      -0.5228427970950468,
+      0.7071067811865476,
+      0.7394113746408993,
+      -0.6732539038517754,
+      0.0,
+      3.0,
+      0.0
+    ],
+    [
+      336.08,
+      192.03,
+      -0.7693317887349309,
+      0.0,
+      0.0,
+      -1.0,
+      34.03,
+      0.6842140384954448,
+      0.0,
+      0.0,
+      22.86,
+      3.50194402615361e-07,
+      7.05004485494277e-11,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.68,
+      1.1160003658888086e-14,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      336.08,
+      192.03,
+      -12.87933178873493,
+      0.0,
+      0.0,
+      -1.0,
+      0.0,
+      1.4615309592287145,
+      0.0,
+      0.0,
+      22.86,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ]
+  ],
+  "totalAOILimitDeg": 7.5,
+  "defaultConfiguration": 5,
+  "physicalLensCount": 3,
+  "webAssets": "assets/",
+  "nativeProject": "V4_main.zos",
+  "sourceRound3Sha256": "dccc7330620814cc927c61e3b088e730b60d39d7d3a58a7a42eb80cc93e17c69",
+  "focusMethod": "512 equal-power real aspheric rays; horizontal minimum geometric RMS",
+  "layoutBaseline": "v4-catalog-singlets-fixed-exit-strehl",
+  "webTitle": "V3 · 纵向装配三镜片光路",
+  "holeNativeProject": "V4_hole_POP.zos",
+  "mirrorIds": [
+    "SCM-17.7x24.4x2",
+    "SCM-21x30x2",
+    "SCM-35x45x2",
+    "SCM-42x65x2"
+  ],
+  "mirrorBlanksMm": [
+    [
+      24.4,
+      17.7,
+      2.0
+    ],
+    [
+      30.0,
+      21.0,
+      2.0
+    ],
+    [
+      45.0,
+      35.0,
+      2.0
+    ],
+    [
+      65.0,
+      42.0,
+      2.0
+    ]
+  ],
+  "mirrorClearSizesMm": [
+    [
+      22.0,
+      16.0
+    ],
+    [
+      26.0,
+      18.0
+    ],
+    [
+      43.0,
+      33.0
+    ],
+    [
+      56.0,
+      38.0
+    ]
+  ],
+  "layoutConstraints": {
+    "inputPointMm": [
+      0.0,
+      92.0,
+      49.4
+    ],
+    "inputDirection": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "nominalDirectionBeforeFinalFold": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "outputAxisXYMm": [
+      336.08,
+      192.03
+    ],
+    "nominalOutputDirection": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "imageReferenceZMm": -80.0,
+    "imagePlane": "horizontal",
+    "meaning": "Preserve V1/V2 longitudinal input and pre-fold output, then downward final output. External input and output propagation are perpendicular, as in the reference layouts."
+  },
+  "assemblyReportPath": "README.md",
+  "imageZMm": -76.0,
+  "mirrorCatalog": {
+    "manufacturer": "Wavelength Opto-Electronic",
+    "url": "https://wavelength-oe.com/scanning-mirrors/",
+    "substrate": "fused-silica",
+    "clearApertureStatus": "design-required",
+    "coatingStatus": "515nm-HR-to-be-quoted"
+  }
+}

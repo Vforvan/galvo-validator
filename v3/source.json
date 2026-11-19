@@ -44,5 +44,7 @@
   "G1clearanceMm": 13.678667460316271,
   "holeStructureMatchesMain": true,
   "holeStructureVerification": "assets/hole_structure_verification.json",
-  "motorMountRevision": "g1-clearance-D38-L75-shaft-D10-20261030"
+  "motorMountRevision": "g1-clearance-D38-L75-shaft-D10-20261030",
+  "zemaxHostedOnline": false,
+  "note": "Zemax files removed from online hosting and retained exclusively on the host machine."
 }

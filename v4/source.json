@@ -1,0 +1,13 @@
+{
+  "version": "V4",
+  "modelVersion": "v4-catalog-singlets-fixed-exit-strehl",
+  "designSha256": "52b0b150b380e978979f18649d6953c6bc43fc7a52db684e99995fd1e6f3a74f",
+  "configurations": 21,
+  "defaultConfiguration": 5,
+  "holeConfigurations": 13,
+  "minStrehl256": 0.981430427894565,
+  "maxD95Um": 23.28722550469609,
+  "minHoleFloorPowerW": 0.993446302923804,
+  "zemaxHostedOnline": false,
+  "note": "All Zemax files (.zos/.zmx/.ZAR/.ZDA) are stored exclusively on the host machine and excluded from online publication."
+}

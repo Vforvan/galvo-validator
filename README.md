@@ -1,21 +1,17 @@
 # 五轴光路网页
 
-## V3 · G1净空改进三镜片（2026-10-30）
+> 说明：全部 Zemax 原生工程文件（`.zos` / `.zmx` / `.ZAR` / `.ZDA`）仅保存在个人主机，本公开站点已下架并移除全部 Zemax 下载入口与工程文件。
 
-[当前V3](https://vforvan.github.io/galvo-validator/v3/)采用G1/G2错位布局，保留三片透镜及四振镜；G1旁采样最小净空13.679 mm。21配置、默认5，532目标几何/机械与21配置原生光线和POP经独立测试通过。只保留[最新版main](v3/assets/V3_main.zos)和[hole工程](v3/assets/V3_hole_POP.zos)。hole已从当前main延伸，保留6个孔道工况，前端结构/光线及孔道位置核对通过；[hole结构核对](v3/assets/hole_structure_verification.json)、[独立测试总结](v3/assets/validation/deepseek_summary.md)、[版本说明](v3/assets/README.md)。孔道POP尚未重新计算。V1/V2资源保留。
+## V4 · 目录透镜与扫描镜光路（当前最新版，2026-11-18）
 
-- [保留V2对照](https://vforvan.github.io/galvo-validator/v2/)：Ø100 µm、深1000 µm圆孔的五轴光路、旋入路径、固定工件及孔道通光检查。目标控件工作域Ø2.5 mm，音圈机械行程±3.5 mm。
-- [冻结V1](https://vforvan.github.io/galvo-validator/galvo-validator.html)：原整机光路与同心圆扫描演示。
+- [当前 V4 在线交互网页](https://vforvan.github.io/galvo-validator/v4/)：三片标准目录透镜（EKSMA 114-1118E + OptoSigma SLSQ-25-120P 反置 + EKSMA 117-5075）配合 G2/G3 等光程布局与 Wavelength SCM 扫描镜。
+- 核心复核记录：21 配置 256² Strehl **0.9814–1.0000**；1024² POP D4σ **16.42–24.52 µm**（轴比 ≤1.0633）；Ø100 µm 深孔 13 工况孔底功率 **99.34%–100.00%**；PMAC Prog 30 在线逆解实采重建 3D RMS **0.133 µm**；FPGA Q18 241 项 / 242 周期。
+- 网页附带非工程参数文档：[V4 说明](v4/assets/README.md)、[V3/V4 镜片选型对照](v4/assets/V3_V4_LENS_COMPARISON.md)、[配置表](v4/assets/configurations.csv)、[版本元数据](v4/source.json)。
 
-## 保留V2资源
+## 历史版本参考
 
-- [主顺序工程](v2/round100/V2_main.zos)与[配置说明](v2/round100/README.md)。
-- [非序列孔道工程](v2/round100/nsc/V2_hole_check.zos)与[6个工况说明](v2/round100/nsc/README.md)。
-- [主工程配置Excel](v2/round100/V2配置点位与像面.xlsx)。
-- [非序列位姿Excel](v2/round100/nsc/V2非序列6配置位姿.xlsx)。
-- [precSYS基础参数对照](v2/round100/comparewithprecsys.xlsx)。
-- [发布版本与验证范围](v2/source.json)。
+- [V3 · G1 净空改进三镜片](https://vforvan.github.io/galvo-validator/v3/)：[独立测试总结](v3/assets/validation/deepseek_summary.md)、[版本说明](v3/assets/README.md)。
+- [V2 · Ø100 µm 深孔六镜片对照](https://vforvan.github.io/galvo-validator/v2/)：[配置说明](v2/round100/README.md)、[版本范围](v2/source.json)。
+- [V1 · 冻结参考](https://vforvan.github.io/galvo-validator/galvo-validator.html)：原整机光路与同心圆扫描演示。
 
-旧版V2方孔页面、V2a演示及过期发布目录已移除。完整建模、构建和数值检查代码位于[工程仓库](https://github.com/Vforvan/5AIX-GALVO/tree/optics-v2-structure)。网页按当前工程的`simulation/v2/export_site.py`生成。
-
-网页和已有NSC代表工况用于静态光学评估，不代表全工作域、连续动态或材料加工验收。
+完整源码与工程记录位于私有仓库 [5AIX-GALVO](https://github.com/Vforvan/5AIX-GALVO)。网页和已有代表工况用于静态光学与控制评估，不替代实际硬件装调与工艺加工验收。
